@@ -1,0 +1,15 @@
+[Plymouth Theme]
+Name=Ubuntu MATE Text
+Description=Text mode theme based on ubuntu-mate-logo theme
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Ubuntu MATE
+# Background
+black=0x3c3b37
+# Title Text + Additional messages such as key interrupt
+white=0xffffff
+# Dot coloring
+brown=0x5a6943
+# Status message (fsck)
+blue=0x87a556

@@ -1,0 +1,97 @@
+Source: ubuntu-mate-artwork
+Section: x11
+Priority: optional
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Build-Depends: debhelper (>= 9),
+               lsb-release
+Standards-Version: 3.9.5
+Homepage: https://launchpad.net/ubuntu-mate/
+Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork
+Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork/files
+
+Package: ubuntu-mate-artwork
+Architecture: all
+Depends: ${misc:Depends},
+         plymouth-theme-ubuntu-mate-logo,
+         plymouth-theme-ubuntu-mate-text,
+         ubuntu-mate-icon-themes,
+         ubuntu-mate-themes,
+         ubuntu-mate-wallpapers
+Description: Ubuntu MATE themes and artwork
+ This package contains Ubuntu MATE themes and artwork.
+
+Package: ubuntu-mate-wallpapers
+Architecture: all
+Section: metapackages
+Depends: ${misc:Depends}, 
+         ubuntu-mate-wallpapers-utopic
+Suggests: mate-backgrounds
+Description: Ubuntu MATE Wallpapers
+ The default Ubuntu MATE wallpapers. This is also a meta-package depending on the
+ other default wallpapers for the current Ubuntu MATE release.
+
+Package: ubuntu-mate-wallpapers-utopic
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 14.10 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 14.10
+
+Package: plymouth-theme-ubuntu-mate-logo
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Description: graphical boot animation and logger - ubuntu-mate-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default ubuntu-mate-logo theme.
+
+Package: plymouth-theme-ubuntu-mate-text
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
+Provides: plymouth-theme
+Description: graphical boot animation and logger - ubuntu-mate-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default ubuntu-mate-text theme used when no support for
+ a graphical theme is found on your system.
+
+Package: ubuntu-mate-icon-themes
+Architecture: all
+Depends: ${misc:Depends},
+         gnome-icon-theme-full,
+         ubuntu-mono
+Description: Ubuntu MATE icon themes
+ This package contains icon themes for Ubuntu MATE.
+
+Package: ubuntu-mate-themes
+Architecture: all
+Multi-Arch: foreign
+Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
+         gtk3-engines-unico (>= 1.0.1-0ubuntu2),
+         ubuntu-mate-icon-themes,
+         ${misc:Depends},
+Description: Ubuntu MATE Themes
+ Includes matching Ambiant and Radiant themes
+ .
+ * Ambiant-MATE is a light-on-dark theme
+ * Radiant-MATE is a dark-on-light theme
+ .
+
+Package: ubuntu-mate-lightdm-theme
+Architecture: all
+Depends: ${misc:Depends},
+         lightdm-gtk-greeter,
+         ubuntu-mate-icon-themes,
+         ubuntu-mate-themes,
+         ubuntu-mate-wallpapers
+Description: Ubuntu MATE LightDM theme
+ This is the lightdm greeter theme and configuration
+ used for Ubuntu MATE.
+ .
+ This package can also be installed on
+ other Ubuntu desktops desiring to use this
+ theme, but it will replace the LightDM theme.

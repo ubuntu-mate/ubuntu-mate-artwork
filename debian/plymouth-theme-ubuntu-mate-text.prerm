@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+if [ "x$1" = xremove ]; then
+	update-alternatives \
+		--remove text.plymouth /lib/plymouth/themes/ubuntu-mate-text/ubuntu-mate-text.plymouth
+
+	rm -f /lib/plymouth/themes/ubuntu-text/ubuntu-text.plymouth
+fi
+
+#DEBHELPER#

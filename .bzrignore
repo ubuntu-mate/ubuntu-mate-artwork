@@ -1,0 +1,17 @@
+.git
+.gitignore
+*.substvars
+*.debhelper
+*.log
+debian/files
+debian/old.control
+debian/old.rules
+debian/plymouth-theme-ubuntu-mate-logo/*
+debian/plymouth-theme-ubuntu-mate-text/*
+debian/ubuntu-mate-artwork/*
+debian/_ubuntu-mate-artwork.install
+debian/_ubuntu-mate-artwork.postinst
+debian/_ubuntu-mate-artwork.postrm
+debian/ubuntu-mate-icon-theme/*
+debian/ubuntu-mate-wallpapers/*
+debian/ubuntu-mate-wallpapers-utopic/*
