@@ -23,7 +23,7 @@ Description: Ubuntu MATE themes and artwork
 Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
-Depends: ${misc:Depends}, 
+Depends: ${misc:Depends},
          ubuntu-mate-wallpapers-utopic
 Suggests: mate-backgrounds
 Description: Ubuntu MATE Wallpapers
@@ -35,6 +35,14 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 14.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 14.10
+
+Package: grub-theme-ubuntu-mate
+Architecture: all
+Depends: ${misc:Depends}
+Description: GRUB theme for Ubuntu MATE
+ GRUB theme for Ubuntu MATE
+ .
+ This package contains the default GRUB Ubuntu MATE theme.
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all

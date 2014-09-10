@@ -1,3 +1,21 @@
+ubuntu-mate-artwork (0.3.3~utopic1) utopic; urgency=medium
+
+  * Added Ubuntu MATE theme for GRUB.
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 04 Sep 2014 01:13:10 +0100
+
+ubuntu-mate-artwork (0.3.2~utopic1) utopic; urgency=medium
+
+  * Fixed index.theme for Ambiant-MATE and Radiant-MATE.
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 01 Sep 2014 05:13:28 +0100
+
+ubuntu-mate-artwork (0.3.1~utopic1) utopic; urgency=medium
+
+  * Merged all mono icons.
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 01 Sep 2014 02:54:41 +0100
+
 ubuntu-mate-artwork (0.3.0~utopic1) utopic; urgency=medium
 
   * Added LightDM themes.

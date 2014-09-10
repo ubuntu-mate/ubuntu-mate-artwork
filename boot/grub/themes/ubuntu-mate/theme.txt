@@ -1,0 +1,70 @@
+# ubuntu-mate GRUB2 theme
+#
+# Copyright (C) 2014 nadrimajstor <ipejic@gmail.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+# general settings
+title-color: "white"
+message-color: "black"
+message-bg-color: "gainsboro"
+desktop-image: "background.png"
+desktop-color: "#3c3b37"
+
+# boot menu
++ boot_menu {
+    left = 10%
+    width = 80%
+    top = 20%
+    height = 50%
+    item_color = "black"
+    selected_item_color = "black"
+    icon_width = 16
+    icon_height = 16
+    item_height = 33
+    item_padding = 1
+    item_icon_space = 1
+    item_spacing = 1
+    menu_pixmap_style = "menu_frame_*.png"
+    selected_item_pixmap_style = "highlight_*.png"
+}
+
+# progress bar
++ progress_bar {
+    id = "__timeout__"
+    left = 10%
+    width = 80%
+    top = 75%
+    height = 25
+    show_text = true
+    text_color = "white"
+    text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
+    bar_style = "progress_frame_*.png"
+    highlight_style = "progress_highlight_*.png"
+}
+
+# help bar at the bottom
++ hbox {
+    top = 100%-35
+    left = 13%
+    + label { text = "↑↓" color = "#87a556" }
+    + label { text = ":select       " color = "gainsboro" }
+    + label { text = "enter" color = "#87a556" }
+    + label { text = ":boot       " color = "gainsboro" }
+    + label { text = "e" color = "#87a556" }
+    + label { text = ":edit       " color = "gainsboro" }
+    + label { text = "c" color = "#87a556" }
+    + label { text = ":command-line" color = "gainsboro" }
+}
