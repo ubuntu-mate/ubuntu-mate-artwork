@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (0.3.3~utopic1) utopic; urgency=medium
+ubuntu-mate-artwork (0.3.3) utopic; urgency=medium
 
   * Added Ubuntu MATE theme for GRUB.
 
