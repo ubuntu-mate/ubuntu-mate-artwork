@@ -2,6 +2,10 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-mate-artwork
 Source: https://launchpad.net/~ubuntu-mate-dev/ubuntu-mate-artwork
 
+Files: *
+Copyright: 2014, Ubuntu MATE Developers.
+License: GPL-3
+
 Files: usr/share/themes/* usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
 License: CC-BY-SA-3.0
@@ -19,15 +23,6 @@ Files: boot/grub/themes/ubuntu-mate/*.txt
        lib/plymouth/themes/ubuntu-mate-text/*.plymouth
 Copyright: 2014, Ubuntu MATE Developers.
 License: GPL-2+
-
-Files: .bzr-builddeb/*
-       debian/*
-       etc/*        
-       usr/share/gtksourceview-2.0/*
-       usr/share/mate-background-properties/*
-       usr/share/ubuntu-mate/*
-Copyright: 2014, Ubuntu MATE Developers.
-License: GPL-3
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or
