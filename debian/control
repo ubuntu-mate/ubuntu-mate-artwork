@@ -11,6 +11,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mat
 
 Package: ubuntu-mate-artwork
 Architecture: all
+Section: metapackages
 Depends: ${misc:Depends},
          plymouth-theme-ubuntu-mate-logo,
          plymouth-theme-ubuntu-mate-text,
@@ -19,6 +20,8 @@ Depends: ${misc:Depends},
          ubuntu-mate-wallpapers
 Description: Ubuntu MATE themes and artwork
  This package contains Ubuntu MATE themes and artwork.
+ .
+ It is a metapackage.
 
 Package: ubuntu-mate-wallpapers
 Architecture: all
@@ -27,8 +30,8 @@ Depends: ${misc:Depends},
          ubuntu-mate-wallpapers-utopic
 Suggests: mate-backgrounds
 Description: Ubuntu MATE Wallpapers
- The default Ubuntu MATE wallpapers. This is also a meta-package depending on the
- other default wallpapers for the current Ubuntu MATE release.
+ The default Ubuntu MATE wallpapers. This is also a metapackage depending on 
+ the other default wallpapers for the current Ubuntu MATE release.
 
 Package: ubuntu-mate-wallpapers-utopic
 Architecture: all
