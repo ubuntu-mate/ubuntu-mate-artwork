@@ -13,8 +13,6 @@ Package: ubuntu-mate-artwork
 Architecture: all
 Section: metapackages
 Depends: ${misc:Depends},
-         plymouth-theme-ubuntu-mate-logo,
-         plymouth-theme-ubuntu-mate-text,
          ubuntu-mate-icon-themes,
          ubuntu-mate-themes,
          ubuntu-mate-wallpapers

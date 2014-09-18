@@ -2,6 +2,7 @@ ubuntu-mate-artwork (0.3.5) utopic; urgency=medium
 
   * Added grub-theme-ubuntu-mate transitional package.
   * Added accessibility features to LightDM.
+  * Remove Plymouth themes from the meta packages.
 
  -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 15 Sep 2014 21:18:27 +0100
 
