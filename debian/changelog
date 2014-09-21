@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (0.3.6~utopic1) utopic; urgency=medium
+
+  * Split grub2-themes-ubuntu-mate into a seperate package.
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 21 Sep 2014 08:21:50 +0100
+
 ubuntu-mate-artwork (0.3.5) utopic; urgency=medium
 
   * Added grub-theme-ubuntu-mate transitional package.

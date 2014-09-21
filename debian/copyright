@@ -10,14 +10,12 @@ Files: usr/share/themes/* usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
 License: CC-BY-SA-3.0
 
-Files: boot/grub/themes/ubuntu-mate/*.png
-       lib/plymouth/themes/ubuntu-mate-logo/*.png
+Files: lib/plymouth/themes/ubuntu-mate-logo/*.png
        usr/share/backgrounds/*
 Copyright: 2014 Ubuntu MATE Developers
 License: CC-BY-SA-4.0
 
-Files: boot/grub/themes/ubuntu-mate/*.txt 
-       lib/plymouth/themes/ubuntu-mate-logo/*.grub
+Files: lib/plymouth/themes/ubuntu-mate-logo/*.grub
        lib/plymouth/themes/ubuntu-mate-logo/*.plymouth 
        lib/plymouth/themes/ubuntu-mate-logo/*.script
        lib/plymouth/themes/ubuntu-mate-text/*.plymouth

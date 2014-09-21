@@ -37,20 +37,6 @@ Depends: ${misc:Depends},
 Description: Ubuntu MATE 14.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 14.10
 
-Package: grub2-themes-ubuntu-mate
-Architecture: all
-Depends: ${misc:Depends}, grub-common (>= 2)
-Description: GRand Unified Bootloader, version 2 (ubuntu-mate theme)
- This is the Ubuntu MATE theme for GRUB's graphical menu.
-
-Package: grub-theme-ubuntu-mate
-Architecture: all
-Section: metapackages
-Depends: grub2-themes-ubuntu-mate
-Description: Transitional package for grub-theme-ubuntu-mate
- This is used for upgrading from grub-theme-ubuntu-mate to
- grub2-themes-ubuntu-mate.
-
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
