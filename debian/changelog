@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (0.3.6~utopic1) utopic; urgency=medium
+ubuntu-mate-artwork (0.3.6) utopic; urgency=medium
 
   * Split grub2-themes-ubuntu-mate into a seperate package.
 
