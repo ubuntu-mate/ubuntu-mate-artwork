@@ -2,9 +2,3 @@ if background_color 60,59,55; then
   clear
 fi
 
-color_normal=light-gray/black
-
-if [ -e /boot/grub/themes/ubuntu-mate/theme.txt ]; then
-  insmod png
-  theme=/boot/grub/themes/ubuntu-mate/theme.txt
-fi
