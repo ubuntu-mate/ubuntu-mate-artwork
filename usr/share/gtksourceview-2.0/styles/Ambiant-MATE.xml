@@ -2,7 +2,7 @@
 <author>Christian Dannie Storgaard (Cybolic)</author>
 <_description>A dark theme to match Ambiant-MATE</_description>
 <style name="line-numbers" foreground="#DFDBD2" background="#3C3B37" bold="True"/>
-<style name="text" foreground="#EAE3D0" background="#19230D"/>
+<style name="text" foreground="#EAE3D0" background="#373633"/>
 <style name="selection" foreground="#FFFFFF" background="#87A851"/>
 <style name="selection-unfocused" foreground="#666666" background="#381C29"/>
 <style name="cursor" foreground="#DC4C00"/>

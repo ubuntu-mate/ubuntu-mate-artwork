@@ -85,4 +85,10 @@
         <options>stretched</options>
         <artist>Ivan Pejić</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Gray</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Gray.png</filename>
+        <options>zoom</options>
+        <artist>Gerard Aalders</artist>
+    </wallpaper>
 </wallpapers>
