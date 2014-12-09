@@ -1,8 +1,8 @@
 ubuntu-mate-artwork (0.4.0) vivid; urgency=medium
 
-  * Correct indicator configuration for LightDM, fixes LP:1390013
+  * Correct indicator configuration for LightDM. (lp: #1390013)
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 25 Nov 2014 09:49:13 +0100
+ -- Martin Wimpress <code@flexion.org>  Tue, 25 Nov 2014 21:49:13 +0000
 
 ubuntu-mate-artwork (0.3.7~utopic8) utopic; urgency=medium
 
@@ -12,13 +12,13 @@ ubuntu-mate-artwork (0.3.7~utopic8) utopic; urgency=medium
   * Updated Terminal and Pluma background colour to #33322f.
   * Updated Ambiant-MATE and Radiant-MATE icons themes with green icons.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Fri, 31 Oct 2014 15:32:52 +0100
+ -- Martin Wimpress <code@flexion.org>  Fri, 31 Oct 2014 22:32:52 +0100
 
 ubuntu-mate-artwork (0.3.6) utopic; urgency=medium
 
   * Split grub2-themes-ubuntu-mate into a seperate package.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 21 Sep 2014 08:21:50 +0100
+ -- Martin Wimpress <code@flexion.org>  Sun, 21 Sep 2014 08:21:50 +0100
 
 ubuntu-mate-artwork (0.3.5) utopic; urgency=medium
 
@@ -26,35 +26,35 @@ ubuntu-mate-artwork (0.3.5) utopic; urgency=medium
   * Added accessibility features to LightDM.
   * Remove Plymouth themes from the meta packages.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 15 Sep 2014 21:18:27 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 15 Sep 2014 21:18:27 +0100
 
 ubuntu-mate-artwork (0.3.4) utopic; urgency=medium
 
   * Added Déjà Dup mono icons.
   * Renamed Ubuntu MATE GRUB2 themes.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 14 Sep 2014 03:14:10 +0100
+ -- Martin Wimpress <code@flexion.org>  Sun, 14 Sep 2014 03:14:10 +0100
 
 ubuntu-mate-artwork (0.3.3) utopic; urgency=medium
 
   * Added Ubuntu MATE theme for GRUB.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 04 Sep 2014 01:13:10 +0100
+ -- Martin Wimpress <code@flexion.org>  Thu, 04 Sep 2014 01:13:10 +0100
 
 ubuntu-mate-artwork (0.3.2~utopic1) utopic; urgency=medium
 
   * Fixed index.theme for Ambiant-MATE and Radiant-MATE.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 01 Sep 2014 05:13:28 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 01 Sep 2014 05:13:28 +0100
 
 ubuntu-mate-artwork (0.3.1~utopic1) utopic; urgency=medium
 
   * Merged all mono icons.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 01 Sep 2014 02:54:41 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 01 Sep 2014 02:54:41 +0100
 
 ubuntu-mate-artwork (0.3.0~utopic1) utopic; urgency=medium
 
   * Added LightDM themes.
 
- -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 20 Aug 2014 00:53:18 +0100
+ -- Martin Wimpress <code@flexion.org>  Wed, 20 Aug 2014 00:53:18 +0100
