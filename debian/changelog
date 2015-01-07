@@ -1,7 +1,8 @@
-ubuntu-mate-artwork (0.4.1~15.04~4) vivid; urgency=medium
+ubuntu-mate-artwork (0.4.1~15.04~5) vivid; urgency=medium
 
   * Switched LightDM to Yuyo-Dark.
   * Added Yuyo themes to Pluma.
+  * Merged with ubuntu-themes.
 
  -- Martin Wimpress <code@flexion.org>  Sun, 14 Dec 2014 16:35:41 +0000
 
