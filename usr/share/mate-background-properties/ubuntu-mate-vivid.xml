@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Castelluccio Italy Ubuntu MATE</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-vivid/Castelluccio-Italy-Mate1.jpg</filename>
+        <options>zoom</options>
+        <artist>Paolo Bravi</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Castelluccio Italy Ubuntu MATE Love</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-vivid/Castelluccio-Italy-MateLove.jpg</filename>
+        <options>zoom</options>
+        <artist>Paolo Bravi</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Flowers</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-vivid/FlowersMate.jpg</filename>
+        <options>zoom</options>
+        <artist>Paolo Bravi</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Orange Grid</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-vivid/orange_grid_logo_white.png</filename>
+        <options>zoom</options>
+        <artist>Matt Kelley</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Inset Gradient</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-vivid/rondel_inset_gradient.png</filename>
+        <options>zoom</options>
+        <artist>Matt Kelley</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Gradient</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-vivid/rondel_on_gradient.png</filename>
+        <options>zoom</options>
+        <artist>Matt Kelley</artist>
+    </wallpaper>
+</wallpapers>
