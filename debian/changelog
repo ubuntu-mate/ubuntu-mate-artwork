@@ -1,11 +1,12 @@
-ubuntu-mate-artwork (0.4.1~15.04~8) vivid; urgency=medium
+ubuntu-mate-artwork (0.4.1~15.04~11) vivid; urgency=medium
 
-  * Switched LightDM to Yuyo-Dark.
   * Added Yuyo themes to Pluma.
   * Merged with ubuntu-themes.
   * Added community contributed desktop backgrounds.
+  * Fixed status icons (LP: #1392943).
+  * Tweaked LightDM theme.
 
- -- Martin Wimpress <code@flexion.org>  Sun, 14 Dec 2014 16:35:41 +0000
+ -- Martin Wimpress <code@flexion.org>  Sat, 24 Jan 2015 21:19:41 +0000
 
 ubuntu-mate-artwork (0.4.0) vivid; urgency=medium
 
