@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
 Build-Depends: debhelper (>= 9),
                lsb-release
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://launchpad.net/ubuntu-mate/
 Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork/files
@@ -28,7 +28,7 @@ Depends: ${misc:Depends},
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid
 Suggests: mate-backgrounds
-Description: Ubuntu MATE Wallpapers
+Description: Wallpaper and background images for Ubuntu MATE
  The default Ubuntu MATE wallpapers. This is also a metapackage depending on 
  the other default wallpapers for the current Ubuntu MATE release.
 
@@ -72,7 +72,7 @@ Architecture: all
 Depends: ${misc:Depends},
          gnome-icon-theme-full,
          ubuntu-mono
-Description: Ubuntu MATE icon themes
+Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
 
 Package: ubuntu-mate-themes
@@ -82,7 +82,7 @@ Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          gtk3-engines-unico (>= 1.0.1-0ubuntu2),
          ubuntu-mate-icon-themes,
          ${misc:Depends},
-Description: Ubuntu MATE Themes
+Description: GTK2 and GTK3 themes for Ubuntu MATE
  Includes matching Ambiant and Radiant themes
  .
  * Ambiant-MATE is a light-on-dark theme
@@ -96,10 +96,9 @@ Depends: ${misc:Depends},
          ubuntu-mate-icon-themes,
          ubuntu-mate-themes,
          ubuntu-mate-wallpapers
-Description: Ubuntu MATE LightDM theme
+Description: LightDM theme and default configuration for Ubuntu MATE
  This is the lightdm greeter theme and configuration
  used for Ubuntu MATE.
  .
- This package can also be installed on
- other Ubuntu desktops desiring to use this
- theme, but it will replace the LightDM theme.
+ This package can also be installed on other Ubuntu desktops desiring
+ to use this theme, but it will replace the LightDM theme.
