@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (0.4.2) vivid; urgency=medium
+
+  * Improved Debian packaging.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 04 Feb 2015 01:21:37 +0000
+
 ubuntu-mate-artwork (0.4.1~15.04~11) vivid; urgency=medium
 
   * Added Yuyo themes to Pluma.

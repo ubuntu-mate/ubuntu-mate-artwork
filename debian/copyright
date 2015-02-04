@@ -4,7 +4,7 @@ Source: https://launchpad.net/~ubuntu-mate-dev/ubuntu-mate-artwork
 
 Files: *
 Copyright: 2014, Ubuntu MATE Developers.
-License: GPL-3
+License: GPL-3+
 
 Files: usr/share/themes/* usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
@@ -41,7 +41,7 @@ License: GPL-2+
  License can be found in the `/usr/share/common-licenses/GPL-2'
  file.
 
-License: GPL-3
+License: GPL-3+
  This program is free software: you can redistribute it and/or modify it
  under the terms of the GNU General Public License version 3, as published
  by the Free Software Foundation.

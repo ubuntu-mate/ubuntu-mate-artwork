@@ -64,8 +64,8 @@ Description: graphical boot animation and logger - ubuntu-mate-text theme
  (even before the root filesystem is mounted!) that provides a graphical
  boot animation while the boot process happens in the background.
  .
- This package contains the default ubuntu-mate-text theme used when no support for
- a graphical theme is found on your system.
+ This package contains the default ubuntu-mate-text theme used when no
+ support for a graphical theme is found on your system.
 
 Package: ubuntu-mate-icon-themes
 Architecture: all
