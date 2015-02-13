@@ -2,24 +2,49 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-mate-artwork
 Source: https://launchpad.net/~ubuntu-mate-dev/ubuntu-mate-artwork
 
-Files: *
-Copyright: 2014, Ubuntu MATE Developers.
+Files: debian/*
+Copyright: 2014, Martin Wimpress
 License: GPL-3
 
 Files: usr/share/themes/* usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
 License: CC-BY-SA-3.0
 
-Files: lib/plymouth/themes/ubuntu-mate-logo/*.png
-       usr/share/backgrounds/*
-Copyright: 2014 Ubuntu MATE Developers
+Files: usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-*.jpg
+Copyright: 2014 Goce Mitevski 
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-utopic/ubuntu-mate-desktop-circle_of_mates*.png
+Copyright: 2014 Ivan Pejić
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Gray.png
+Copyright: 2014 Gerard Aalders
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-vivid/Castelluccio*.jpg
+       usr/share/backgrounds/ubuntu-mate-vivid/FlowersMate.jpg
+Copyright: 2015 Paolo Bravi
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-vivid/orange_grid_logo_white.png
+       usr/share/backgrounds/ubuntu-mate-vivid/rondel*.png
+Copyright: 2015 Matt Kelley
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-vivid/ubuntu-mate-rock-*.png
+Copyright: 2015 Steven Cook
+License: CC-BY-SA-4.0
+
+Files: lib/plymouth/themes/ubuntu-mate-logo/*.png      
+Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0
 
 Files: lib/plymouth/themes/ubuntu-mate-logo/*.grub
        lib/plymouth/themes/ubuntu-mate-logo/*.plymouth 
        lib/plymouth/themes/ubuntu-mate-logo/*.script
        lib/plymouth/themes/ubuntu-mate-text/*.plymouth
-Copyright: 2014, Ubuntu MATE Developers.
+Copyright: 2014, Ivan Pejić
 License: GPL-2+
 
 License: GPL-2+
