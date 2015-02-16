@@ -1,6 +1,13 @@
+ubuntu-mate-artwork (0.4.3) UNRELEASED; urgency=medium
+
+  * Override symbolic icons.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 08 Feb 2015 21:37:19 +0000
+
 ubuntu-mate-artwork (0.4.2) vivid; urgency=medium
 
   * Improved Debian packaging.
+  * Override symbolic icons.
 
  -- Martin Wimpress <code@flexion.org>  Wed, 04 Feb 2015 01:21:37 +0000
 
