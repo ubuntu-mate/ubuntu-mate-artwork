@@ -1,14 +1,19 @@
-ubuntu-mate-artwork (0.4.3) vivid; urgency=medium
+ubuntu-mate-artwork (0.4.3ubuntu1) vivid; urgency=medium
 
   * Override symbolic icons.
   * Remove indicator-sound.
 
- -- Martin Wimpress <code@flexion.org>  Sun, 08 Feb 2015 21:37:19 +0000
+ -- Martin Wimpress <code@flexion.org>  Tue, 08 Feb 2015 05:00:43 +0000
+
+ubuntu-mate-artwork (0.4.2ubuntu1) vivid; urgency=medium
+
+  * Closes needs-packaging (LP: #1368218)
+
+ -- Adam Stokes <adam.stokes@ubuntu.com>  Fri, 13 Feb 2015 11:04:51 -0500
 
 ubuntu-mate-artwork (0.4.2) vivid; urgency=medium
 
   * Improved Debian packaging.
-  * Override symbolic icons.
 
  -- Martin Wimpress <code@flexion.org>  Wed, 04 Feb 2015 01:21:37 +0000
 
