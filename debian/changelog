@@ -1,6 +1,7 @@
-ubuntu-mate-artwork (0.4.3) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (0.4.3) vivid; urgency=medium
 
   * Override symbolic icons.
+  * Remove indicator-sound.
 
  -- Martin Wimpress <code@flexion.org>  Sun, 08 Feb 2015 21:37:19 +0000
 
