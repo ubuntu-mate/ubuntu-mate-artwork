@@ -494,6 +494,13 @@ fun message_callback (message)
     if (keys != NULL)
         message = StringCopy (message, keys + StringLength(local.substring), NULL);
 
+    # Get the message without the "fsckd-cancel-msg" prefix as we don't support i18n
+    substring = "fsckd-cancel-msg:";
+    keys = StringString(message, substring);
+    if (keys != NULL)
+        message = StringCopy(message, keys + StringLength(substring), NULL);
+
+
     local.label.is_fake = is_fake;
     label = get_message_label(message, is_fake, is_action_line);
     label.z = 10000;
@@ -1002,6 +1009,23 @@ fun update_status_callback (status) {
             fsck_check (device, progress, status_string);
         }
         
+    }
+
+    # systemd-fsckd pass fsckd:<number_devices>:<progress>:<l10n_string>
+    if (update_strings[0] == "fsckd") {
+        number_devices = StringToInteger(update_strings[1]);
+
+        if (number_devices > 0) {
+            label = update_strings[3];
+
+            progress_label = get_fsck_label (label, 0);
+            progress_label.sprite = Sprite (progress_label.image);
+            progress_label.sprite.SetPosition(progress_label.x, progress_label.y, 1);
+            progress_label.sprite.SetOpacity (1);
+        } else {
+            if (progress_label.sprite)
+                progress_label.sprite.SetOpacity (0);
+        }
     }
 
 }

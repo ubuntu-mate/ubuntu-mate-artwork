@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (0.4.4) UNRELEASED; urgency=medium
+
+  * Add fsck report and cancel support with systemd to the logo them
+    (LP: #1425434)
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 25 Feb 2015 11:20:11 +0100
+
 ubuntu-mate-artwork (0.4.3ubuntu1) vivid; urgency=medium
 
   * Override symbolic icons.
