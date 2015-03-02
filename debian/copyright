@@ -32,8 +32,9 @@ Files: usr/share/backgrounds/ubuntu-mate-vivid/orange_grid_logo_white.png
 Copyright: 2015 Matt Kelley
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-vivid/ubuntu-mate-rock-*.png
-Copyright: 2015 Steven Cook
+Files: usr/share/backgrounds/ubuntu-mate-vivid/ubuntu-mate-maze.png
+       usr/share/backgrounds/ubuntu-mate-vivid/XV-IV-*.png
+Copyright: 2015 Ghost Sixtyseven
 License: CC-BY-SA-4.0
 
 Files: lib/plymouth/themes/ubuntu-mate-logo/*.png      

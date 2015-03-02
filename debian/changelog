@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (0.4.5) vivid; urgency=medium
+
+  * Remove distored background images and replaces with good
+  alternatives.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 02 Mar 2015 22:32:43 +0000
+
 ubuntu-mate-artwork (0.4.4) vivid; urgency=medium
 
   * Add fsck report and cancel support with systemd to the logo them
