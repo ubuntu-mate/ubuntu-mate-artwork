@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (0.4.6) vivid; urgency=medium
+
+  * Define active-monitor in lightdm-gtk-greeter.conf to prevent
+  white screen on multi-monitor configurations. (LP: #1426664)
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 17 Mar 2015 03:15:27 +0000
+
 ubuntu-mate-artwork (0.4.5) vivid; urgency=medium
 
   * Remove distored background images and replaces with good alternatives.
