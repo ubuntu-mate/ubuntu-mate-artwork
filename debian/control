@@ -69,7 +69,6 @@ Description: graphical boot animation and logger - ubuntu-mate-text theme
 Package: ubuntu-mate-icon-themes
 Architecture: all
 Depends: ${misc:Depends},
-         gnome-icon-theme-full,
          ubuntu-mono
 Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
@@ -78,7 +77,6 @@ Package: ubuntu-mate-themes
 Architecture: all
 Multi-Arch: foreign
 Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
-         gtk3-engines-unico (>= 1.0.1-0ubuntu2),
          ubuntu-mate-icon-themes,
          ${misc:Depends},
 Description: GTK2 and GTK3 themes for Ubuntu MATE

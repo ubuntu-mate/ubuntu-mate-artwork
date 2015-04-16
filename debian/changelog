@@ -1,7 +1,58 @@
+ubuntu-mate-artwork (0.4.7) vivid; urgency=medium
+
+  [ Martin Wimpress ]
+  * Aligned with ubuntu-themes (14.04+15.04.20150410-0ubuntu1) incorporating
+    many bugs fixes.
+
+  [ Iain Lane ]
+  * Draw shadows for menus - thanks to Simon Steinbeiß (LP: #1441975)
+
+  [ Lars Uebernickel ]
+  * Don't use symbolic colors for style (LP: #1436428)
+
+  [ Alberts Muktupāvels ]
+  * Add some style info for unity-greeter buttons. (LP: #1423542) (LP:
+    #1423542)
+
+  [ Iain Lane ]
+  * Style geary's compose view to get a background with overlay-
+    scrollbars added: Ambiant-MATE/gtk-3.0/apps/geary.css
+    Radiant-MATE/gtk-3.0/apps/geary.css
+  * Theme software-center's action bar so it gets a background. added:
+    Ambiant-MATE/gtk-3.0/apps/software-center.css Radiant-MATE/gtk-
+    3.0/apps/software-center.css
+
+  [ Lars Uebernickel ]
+  * Radiant-MATE: fix radio mark coloring in menus
+
+  [ William Hua ]
+  * Set the background on GtkStack widgets. (LP: #1285783)
+  
+  [ Lars Uebernickel ]
+  * Set and animate spinner icon for password entry in unity-greeter and
+    sound menu's playback item.
+
+  [ Iain Lane ]
+  * Switch gnome-icon-theme to adwaita-icon-theme, which is its
+    successor.
+
+  [ Dmitry Shachnev ]
+  * gnome-panel.css: Fix styling for checked GtkToggleButtons.
+
+  [ Alberts Muktupāvels ]
+  * metacity-theme: remove unsupported properties.
+
+  [ Lars Uebernickel ]
+  * Stop using the unico gtk engine
+  * A few more fixes and cleanups for gtk 3.14 (combo boxes, spinners)
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 12 Apr 2015 14:27:15 +0000
+
 ubuntu-mate-artwork (0.4.6) vivid; urgency=medium
 
   * Define active-monitor in lightdm-gtk-greeter.conf to prevent
-  white screen on multi-monitor configurations. (LP: #1426664)
+    white screen on multi-monitor configurations. (LP: #1426664,
+    LP: #1433147)
 
  -- Martin Wimpress <code@flexion.org>  Tue, 17 Mar 2015 03:15:27 +0000
 
