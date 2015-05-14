@@ -1,7 +1,8 @@
 ubuntu-mate-artwork (0.4.8) UNRELEASED; urgency=medium
 
   [ Martin Wimpress ]
-  * Corrected the progress bar colours in GTK3 applications.
+  * Fixed the progress bar colours in GTK3 applications.
+  * Added ubuntu-mate-wallpaper-wily package.
 
  -- Martin Wimpress <code@flexion.org>  Wed, 13 May 2015 23:25:43 +0000
 

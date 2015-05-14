@@ -37,6 +37,10 @@ Files: usr/share/backgrounds/ubuntu-mate-vivid/ubuntu-mate-maze.png
 Copyright: 2015 Ghost Sixtyseven
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-wily/ubuntu-mate-trusty-green.jpg
+Copyright: 2015 Rohith Madhavan
+License: CC-BY-SA-4.0
+
 Files: lib/plymouth/themes/ubuntu-mate-logo/*.png      
 Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0

@@ -25,7 +25,7 @@ Architecture: all
 Section: metapackages
 Depends: ${misc:Depends},
          ubuntu-mate-wallpapers-utopic,
-         ubuntu-mate-wallpapers-vivid
+         ubuntu-mate-wallpapers-wily
 Suggests: mate-backgrounds
 Description: Wallpaper and background images for Ubuntu MATE
  The default Ubuntu MATE wallpapers. This is also a metapackage depending on 
@@ -42,6 +42,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 15.04 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 15.04
+
+Package: ubuntu-mate-wallpapers-wily
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 15.10 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 15.10
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
