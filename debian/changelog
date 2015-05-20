@@ -2,6 +2,7 @@ ubuntu-mate-artwork (0.4.8) wily; urgency=medium
 
   * Fixed the progress bar colours in GTK3 applications. (LP: #1437690)
   * Added ubuntu-mate-wallpaper-wily package.
+  * Closes (LP: #1456591)
 
  -- Martin Wimpress <code@flexion.org>  Wed, 13 May 2015 23:25:43 +0000
 
