@@ -4,7 +4,9 @@ ubuntu-mate-artwork (0.4.9) wily; urgency=medium
   * Add ubuntu-mate-wallpaper-wily package.
   * Add community contributed wallpapers from David Chadderton.
   * Add community contributed wallpaper from João Pedro Coli.
-  * Aligned with ubuntu-themes 14.04+15.10.20150603.1-0ubuntu1.
+  * Add missging files to debian/copyright.
+  * Improve GTK3 progress bar color blending.
+  * Align with ubuntu-themes 14.04+15.10.20150603.1-0ubuntu1.
 
   [ Lars Uebernickel ]
   * Set :link color
