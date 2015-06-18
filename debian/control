@@ -24,12 +24,30 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ${misc:Depends},
-         ubuntu-mate-wallpapers-utopic,
+         ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-wily
 Suggests: mate-backgrounds
 Description: Wallpaper and background images for Ubuntu MATE
- The default Ubuntu MATE wallpapers. This is also a metapackage depending on 
- the other default wallpapers for the current Ubuntu MATE release.
+ The default Ubuntu MATE wallpapers. This is also a metapackage
+ depending on the other default wallpapers for the current Ubuntu MATE
+ release.
+
+Package: ubuntu-mate-wallpapers-common
+Architecture: all
+Depends: ${misc:Depends},
+Description: Common Ubuntu MATE wallpapers
+ Common wallpapers for Ubuntu MATE contributed by the community.
+ 
+Package: ubuntu-mate-wallpapers-complete
+Architecture: all
+Depends: ${misc:Depends},
+         ubuntu-mate-wallpapers-common,
+         ubuntu-mate-wallpapers-utopic,
+         ubuntu-mate-wallpapers-vivid,
+         ubuntu-mate-wallpapers-wily
+Description: Complete set of all Ubuntu MATE wallpapers
+ A complete set of all the wallpapers contributed to Ubuntu MATE by the
+ Ubuntu MATE community.
 
 Package: ubuntu-mate-wallpapers-utopic
 Architecture: all

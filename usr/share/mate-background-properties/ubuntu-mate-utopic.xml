@@ -2,84 +2,6 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Ubuntu MATE Cold</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Cold.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Cold (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Cold-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Cold (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Cold-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Dark</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Dark.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Dark (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Dark-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Dark (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Dark-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Radioactive</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Radioactive.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Radioactive (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Radioactive-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Radioactive (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Radioactive-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Warm</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Warm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Warm (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Warm-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Warm (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Warm-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Circle of Mates (Dark)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-utopic/ubuntu-mate-desktop-circle_of_mates_dark.png</filename>
-        <options>stretched</options>
-        <artist>Ivan Pejić</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
         <name>Circle of Mates (Light)</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-utopic/ubuntu-mate-desktop-circle_of_mates_light.png</filename>
         <options>stretched</options>
@@ -90,5 +12,5 @@
         <filename>/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Gray.png</filename>
         <options>zoom</options>
         <artist>Gerard Aalders</artist>
-    </wallpaper>
+    </wallpaper> 
 </wallpapers>

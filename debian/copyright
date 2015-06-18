@@ -6,15 +6,30 @@ Files: debian/*
 Copyright: 2014, Martin Wimpress
 License: GPL-3+
 
-Files: usr/share/themes/* usr/share/icons/*
+Files: usr/share/gtksourceview-2.0/styles/*.xml
+       usr/share/mate-background-properties/*.xml
+       etc/lightdm/lightdm-gtk-greeter-ubuntu-mate.conf
+       usr/share/ubuntu-mate/lightdm/lightdm.conf
+Copyright: 2014-2015, Martin Wimpress <code@flexion.org>
+License: GPL-3+
+
+Files: usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-day-drift.xml
+Copyright: 2015, João Pedro Coli
+License: GPL-3+
+
+Files: usr/share/themes/*
+       usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
+           2014-2015, Martin Wimpress.
+           2014-2015, Michael Tunnell.
 License: CC-BY-SA-3.0
 
-Files: usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-*.jpg
+Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-*.jpg
 Copyright: 2014 Goce Mitevski 
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-utopic/ubuntu-mate-desktop-circle_of_mates*.png
+Files: usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-desktop-circle_of_mates_dark.png
+       usr/share/backgrounds/ubuntu-mate-utopic/ubuntu-mate-desktop-circle_of_mates_light.png
 Copyright: 2014 Ivan Pejić
 License: CC-BY-SA-4.0
 
@@ -32,13 +47,21 @@ Files: usr/share/backgrounds/ubuntu-mate-vivid/orange_grid_logo_white.png
 Copyright: 2015 Matt Kelley
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-vivid/ubuntu-mate-maze.png
+Files: usr/share/backgrounds/ubuntu-mate-vivid/Ubuntu-MATE-Maze.png
        usr/share/backgrounds/ubuntu-mate-vivid/XV-IV-*.png
 Copyright: 2015 Ghost Sixtyseven
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-vivid/ubuntu-mate-rock-*.png
+Copyright: 2015 Steve Cook
+License: CC-BY-SA-4.0
+
 Files: usr/share/backgrounds/ubuntu-mate-wily/ubuntu-mate-trusty-green.jpg
 Copyright: 2015 Rohith Madhavan
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-wily/Webspresso-*.jpg
+Copyright: 2015 David Chadderton
 License: CC-BY-SA-4.0
 
 Files: lib/plymouth/themes/ubuntu-mate-logo/*.png      
