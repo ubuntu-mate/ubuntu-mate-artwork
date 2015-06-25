@@ -1,11 +1,15 @@
 ubuntu-mate-artwork (0.4.10) wily; urgency=medium
 
-  * Move the LighDM GTK Greeter configuration to conform with recent
-  changes to how lightdm-gtk-greeter handles multiple configuration
-  files. Closes (LP: 1466191)
+  * Update the LighDM GTK Greeter configuration to conform with recent
+  changes to handle multiple configuration files. Closes (LP: #1466191)
 
- -- Martin Wimpress <code@flexion.org>  Thu, 24 June 2015 02:42:43 +0100
+ -- Martin Wimpress <code@flexion.org>  Thu, 25 June 2015 02:42:43 +0100
 
+ubuntu-mate-artwork (0.4.9.1) wily; urgency=medium
+
+  * Upload fixed tarball. (LP: #1466521)
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Wed, 24 Jun 2015 08:45:34 +0200
 
 ubuntu-mate-artwork (0.4.9) wily; urgency=medium
 
