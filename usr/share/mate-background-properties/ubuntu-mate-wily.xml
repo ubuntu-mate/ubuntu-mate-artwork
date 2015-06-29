@@ -8,6 +8,12 @@
         <artist>Rohith Madhavan</artist>
     </wallpaper>
     <wallpaper deleted="false">
+        <name>Ubuntu MATE Neon</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-wily/Neon-UbuntuMATE.png</filename>
+        <options>zoom</options>
+        <artist>quidsup</artist>
+    </wallpaper>    
+    <wallpaper deleted="false">
         <name>Burbo</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-wily/Webspresso-Burbo.jpg</filename>
         <options>zoom</options>
@@ -58,6 +64,12 @@
     <wallpaper deleted="false">
         <name>Red 6</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-wily/Webspresso-Red-6.jpg</filename>
+        <options>zoom</options>
+        <artist>David Chadderton</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Take Back Your Desktop</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-wily/Webspresso-Take-Back-Your-Desktop.jpg</filename>
         <options>zoom</options>
         <artist>David Chadderton</artist>
     </wallpaper>

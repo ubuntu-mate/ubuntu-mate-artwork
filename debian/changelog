@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (0.4.11) wily; urgency=medium
+
+  * Add community contributed wallpapers from David Chadderton.
+  * Add community contributed wallpaper from quidsup.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 26 June 2015 18:07:53 +0100
+
 ubuntu-mate-artwork (0.4.10) wily; urgency=medium
 
   * Update the LighDM GTK Greeter configuration to conform with recent

@@ -64,6 +64,11 @@ Files: usr/share/backgrounds/ubuntu-mate-wily/Webspresso-*.jpg
 Copyright: 2015 David Chadderton
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-wily/Neon-UbuntuMATE.png
+Copyright: 2015 quidsup
+License: CC-BY-SA-4.0
+
+
 Files: lib/plymouth/themes/ubuntu-mate-logo/*.png      
 Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0
