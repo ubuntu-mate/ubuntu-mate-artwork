@@ -2,7 +2,7 @@ Source: ubuntu-mate-artwork
 Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.6
 Homepage: https://launchpad.net/ubuntu-mate/
 Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork
@@ -11,10 +11,10 @@ Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mat
 Package: ubuntu-mate-artwork
 Architecture: all
 Section: metapackages
-Depends: ${misc:Depends},
-         ubuntu-mate-icon-themes,
+Depends: ubuntu-mate-icon-themes,
          ubuntu-mate-themes,
-         ubuntu-mate-wallpapers
+         ubuntu-mate-wallpapers,
+         ${misc:Depends},
 Description: Ubuntu MATE themes and artwork
  This package contains Ubuntu MATE themes and artwork.
  .
@@ -23,28 +23,22 @@ Description: Ubuntu MATE themes and artwork
 Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
-Depends: ${misc:Depends},
-         ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-wily
-Suggests: mate-backgrounds
+Depends: ubuntu-mate-wallpapers-common,
+         ubuntu-mate-wallpapers-wily,
+         ${misc:Depends},
+Suggests: mate-backgrounds,
 Description: Wallpaper and background images for Ubuntu MATE
  The default Ubuntu MATE wallpapers. This is also a metapackage
  depending on the other default wallpapers for the current Ubuntu MATE
  release.
 
-Package: ubuntu-mate-wallpapers-common
-Architecture: all
-Depends: ${misc:Depends},
-Description: Common Ubuntu MATE wallpapers
- Common wallpapers for Ubuntu MATE contributed by the community.
- 
 Package: ubuntu-mate-wallpapers-complete
 Architecture: all
-Depends: ${misc:Depends},
-         ubuntu-mate-wallpapers-common,
+Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
-         ubuntu-mate-wallpapers-wily
+         ubuntu-mate-wallpapers-wily,
+         ${misc:Depends},
 Description: Complete set of all Ubuntu MATE wallpapers
  A complete set of all the wallpapers contributed to Ubuntu MATE by the
  Ubuntu MATE community.
@@ -69,8 +63,10 @@ Description: Ubuntu MATE 15.10 Wallpapers
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
-Provides: plymouth-theme
+Depends: plymouth,
+         plymouth-label,
+         ${misc:Depends},
+Provides: plymouth-theme,
 Description: graphical boot animation and logger - ubuntu-mate-logo theme
  Plymouth is an application that runs very early in the boot process
  (even before the root filesystem is mounted!) that provides a graphical
@@ -80,8 +76,10 @@ Description: graphical boot animation and logger - ubuntu-mate-logo theme
 
 Package: plymouth-theme-ubuntu-mate-text
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
-Provides: plymouth-theme
+Depends: plymouth,
+         plymouth-theme-ubuntu-text,
+         ${misc:Depends},
+Provides: plymouth-theme,
 Description: graphical boot animation and logger - ubuntu-mate-text theme
  Plymouth is an application that runs very early in the boot process
  (even before the root filesystem is mounted!) that provides a graphical
@@ -92,8 +90,8 @@ Description: graphical boot animation and logger - ubuntu-mate-text theme
 
 Package: ubuntu-mate-icon-themes
 Architecture: all
-Depends: ${misc:Depends},
-         ubuntu-mono
+Depends: ubuntu-mono,
+         ${misc:Depends},
 Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
 
@@ -112,11 +110,11 @@ Description: GTK2 and GTK3 themes for Ubuntu MATE
 
 Package: ubuntu-mate-lightdm-theme
 Architecture: all
-Depends: ${misc:Depends},
-         lightdm-gtk-greeter,
+Depends: lightdm-gtk-greeter,
          ubuntu-mate-icon-themes,
          ubuntu-mate-themes,
-         ubuntu-mate-wallpapers
+         ubuntu-mate-wallpapers,
+         ${misc:Depends},
 Description: LightDM theme and default configuration for Ubuntu MATE
  This is the lightdm greeter theme and configuration
  used for Ubuntu MATE.
