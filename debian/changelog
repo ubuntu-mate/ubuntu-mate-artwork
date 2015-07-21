@@ -3,6 +3,7 @@ ubuntu-mate-artwork (0.4.11) wily; urgency=medium
   * Add community contributed wallpapers from David Chadderton.
   * Add community contributed wallpaper from quidsup.
   * Process debian folder with wrap-and-sort.
+  * Closes (LP: #1476611)
 
  -- Martin Wimpress <code@flexion.org>  Mon, 20 June 2015 23:33:54 +0100
 
