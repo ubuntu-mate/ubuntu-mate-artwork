@@ -78,6 +78,7 @@ Files: lib/plymouth/themes/ubuntu-mate-logo/*.grub
        lib/plymouth/themes/ubuntu-mate-logo/*.script
        lib/plymouth/themes/ubuntu-mate-text/*.plymouth
 Copyright: 2014, Ivan Pejić
+           2015, Jack Mohegan
 License: GPL-2+
 
 License: GPL-2+

@@ -1,5 +1,3 @@
-#  ubuntu-mate-logo.script based on :
-#
 #  ubuntu-mate-logo.script - boot splash plugin
 # 
 #  Copyright (C) 2014 Ubuntu MATE Developers
@@ -211,7 +209,7 @@ logo.sprite.SetImage (logo.image);
 logo.width = logo.image.GetWidth ();
 logo.height = logo.image.GetHeight ();
 logo.x = Window.GetX () + Window.GetWidth () / 2 - logo.width  / 2;
-logo.y = Window.GetY () + Window.GetHeight () / 2 - logo.height;
+logo.y = Window.GetY () + Window.GetHeight () / 2 - logo.height / 1.3;
 logo.z = 1000;
 logo.sprite.SetX (logo.x);
 logo.sprite.SetY (logo.y);
@@ -234,7 +232,7 @@ progress_indicator.bullet_height = progress_indicator.bullet_off.GetHeight ();
 progress_indicator.bullet_hspacing = progress_indicator.bullet_width * 1.1;
 progress_indicator.width = progress_indicator.bullet_width * 5;
 progress_indicator.height = progress_indicator.bullet_height;
-progress_indicator.y = logo.y + logo.height + (logo.height / 4);
+progress_indicator.y = logo.y + logo.height + (logo.height / 10);
 progress_indicator.x = Window.GetX () + Window.GetWidth () / 2 - progress_indicator.width / 2; # logo.x + 26;
 
 # use a fixed string with ascending and descending stems to calibrate the
@@ -350,7 +348,7 @@ fun animate_progress_indicator (progress, time) {
 #    if (global.on_off == NULL)
 #        global.on_off = 0;
 
-    if ((progress - global.progress_time) >= 1.0) {
+    if ((progress - global.progress_time) >= 0.7) {
         global.progress_time = progress;
         
         if (global.times_bullets_switched == 5) {
@@ -508,6 +506,12 @@ fun message_callback (message)
     # Get the message without the "keys:" prefix
     if (keys != NULL)
         message = StringCopy (message, keys + StringLength(local.substring), NULL);
+
+    # Get the message without the "fsckd-cancel-msg" prefix as we don't support i18n
+    substring = "fsckd-cancel-msg:";
+    keys = StringString(message, substring);
+    if (keys != NULL)
+        message = StringCopy(message, keys + StringLength(substring), NULL);
 
     local.label.is_fake = is_fake;
     label = get_message_label(message, is_fake, is_action_line);
@@ -1016,6 +1020,23 @@ fun update_status_callback (status) {
             fsck_check (device, progress, status_string);
         }
         
+    }
+
+    # systemd-fsckd pass fsckd:<number_devices>:<progress>:<l10n_string>
+    if (update_strings[0] == "fsckd") {
+        number_devices = StringToInteger(update_strings[1]);
+
+        if (number_devices > 0) {
+            label = update_strings[3];
+
+            progress_label = get_fsck_label (label, 0);
+            progress_label.sprite = Sprite (progress_label.image);
+            progress_label.sprite.SetPosition(progress_label.x, progress_label.y, 1);
+            progress_label.sprite.SetOpacity (1);
+        } else {
+            if (progress_label.sprite)
+                progress_label.sprite.SetOpacity (0);
+        }
     }
 
 }

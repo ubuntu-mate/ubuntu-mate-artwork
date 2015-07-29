@@ -1,11 +1,24 @@
+ubuntu-mate-artwork (0.4.12) wily; urgency=medium
+
+  * debian/control: 
+    + Add missing entry for ubuntu-mate-wallpapers-common.
+  * Closes (LP: #1479352)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 29 Jul 2015 11:40:23 +0100
+
 ubuntu-mate-artwork (0.4.11) wily; urgency=medium
 
   * Add community contributed wallpapers from David Chadderton.
   * Add community contributed wallpaper from quidsup.
+  * Update Plymouth boot animation.
+  * Update lib/plymouth/themes/ubuntu-mate-logo/ubuntu--mate-logo.script
+  to support fsckd systemd service protocol.
+  * debian/control: Correctly mark ubuntu-mate-wallpapers-complete as a
+  metapackage.
   * Process debian folder with wrap-and-sort.
   * Closes (LP: #1476611)
 
- -- Martin Wimpress <code@flexion.org>  Mon, 20 June 2015 23:33:54 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 20 Jul 2015 23:33:54 +0100
 
 ubuntu-mate-artwork (0.4.10) wily; urgency=medium
 
@@ -75,7 +88,7 @@ ubuntu-mate-artwork (0.4.7) vivid; urgency=medium
 
   [ William Hua ]
   * Set the background on GtkStack widgets. (LP: #1285783)
-  
+
   [ Lars Uebernickel ]
   * Set and animate spinner icon for password entry in unity-greeter and
     sound menu's playback item.
