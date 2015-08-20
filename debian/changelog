@@ -1,6 +1,23 @@
+ubuntu-mate-artwork (15.10.1) wily; urgency=medium
+
+  [ Martin Wimpress]
+  * New release. Closes (LP: #1486932)
+    + Integrate relevant updates from ubuntu-themes
+    14.04+15.10.20150813-0ubuntu1.
+  * debian/changelog:
+    + Bump version to track Ubuntu release cycle.
+
+  [ Lars Uebernickel ]
+  * Clean up nautilus theming. Mostly, this consists of moving from
+    nautilus-specific widgets and classes to more generic gtk ones. (LP:
+    #1463848)
+  * Theme GTK overlay-scrollbars to be more ubuntu-ish
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 19 Aug 2015 23:05:32 +0100
+
 ubuntu-mate-artwork (0.4.12) wily; urgency=medium
 
-  * debian/control: 
+  * debian/control:
     + Add missing entry for ubuntu-mate-wallpapers-common.
   * Closes (LP: #1479352)
 
