@@ -40,12 +40,6 @@ Depends: ${misc:Depends},
 Description: Common Ubuntu MATE wallpapers
  Common wallpapers for Ubuntu MATE contributed by the community.
 
-Package: ubuntu-mate-wallpapers-common
-Architecture: all
-Depends: ${misc:Depends},
-Description: Common Ubuntu MATE wallpapers
- Common wallpapers for Ubuntu MATE contributed by the community.
-
 Package: ubuntu-mate-wallpapers-complete
 Architecture: all
 Section: metapackages
