@@ -31,6 +31,14 @@ Description: Wallpaper and background images for Ubuntu MATE
  The default Ubuntu MATE wallpapers. This is also a metapackage
  depending on the other default wallpapers for the current Ubuntu MATE
  release.
+ .
+ It is a metapackage.
+
+Package: ubuntu-mate-wallpapers-common
+Architecture: all
+Depends: ${misc:Depends},
+Description: Common Ubuntu MATE wallpapers
+ Common wallpapers for Ubuntu MATE contributed by the community.
 
 Package: ubuntu-mate-wallpapers-common
 Architecture: all
