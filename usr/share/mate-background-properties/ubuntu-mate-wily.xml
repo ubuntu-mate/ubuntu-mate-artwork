@@ -79,4 +79,17 @@
         <options>zoom</options>
         <artist>David Chadderton</artist>
     </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>XV-X Wily Moon</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-wily/XVX-Wily-Moon.png</filename>
+        <options>zoom</options>
+        <artist>Ghost Sixtyseven</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>XV-X Howling at the Moon</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-wily/XVX-Howling-at-the-Moon.png</filename>
+        <options>zoom</options>
+        <artist>Ghost Sixtyseven</artist>
+    </wallpaper>
 </wallpapers>
