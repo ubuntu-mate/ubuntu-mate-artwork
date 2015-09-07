@@ -12,7 +12,7 @@
         <filename>/usr/share/backgrounds/ubuntu-mate-wily/Neon-UbuntuMATE.png</filename>
         <options>zoom</options>
         <artist>quidsup</artist>
-    </wallpaper>    
+    </wallpaper>
     <wallpaper deleted="false">
         <name>Burbo</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-wily/Webspresso-Burbo.jpg</filename>
@@ -79,7 +79,12 @@
         <options>zoom</options>
         <artist>David Chadderton</artist>
     </wallpaper>
-
+    <wallpaper deleted="false">
+        <name>Keep Calm</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-wily/keep_calm.png</filename>
+        <options>zoom</options>
+        <artist>Tim Apple</artist>
+    </wallpaper>
     <wallpaper deleted="false">
         <name>XV-X Wily Moon</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-wily/XVX-Wily-Moon.png</filename>

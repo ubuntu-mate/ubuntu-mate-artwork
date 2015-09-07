@@ -1,3 +1,12 @@
+ubuntu-mate-artwork (15.10.3) wily; urgency=medium
+
+  * New release. Closes (LP: #)
+    + Add Keep Calm themed backdrops contributed by Tim Apple.
+    + Update GTK3 scrollbars to be always visible so they fit with
+    the MATE desktop.
+
+ -- Martin Wimpress <martin@nuc>  Mon, 07 Sep 2015 13:54:54 +0100
+
 ubuntu-mate-artwork (15.10.2) wily; urgency=medium
 
   * New release. Closes (LP: #1490930)
