@@ -1,6 +1,13 @@
-ubuntu-mate-artwork (15.10.3) wily; urgency=medium
+ubuntu-mate-artwork (15.10.4) wily; urgency=medium
 
   * New release. Closes (LP: #)
+    + Add missing symlinks for icons required by Blueman 2.0.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 22 Sep 2015 09:31:41 +0100
+
+ubuntu-mate-artwork (15.10.3) wily; urgency=medium
+
+  * New release. Closes (LP: #1493065)
     + Add Keep Calm themed backdrops contributed by Tim Apple.
     + Update GTK3 scrollbars to be always visible so they fit with
     the MATE desktop.
