@@ -1,7 +1,12 @@
 ubuntu-mate-artwork (15.10.4) wily; urgency=medium
 
-  * New release. Closes (LP: #)
-    + Add missing symlinks for icons required by Blueman 2.0.
+  [ Martin Wimpress ]
+  * Sync with ubuntu-themes 14.04+15.10.20150910-0ubuntu1
+  * Add missing symlinks for icons required by Blueman 2.0.
+  * Closes (LP: #)  
+
+  [ Iain Lane ]
+  * Style software-center's action bar again
 
  -- Martin Wimpress <code@flexion.org>  Tue, 22 Sep 2015 09:31:41 +0100
 
