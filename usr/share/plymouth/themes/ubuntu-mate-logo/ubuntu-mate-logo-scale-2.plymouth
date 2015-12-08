@@ -4,5 +4,5 @@ Description=A theme that features a blank background with a logo.
 ModuleName=script
 
 [script]
-ImageDir=/lib/plymouth/themes/ubuntu-mate-logo
-ScriptFile=/lib/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo-scale-2.script
+ImageDir=/usr/share/plymouth/themes/ubuntu-mate-logo
+ScriptFile=/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo-scale-2.script

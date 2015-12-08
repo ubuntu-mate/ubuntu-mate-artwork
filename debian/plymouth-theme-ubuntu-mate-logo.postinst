@@ -18,17 +18,25 @@
 
 case "$1" in
     configure)
-	update-alternatives \
-		--install /lib/plymouth/themes/default.plymouth default.plymouth \
-		/lib/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.plymouth 150 \
-		--slave /lib/plymouth/themes/default.grub default.plymouth.grub \
-		/lib/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.grub
+    # transition from /lib to /usr/share theme file. If the symlink is dangling
+    # the call to alternative doesn't work on updating its path. Removing then
+    # the dangling symlink to recreate a clean config with next
+    # update-alternatives call.
+    if [ ! -r $(readlink -m "/etc/alternatives/default.plymouth") ]; then
+        rm -f /etc/alternatives/default.plymouth
+    fi
 
 	update-alternatives \
-		--install /lib/plymouth/themes/default.plymouth default.plymouth \
-		/lib/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo-scale-2.plymouth 149 \
-		--slave /lib/plymouth/themes/default.grub default.plymouth.grub \
-		/lib/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.grub
+		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
+		/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.plymouth 150 \
+		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
+		/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.grub
+
+	update-alternatives \
+		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
+		/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo-scale-2.plymouth 149 \
+		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
+		/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.grub
 
 	if which update-initramfs >/dev/null 2>&1
 	then

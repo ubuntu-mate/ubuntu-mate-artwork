@@ -74,14 +74,14 @@ Copyright: 2015 quidsup
 License: CC-BY-SA-4.0
 
 
-Files: lib/plymouth/themes/ubuntu-mate-logo/*.png
+Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png
 Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0
 
-Files: lib/plymouth/themes/ubuntu-mate-logo/*.grub
-       lib/plymouth/themes/ubuntu-mate-logo/*.plymouth
-       lib/plymouth/themes/ubuntu-mate-logo/*.script
-       lib/plymouth/themes/ubuntu-mate-text/*.plymouth
+Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.grub
+       usr/share/plymouth/themes/ubuntu-mate-logo/*.plymouth
+       usr/share/plymouth/themes/ubuntu-mate-logo/*.script
+       usr/share/plymouth/themes/ubuntu-mate-text/*.plymouth
 Copyright: 2014, Ivan Pejić
            2015, Jack Mohegan
 License: GPL-2+

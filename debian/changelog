@@ -1,3 +1,13 @@
+ubuntu-mate-artwork (15.12.1) UNRELEASED; urgency=medium
+
+  * Transition with new plymouth from /usr/share to /lib:
+    - replace /lib instances by /usr/share
+    - move lib/plymouth to usr/share/plymouth
+    - breaks against older plymouth.
+    - ensure we can transition the alternatives to the new version
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 08 Dec 2015 08:55:09 +0100
+
 ubuntu-mate-artwork (15.10.4) wily; urgency=medium
 
   [ Martin Wimpress ]

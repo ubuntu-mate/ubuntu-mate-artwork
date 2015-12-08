@@ -18,9 +18,17 @@
 
 case "$1" in
     configure|triggered)
+    # transition from /lib to /usr/share theme file. If the symlink is dangling
+    # the call to alternative doesn't work on updating its path. Removing then
+    # the dangling symlink to recreate a clean config with next
+    # update-alternatives call.
+    if [ ! -r $(readlink -m "/etc/alternatives/text.plymouth") ]; then
+        rm -f /etc/alternatives/text.plymouth
+    fi
+
 	update-alternatives \
-		--install /lib/plymouth/themes/text.plymouth text.plymouth \
-		/lib/plymouth/themes/ubuntu-mate-text/ubuntu-mate-text.plymouth 100
+		--install /usr/share/plymouth/themes/text.plymouth text.plymouth \
+		/usr/share/plymouth/themes/ubuntu-mate-text/ubuntu-mate-text.plymouth 100
 
 	if which update-initramfs >/dev/null 2>&1
 	then
