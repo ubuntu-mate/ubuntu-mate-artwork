@@ -5,6 +5,8 @@ ubuntu-mate-artwork (15.12.1) UNRELEASED; urgency=medium
     - move lib/plymouth to usr/share/plymouth
     - breaks against older plymouth.
     - ensure we can transition the alternatives to the new version
+  * Fixing a removal in ubuntu mate on a file that isn't part of this
+    package.
 
  -- Didier Roche <didrocks@ubuntu.com>  Tue, 08 Dec 2015 08:55:09 +0100
 

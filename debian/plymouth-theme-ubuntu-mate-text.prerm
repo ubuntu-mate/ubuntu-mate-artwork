@@ -5,8 +5,6 @@ set -e
 if [ "x$1" = xremove ]; then
 	update-alternatives \
 		--remove text.plymouth /usr/share/plymouth/themes/ubuntu-mate-text/ubuntu-mate-text.plymouth
-
-	rm -f /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth
 fi
 
 #DEBHELPER#
