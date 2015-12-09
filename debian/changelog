@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (15.12.1) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (15.12.1) xenial; urgency=medium
 
   * Transition with new plymouth from /usr/share to /lib:
     - replace /lib instances by /usr/share
@@ -8,7 +8,7 @@ ubuntu-mate-artwork (15.12.1) UNRELEASED; urgency=medium
   * Fixing a removal in ubuntu mate on a file that isn't part of this
     package.
 
- -- Didier Roche <didrocks@ubuntu.com>  Tue, 08 Dec 2015 08:55:09 +0100
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 09 Dec 2015 08:33:41 +0100
 
 ubuntu-mate-artwork (15.10.4) wily; urgency=medium
 
