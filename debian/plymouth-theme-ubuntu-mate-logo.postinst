@@ -18,14 +18,6 @@
 
 case "$1" in
     configure)
-    # transition from /lib to /usr/share theme file. If the symlink is dangling
-    # the call to alternative doesn't work on updating its path. Removing then
-    # the dangling symlink to recreate a clean config with next
-    # update-alternatives call.
-    if [ ! -r $(readlink -m "/etc/alternatives/default.plymouth") ]; then
-        rm -f /etc/alternatives/default.plymouth
-    fi
-
 	update-alternatives \
 		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
 		/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.plymouth 150 \
