@@ -1,3 +1,18 @@
+ubuntu-mate-artwork (16.04.0) xenial; urgency=medium
+
+  [ Will Cooke ]
+  * Adds padding to sidebar icons (LP: #1515557)
+  * Revised theme support for new version of Gedit.
+
+  [ Lars Uebernickel ]
+  * osd: style free-floating osd buttons (LP: #1466890, #1500844)
+
+  [ Martin Wimpress ]
+  * Added new community contributed wallpapers.
+  * Added MATE colourised icons for devices and places.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 14 Dec 2015 10:33:02 +0000
+
 ubuntu-mate-artwork (15.12.1) xenial; urgency=medium
 
   * Transition with new plymouth from /usr/share to /lib:
@@ -18,7 +33,7 @@ ubuntu-mate-artwork (15.10.4) wily; urgency=medium
   * Closes (LP: #)  
 
   [ Iain Lane ]
-  * Style software-center's action bar again
+  * Style software-center's action bar again.
 
  -- Martin Wimpress <code@flexion.org>  Tue, 22 Sep 2015 09:31:41 +0100
 

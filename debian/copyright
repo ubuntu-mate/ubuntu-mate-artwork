@@ -62,6 +62,8 @@ Copyright: 2015 Steve Cook
 License: CC-BY-SA-4.0
 
 Files: usr/share/backgrounds/ubuntu-mate-wily/ubuntu-mate-trusty-green.jpg
+       usr/share/backgrounds/ubuntu-mate-xenial/ubuntu-mate-xenial.png
+       usr/share/backgrounds/ubuntu-mate-xenial/ubuntu-mate-xenial-light.png
 Copyright: 2015 Rohith Madhavan
 License: CC-BY-SA-4.0
 
@@ -73,6 +75,18 @@ Files: usr/share/backgrounds/ubuntu-mate-wily/Neon-UbuntuMATE.png
 Copyright: 2015 quidsup
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-xenial/mate-scrawl.png
+Copyright: 2015 Ryan Ride
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-xenial/beach-vibes.jpg
+       usr/share/backgrounds/ubuntu-mate-xenial/city-chill.jpg
+Copyright: 2015 Noe Gonzales
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-xenial/ubuntu-mate-bubble.png
+Copyright: 2015 Aditya Singh
+License: CC-BY-SA-4.0
 
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png
 Copyright: 2014 Jack Mohegan
