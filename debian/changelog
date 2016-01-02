@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (16.04.1) UNRELEASED; urgency=medium
+
+  * Added new community contributed wallpapers.
+  * Added MATE colourised icons for categories. (LP: #1530446)
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 02 Jan 2016 11:37:53 +0000
+
 ubuntu-mate-artwork (16.04.0) xenial; urgency=medium
 
   [ Will Cooke ]

@@ -12,13 +12,13 @@
         <filename>/usr/share/backgrounds/ubuntu-mate-xenial/city-chill.jpg</filename>
         <options>zoom</options>
         <artist>Noe Gonzales</artist>
-    </wallpaper>    
+    </wallpaper>
         <wallpaper deleted="false">
         <name>MATE Scrawl</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-xenial/mate-scrawl.png</filename>
         <options>zoom</options>
         <artist>Ryan Ride</artist>
-    </wallpaper>    
+    </wallpaper>
     <wallpaper deleted="false">
         <name>Ubuntu MATE Bubble</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-xenial/ubuntu-mate-bubble.png</filename>
@@ -36,5 +36,17 @@
         <filename>/usr/share/backgrounds/ubuntu-mate-xenial/ubuntu-mate-xenial-light.png</filename>
         <options>zoom</options>
         <artist>Rohith Madhavan</artist>
-    </wallpaper>                
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>The MATErix</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/The_MATErix.png</filename>
+        <options>zoom</options>
+        <artist>Luke Horwell</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Greyscaled Wood</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/greyscaled-wood.jpg</filename>
+        <options>zoom</options>
+        <artist>Rick Lell</artist>
+    </wallpaper>
 </wallpapers>
