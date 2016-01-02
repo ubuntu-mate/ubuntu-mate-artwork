@@ -1,5 +1,10 @@
 ubuntu-mate-artwork (16.04.1) UNRELEASED; urgency=medium
 
+  * Basic "app-notification" theming to avoid weirdness in nautilus
+  * Update the nautilus.css with the current upstream one, it could
+    probably be tweaked a bit and has references to color used upstream
+    but those don't look out of place with our theme and is better than
+    what we have now
   * Added new community contributed wallpapers.
   * Added MATE colourised icons for categories. (LP: #1530446)
 
@@ -17,7 +22,7 @@ ubuntu-mate-artwork (16.04.0) xenial; urgency=medium
   [ Martin Wimpress ]
   * Added new community contributed wallpapers.
   * Added MATE colourised icons for devices and places. (LP: #1509712)
-  * Closes (LP: #1525896)  
+  * Closes (LP: #1525896)
 
  -- Martin Wimpress <code@flexion.org>  Mon, 14 Dec 2015 10:33:02 +0000
 
@@ -38,7 +43,7 @@ ubuntu-mate-artwork (15.10.4) wily; urgency=medium
   [ Martin Wimpress ]
   * Sync with ubuntu-themes 14.04+15.10.20150910-0ubuntu1
   * Add missing symlinks for icons required by Blueman 2.0.
-  * Closes (LP: #)  
+  * Closes (LP: #)
 
   [ Iain Lane ]
   * Style software-center's action bar again
