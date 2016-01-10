@@ -49,4 +49,52 @@
         <options>zoom</options>
         <artist>Rick Lell</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Berry Fog</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystemateberryfog.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Berry Fog (Hushed)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystemateberryfoghushed.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Blue Wind</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystematebluewind.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Blue Wind (Hushed)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystematebluewindhushed.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Clear Day</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystemateclearday.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Clear Day (Hushed)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystematecleardayhushed.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Green Ray</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystemategreenray.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Solar SysteMATE Green Ray (Hushed)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/solarsystemategreenrayhushed.png</filename>
+        <options>zoom</options>
+        <artist>Randall Lewis</artist>
+    </wallpaper>
 </wallpapers>
