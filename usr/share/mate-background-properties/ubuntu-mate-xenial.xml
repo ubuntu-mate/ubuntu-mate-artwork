@@ -97,4 +97,22 @@
         <options>zoom</options>
         <artist>Randall Lewis</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Sky High</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/chase-building-shot.jpg</filename>
+        <options>zoom</options>
+        <artist>Noe Gonzales</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Flying with MATE</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/flying-with-mate.jpg</filename>
+        <options>zoom</options>
+        <artist>Sacha</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Honey Island</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-xenial/honey-island.jpg</filename>
+        <options>zoom</options>
+        <artist>Sacha</artist>
+    </wallpaper>
 </wallpapers>

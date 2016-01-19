@@ -81,11 +81,17 @@ License: CC-BY-SA-4.0
 
 Files: usr/share/backgrounds/ubuntu-mate-xenial/beach-vibes.jpg
        usr/share/backgrounds/ubuntu-mate-xenial/city-chill.jpg
-Copyright: 2015 Noe Gonzales
+       usr/share/backgrounds/ubuntu-mate-xenial/chase-building-shot.jpg
+Copyright: 2015-2016 Noe Gonzales
 License: CC-BY-SA-4.0
 
 Files: usr/share/backgrounds/ubuntu-mate-xenial/The_MATErix.png
 Copyright: 2015 Luke Horwell
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-xenial/flying-with-mate.jpg
+       usr/share/backgrounds/ubuntu-mate-xenial/honey-island.jpg
+Copyright: 2016 Sacha
 License: CC-BY-SA-4.0
 
 Files: usr/share/backgrounds/ubuntu-mate-xenial/solarsystemate*.png
