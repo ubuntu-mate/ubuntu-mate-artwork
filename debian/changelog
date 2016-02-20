@@ -1,6 +1,8 @@
 ubuntu-mate-artwork (16.04.2) xenial; urgency=medium
 
   * Added new community contributed wallpapers.
+  * Added parcellite icons.
+  * Remove symlink.sh, it is obsolete.
   * Removed the "hushed" variations of the Solar System wallpapers.
   * Closes (LP: #1547947)
 
