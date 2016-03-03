@@ -1,7 +1,9 @@
 ubuntu-mate-artwork (16.04.3) UNRELEASED; urgency=medium
 
   * Fix icon inheritance. Closes (LP: #1552363, LP: #1549079)
-  * Fix incorrect Open icon. Closes (LP: #1541929)   
+  * Fix incorrect Open icon. Closes (LP: #1541929)
+  * Fix LibreOffice icons in Ambiant-MATE and Radiant-MATE icon themes.
+  Closes (LP: #1551029)
 
  -- Martin Wimpress <code@flexion.org>  Wed, 02 Mar 2016 22:41:06 +0000
 
