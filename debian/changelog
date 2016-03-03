@@ -4,6 +4,7 @@ ubuntu-mate-artwork (16.04.3) UNRELEASED; urgency=medium
   * Fix incorrect Open icon. Closes (LP: #1541929)
   * Fix LibreOffice icons in Ambiant-MATE and Radiant-MATE icon themes.
   Closes (LP: #1551029)
+  * Fix incorrect theming for Mozo dialogues. Closes (LP: #1442738)
 
  -- Martin Wimpress <code@flexion.org>  Wed, 02 Mar 2016 22:41:06 +0000
 
