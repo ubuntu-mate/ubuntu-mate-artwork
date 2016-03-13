@@ -1,6 +1,7 @@
 ubuntu-mate-artwork (16.04.4) UNRELEASED; urgency=medium
 
-  * Fix incorrect Appearence icon. Close (LP: #1556618)
+  * Fix incorrect Appearence icon. Close (LP: #1556618) 
+  * Add Synapse indicator icons.
 
  -- Martin Wimpress <code@flexion.org>  Sun, 13 Mar 2016 15:38:23 +0000
 
