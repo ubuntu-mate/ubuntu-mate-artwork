@@ -1,4 +1,10 @@
-ubuntu-mate-artwork (16.04.3) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (16.04.4) UNRELEASED; urgency=medium
+
+  * Fix incorrect Appearence icon. Close (LP: #1556618)
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 13 Mar 2016 15:38:23 +0000
+
+ubuntu-mate-artwork (16.04.3) xenial; urgency=medium
 
   * Fix icon inheritance. Closes (LP: #1552363, LP: #1549079)
   * Fix incorrect Open icon. Closes (LP: #1541929)
