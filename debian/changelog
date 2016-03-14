@@ -3,6 +3,8 @@ ubuntu-mate-artwork (16.04.4) xenial; urgency=medium
   * Fix incorrect Appearance icon. Close (LP: #1556618).
   * Correct GTK2 buttons so they match GTK3 buttons.
   * Correct GTK3 scrollbars so they match GTK2 scrollbars.
+  * Add minimal style for CSD windows when running without compositing
+  manager.
   * Add Synapse indicator icons.
 
  -- Martin Wimpress <code@flexion.org>  Sun, 13 Mar 2016 15:38:23 +0000
