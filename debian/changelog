@@ -1,6 +1,6 @@
-ubuntu-mate-artwork (16.04.4) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (16.04.4) xenial; urgency=medium
 
-  * Fix incorrect Appearence icon. Close (LP: #1556618).
+  * Fix incorrect Appearance icon. Close (LP: #1556618).
   * Correct GTK2 buttons so they match GTK3 buttons.
   * Correct GTK3 scrollbars so they match GTK2 scrollbars.
   * Add Synapse indicator icons.
@@ -93,7 +93,7 @@ ubuntu-mate-artwork (15.10.3) wily; urgency=medium
     + Update GTK3 scrollbars to be always visible so they fit with
     the MATE desktop.
 
- -- Martin Wimpress <martin@nuc>  Mon, 07 Sep 2015 13:54:54 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 07 Sep 2015 13:54:54 +0100
 
 ubuntu-mate-artwork (15.10.2) wily; urgency=medium
 
