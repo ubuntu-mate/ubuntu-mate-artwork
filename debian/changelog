@@ -1,6 +1,8 @@
-ubuntu-mate-artwork (16.04.4) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (16.04.4) xenial; urgency=medium
 
-  * Fix incorrect Appearence icon. Closes (LP: #1556618) 
+  * Fix incorrect Appearance icon. Close (LP: #1556618).
+  * Correct GTK2 buttons so they match GTK3 buttons.
+  * Correct GTK3 scrollbars so they match GTK2 scrollbars.
   * Add Synapse indicator icons.
 
  -- Martin Wimpress <code@flexion.org>  Sun, 13 Mar 2016 15:38:23 +0000
@@ -10,8 +12,9 @@ ubuntu-mate-artwork (16.04.3) xenial; urgency=medium
   * Fix icon inheritance. Closes (LP: #1552363, LP: #1549079)
   * Fix incorrect Open icon. Closes (LP: #1541929)
   * Fix LibreOffice icons in Ambiant-MATE and Radiant-MATE icon themes.
-  Closes (LP: #1551029)
+  Closes (LP: #1551029, LP: #1499521)
   * Fix incorrect theming for Mozo dialogues. Closes (LP: #1442738)
+  * Closes (LP: #1552712)
 
  -- Martin Wimpress <code@flexion.org>  Wed, 02 Mar 2016 22:41:06 +0000
 
@@ -90,7 +93,7 @@ ubuntu-mate-artwork (15.10.3) wily; urgency=medium
     + Update GTK3 scrollbars to be always visible so they fit with
     the MATE desktop.
 
- -- Martin Wimpress <martin@nuc>  Mon, 07 Sep 2015 13:54:54 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 07 Sep 2015 13:54:54 +0100
 
 ubuntu-mate-artwork (15.10.2) wily; urgency=medium
 
@@ -144,7 +147,7 @@ ubuntu-mate-artwork (0.4.10) wily; urgency=medium
   * Update the LighDM GTK Greeter configuration to conform with recent
   changes to handle multiple configuration files. Closes (LP: #1466191)
 
- -- Martin Wimpress <code@flexion.org>  Thu, 25 June 2015 02:42:43 +0100
+ -- Martin Wimpress <code@flexion.org>  Thu, 25 Jun 2015 02:42:43 +0100
 
 ubuntu-mate-artwork (0.4.9.1) wily; urgency=medium
 
