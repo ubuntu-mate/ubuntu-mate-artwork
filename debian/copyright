@@ -107,6 +107,10 @@ Files: usr/share/backgrounds/ubuntu-mate-xenial/ubuntu-mate-bubble.png
 Copyright: 2015 Aditya Singh
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-xenial/Blissful*.jpg
+Copyright: 2016 Jordyn
+License: CC-BY-SA-4.0
+
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png
 Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0

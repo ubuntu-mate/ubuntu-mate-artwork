@@ -1,12 +1,43 @@
+ubuntu-mate-artwork (16.04.6) xenial; urgency=medium
+
+  [ Marco Trevisan (Treviño) ]
+  * Ambiance, Radiance: use inverted gradient in headerbar when in
+    toolbar-mode (LP: #1515810)
+
+  [ Sebastien Bacher ]
+  * reduce the padding on flat entries, that's needed with gtk 3.18
+    otherwise the entry is displayed over new rows in listview when
+    editing, that's also what the gtk upstream themes are doing.
+  * show the cursor index better in totem videos (LP: #1545026)
+
+  [ Will Cooke ]
+  * Override box shadow and border settings for linked dialog buttons so
+    they don't looked mashed together. Extra border radius is required
+    to stop the button background bleeding through the border. (LP:
+    #1513856)
+
+  [ Martin Wimpress ]
+  * Merge with ubuntu-themes. Closes (LP: #1563971)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 30 Mar 2016 02:02:18 +0100
+
+ubuntu-mate-artwork (16.04.5) xenial; urgency=medium
+
+  * Reupload to add art assets missing from version 16.04.4.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 21 Mar 2016 12:10:08 +0000
+
 ubuntu-mate-artwork (16.04.4) xenial; urgency=medium
 
-  * Fix incorrect Appearance icon. Close (LP: #1556618).
+  * Fix incorrect Appearance icon. Closes (LP: #1556618)
+  * Fix lintian errors in debian/changelog
   * Correct buttons and scrollbars so GTK2 and GTK3 themes are more
   closely aligned.
   * Add resize area and shadows for CSD windows.
-  * Add minimal style for CSD windows when running without compositing
-  manager.
+  * Add minimal style for CSD windows running without a compositor.
   * Add Synapse indicator icons.
+  * Add community contributed wallpaper.
+  * Closes (LP: #1557229)
 
  -- Martin Wimpress <code@flexion.org>  Sun, 13 Mar 2016 15:38:23 +0000
 
