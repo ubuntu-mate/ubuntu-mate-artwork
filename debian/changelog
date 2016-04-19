@@ -1,3 +1,14 @@
+ubuntu-mate-artwork (16.04.7~xenial1.0) xenial; urgency=medium
+
+  [ Adolfo Jayme Barrientos ]
+  * Add 1px padding to calendar widget elements; looks better. Thanks,
+    Khurshid Alam. (LP: #1537794)
+
+  [ Will Cooke ]
+  * Adds these fixes for Calendar: (LP: #1551744, #1558659)
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 19 Apr 2016 13:26:03 +0100
+
 ubuntu-mate-artwork (16.04.6) xenial; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
