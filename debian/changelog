@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (16.10.0) yakkety; urgency=medium
+
+  * Add gtksourceview 3.0 styles.
+  * Add initial community contributed wallpapers.
+  * Drop obsolete Yuyo gtksourceview 2.0 styles.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 17 May 2016 22:21:59 +0100
+
 ubuntu-mate-artwork (16.04.6.1) xenial; urgency=medium
 
   [ Adolfo Jayme Barrientos ]
