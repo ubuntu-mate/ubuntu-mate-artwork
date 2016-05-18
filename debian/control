@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
 Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://launchpad.net/ubuntu-mate/
 Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork/files
@@ -24,7 +24,7 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-xenial,
+         ubuntu-mate-wallpapers-yakkety,
          ${misc:Depends},
 Suggests: mate-backgrounds,
 Description: Wallpaper and background images for Ubuntu MATE
@@ -47,7 +47,8 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
-         ubuntu-mate-wallpapers-xenial,         
+         ubuntu-mate-wallpapers-xenial,
+         ubuntu-mate-wallpapers-yakkety,                  
          ${misc:Depends},
 Description: Complete set of all Ubuntu MATE wallpapers
  A complete set of all the wallpapers contributed to Ubuntu MATE by the
@@ -78,6 +79,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 16.04 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 16.04
+
+Package: ubuntu-mate-wallpapers-yakkety
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 16.10 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 16.10
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
