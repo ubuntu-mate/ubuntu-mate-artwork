@@ -1,7 +1,7 @@
-<style-scheme id="Yuyo" _name="Yuyo" version="1.0">
-<author>Martin Wimpress</author>
-<_description>A light theme to match Yuyo</_description>
-<style name="line-numbers" foreground="#DFDBD2" background="#4B5044" bold="True"/>
+<style-scheme id="Radiant-MATE" _name="Radiant-MATE" version="1.0">
+<author>Christian Dannie Storgaard (Cybolic)</author>
+<_description>A light theme to match Radiant-MATE</_description>
+<style name="line-numbers" foreground="#DFDBD2" background="#3C3B37" bold="True"/>
 <style name="text" foreground="#3C3C3C" background="#FFFFFF"/>
 <style name="selection" foreground="#FFFFFF" background="#87A851"/>
 <style name="selection-unfocused" background="#B4B3B1"/>
