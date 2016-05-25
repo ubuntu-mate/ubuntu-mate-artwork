@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (16.10.1) yakkety; urgency=medium
+
+  * Update Ambiant-MATE and Radiant-MATE to support MATE built
+    against GTK 3.18.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 25 May 2016 23:32:35 +0100
+
 ubuntu-mate-artwork (16.10.0) yakkety; urgency=medium
 
   * Add gtksourceview 3.0 styles.
