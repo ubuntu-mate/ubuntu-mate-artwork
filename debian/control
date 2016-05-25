@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
 Homepage: https://launchpad.net/ubuntu-mate/
 Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork/files
+Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork/files
 
 Package: ubuntu-mate-artwork
 Architecture: all
