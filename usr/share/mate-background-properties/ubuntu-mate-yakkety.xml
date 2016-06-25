@@ -31,4 +31,17 @@
         <options>zoom</options>
         <artist>Okinawa</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Selassie</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/selassiemate.jpg</filename>
+        <options>zoom</options>
+        <artist>Per Andersson</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Selassie (Gray)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/selassiemategray.jpg</filename>
+        <options>zoom</options>
+        <artist>Per Andersson</artist>
+    </wallpaper>
 </wallpapers>
+
