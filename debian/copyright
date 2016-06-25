@@ -112,8 +112,12 @@ Files: usr/share/backgrounds/ubuntu-mate-xenial/Blissful*.jpg
 Copyright: 2016 Jordyn
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-yakkety/FoldedLinenPaper.jpg
-Copyright: 2016 Jim Marcus
+Files: usr/share/backgrounds/ubuntu-mate-yakkety/Waves*.jpg
+Copyright: 2016 Jordyn
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-yakkety/*Mustache*.png
+Copyright: 2016 Okinawa
 License: CC-BY-SA-4.0
 
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png

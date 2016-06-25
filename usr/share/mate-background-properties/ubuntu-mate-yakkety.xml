@@ -2,9 +2,33 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Folded Linen Paper</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/FoldedLinenPaper.jpg</filename>
+        <name>Waves</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/Waves.jpg</filename>
         <options>zoom</options>
-        <artist>Jim Markus</artist>
+        <artist>Jordyn</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Waves</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/Waves_Ubuntu_MATE.jpg</filename>
+        <options>zoom</options>
+        <artist>Jordyn</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Green Mustache (Logo)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/Green_Mustache_Logo.png</filename>
+        <options>zoom</options>
+        <artist>Okinawa</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Green Mustache (Words)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/Green_Mustache_Words.png</filename>
+        <options>zoom</options>
+        <artist>Okinawa</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Grey Mustache (Words)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/Grey_Mustache_Words.png</filename>
+        <options>zoom</options>
+        <artist>Okinawa</artist>
     </wallpaper>
 </wallpapers>

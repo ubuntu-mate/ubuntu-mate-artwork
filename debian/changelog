@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (16.10.3) yakkety; urgency=medium
+
+  * Update community contributed wallpapers.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 24 Jun 2016 13:54:05 +0100
+
 ubuntu-mate-artwork (16.10.2) yakkety; urgency=medium
 
   * Fix broken battery icon.
