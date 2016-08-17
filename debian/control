@@ -125,6 +125,7 @@ Description: Icon themes for Ubuntu MATE
 Package: ubuntu-mate-themes
 Architecture: all
 Multi-Arch: foreign
+Breaks: libgtk-3-0 (<< 3.19)
 Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          ubuntu-mate-icon-themes,
          ${misc:Depends},
