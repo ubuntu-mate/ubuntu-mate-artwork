@@ -43,5 +43,16 @@
         <options>zoom</options>
         <artist>Per Andersson</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Yakkety Yak Hit Parade</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/yakkety-yak-hit-parade.png</filename>
+        <options>zoom</options>
+        <artist>Ghost Sixtyseven</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Yakkety Yak Is a Hit</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-yakkety/yakkety-yak-is-a-hit.png</filename>
+        <options>zoom</options>
+        <artist>Ghost Sixtyseven</artist>
+    </wallpaper>
 </wallpapers>
-
