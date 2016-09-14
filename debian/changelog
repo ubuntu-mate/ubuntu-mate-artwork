@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (16.10.10) UNRELEASED; urgency=medium
+
+  * Fix missing symlink for add-folder-to-archive.svg. (LP: #1579339)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 14 Sep 2016 12:03:23 +0100
+
 ubuntu-mate-artwork (16.10.6) yakkety; urgency=medium
 
   * Update Ubuntu MATE themes to support GTK 3.20. (LP: #1593048)
