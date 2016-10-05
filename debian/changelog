@@ -1,4 +1,11 @@
-ubuntu-mate-artwork (16.10.10) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (16.10.8~yakkety1.1) yakkety; urgency=medium
+
+  * Fix Advanced Menu themes to use flat elements. (LP: #1630366, #1624755)
+  * Fix OSD colors. (LP: #1630538)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 04 Oct 2016 21:30:00 +0100
+
+ubuntu-mate-artwork (16.10.7) yakkety; urgency=medium
 
   * Improve GTK 3.20 support. (LP: #1593054)
   * Fix Advanced Menu theme so colors are consistent. (LP: #1618035)
@@ -7,6 +14,7 @@ ubuntu-mate-artwork (16.10.10) UNRELEASED; urgency=medium
   * Fix tabs so they don't appear inactive. (LP: #1624572)
   * Fix Eye of MATE and Atril theme. (LP: #1624567)
   * Fix OSD. (LP: #1623197)
+  * Fix Ubiquity theme. (LP: #1623195)
 
  -- Martin Wimpress <code@flexion.org>  Wed, 14 Sep 2016 12:03:23 +0100
 
