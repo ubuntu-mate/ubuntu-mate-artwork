@@ -4,6 +4,7 @@ ubuntu-mate-artwork (16.10.8~yakkety1.1) yakkety; urgency=medium
   * Fix OSD colors. (LP: #1630538)
   * Fix LibreOffice toolbars and theme (LP: #1624571, #1550990)
   * Fix symbolic icons for GtkExpander.
+  * Fix Transmission progress bars. (LP: #1624565)
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 04 Oct 2016 21:30:00 +0100
 
