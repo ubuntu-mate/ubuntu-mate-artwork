@@ -7,7 +7,7 @@ ubuntu-mate-artwork (16.10.8) yakkety; urgency=medium
   * Fix Transmission progress bars. (LP: #1624565)
   * Fix Indicator Applet on transparent panels. (LP: #1598159)
 
- -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 04 Oct 2016 21:30:00 +0100
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 06 Oct 2016 23:35:00 +0100
 
 ubuntu-mate-artwork (16.10.7) yakkety; urgency=medium
 
