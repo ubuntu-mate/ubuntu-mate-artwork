@@ -2,6 +2,8 @@ ubuntu-mate-artwork (16.10.8~yakkety1.1) yakkety; urgency=medium
 
   * Fix Advanced Menu themes to use flat elements. (LP: #1630366, #1624755)
   * Fix OSD colors. (LP: #1630538)
+  * Fix LibreOffice toolbars and theme (LP: #1624571, #1550990)
+  * Fix symbolic icons for GtkExpander.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 04 Oct 2016 21:30:00 +0100
 
