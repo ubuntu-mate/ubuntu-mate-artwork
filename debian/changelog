@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (16.10.8~yakkety1.1) yakkety; urgency=medium
+ubuntu-mate-artwork (16.10.8) yakkety; urgency=medium
 
   * Fix Advanced Menu themes to use flat elements. (LP: #1630366, #1624755)
   * Fix OSD colors. (LP: #1630538)
