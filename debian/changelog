@@ -6,7 +6,7 @@ ubuntu-mate-artwork (16.10.9) yakkety; urgency=medium
   * Fix Firefox Search/Location entry box borders. (LP: #1624738)
   * Fix Firefox menu items.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 10 Oct 2016 08:42:40 +0100
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 09 Oct 2016 20:42:40 +0100
 
 ubuntu-mate-artwork (16.10.8) yakkety; urgency=medium
 
