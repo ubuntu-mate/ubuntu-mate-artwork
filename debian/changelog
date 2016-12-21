@@ -1,7 +1,14 @@
+ubuntu-mate-artwork (17.04.0~zesty1.0) UNRELEASED; urgency=medium
+
+  [ Daniel Foré ]
+  * Update Folder icons.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 21 Dec 2016 13:43:53 +0000
+
 ubuntu-mate-artwork (16.10.9) yakkety; urgency=medium
 
   * Fix Firefox download progress bars. (LP: #1630224)
-  * Fix Unlock button for Time and Date administration. (LP: #1630910)
+  * Fix Unlock button for Time and Date Settings. (LP: #1630910)
   * Fix Back/Forward navigation buttons in Yelp. (LP: #1624574)
   * Fix Firefox Search/Location entry box borders. (LP: #1624738)
   * Fix Firefox menu items.
