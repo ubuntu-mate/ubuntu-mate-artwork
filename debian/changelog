@@ -1,7 +1,16 @@
-ubuntu-mate-artwork (17.04.0~zesty1.0) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (17.04.0~zesty1.1) zesty; urgency=medium
 
   [ Daniel Foré ]
   * Update Folder icons.
+
+  [ Michael Tunnell ]
+  * Update assets with pixel doubled variants.
+
+  [ Martin Wimpress ]
+  * Add CSS for pixel doubled assets.
+  * Fix Monospace fonts.
+  * Fix notebook background color.
+  * Remove deprecated settings from gtk-widgets.css
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 21 Dec 2016 13:43:53 +0000
 
