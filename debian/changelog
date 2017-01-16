@@ -1,3 +1,13 @@
+ubuntu-mate-artwork (17.04.1) zesty; urgency=medium
+
+  [ Daniel Foré ]
+  * Add Computer, Desktop and Ubiquity icons.
+
+  [ Jack Mohegan ]
+  * Correct battery icon size. (LP: #1637005)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 16 Jan 2017 19:27:02 +0000
+
 ubuntu-mate-artwork (17.04.0) zesty; urgency=medium
 
   [ Daniel Foré ]
