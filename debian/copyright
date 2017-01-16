@@ -22,7 +22,9 @@ Files: usr/share/themes/*
        usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
            2014-2015, Martin Wimpress.
-           2014-2015, Michael Tunnell.
+           2014-2016, Jack Mohegan.
+           2014-2016, Michael Tunnell.
+           2016-2017, Daniel Foré
 License: CC-BY-SA-3.0
 
 Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-*.jpg
