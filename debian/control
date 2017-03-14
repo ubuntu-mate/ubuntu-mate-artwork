@@ -48,7 +48,8 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
          ubuntu-mate-wallpapers-xenial,
-         ubuntu-mate-wallpapers-yakkety,                  
+         ubuntu-mate-wallpapers-yakkety,
+         ubuntu-mate-wallpapers-zesty,         
          ${misc:Depends},
 Description: Complete set of all Ubuntu MATE wallpapers
  A complete set of all the wallpapers contributed to Ubuntu MATE by the
@@ -85,6 +86,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 16.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 16.10
+
+Package: ubuntu-mate-wallpapers-zesty
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 17.04 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 17.04
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all

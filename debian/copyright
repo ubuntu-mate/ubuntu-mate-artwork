@@ -128,6 +128,22 @@ Files: usr/share/backgrounds/ubuntu-mate-yakkety/selassie*.jpg
 Copyright: 2016 Per Andersson
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-zesty/tux-minimal.png
+Copyright: 2016 Mindaugas
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-zesty/simplematetunnel.jpg
+Copyright: 2016 Tucker Schinner
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-zesty/Ubuntu-MATE-*.jpg
+Copyright: 2016 Antech Designs
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-zesty/auto-*.png
+Copyright: 2016 Sergio
+License: CC-BY-SA-4.0
+
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png
 Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0

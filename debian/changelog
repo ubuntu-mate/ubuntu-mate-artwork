@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (17.04.2) zesty; urgency=medium
+
+  * Add community contributed backgrounds for Zesty. (LP: #1672802)
+  * Add sym-links to the new Nautilus icon name org.gnome.Nautilus. (LP: #1669663)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 13 Mar 2017 22:18:12 +0000
+
 ubuntu-mate-artwork (17.04.1) zesty; urgency=medium
 
   [ Daniel Foré ]
