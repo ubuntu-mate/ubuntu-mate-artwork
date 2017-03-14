@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Tux Minimal</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/tux-minimal.png</filename>
+        <options>zoom</options>
+        <artist>Mindaugas</artist>
+
+        <name>Ubuntu MATE Reflected</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/Ubuntu-MATE-Reflected.jpg</filename>
+        <options>zoom</options>
+        <artist>Antech Designs</artist>
+
+        <name>Ubuntu MATE Sunset</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/Ubuntu-MATE-Sunset.jpg</filename>
+        <options>zoom</options>
+        <artist>Antech Designs</artist>        
+
+        <name>Auto Blue</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/auto-blue-classic-logo.png</filename>
+        <options>zoom</options>
+        <artist>Sergio</artist>
+        
+        <name>Auto MATE</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/auto-mate-classic-logo.png</filename>
+        <options>zoom</options>
+        <artist>Sergio</artist>
+        
+        <name>Auto Black and White</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/auto-baw-classic-logo.png</filename>
+        <options>zoom</options>
+        <artist>Sergio</artist>
+        
+        <name>Auto Rojo</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/auto-rojo-classic-logo.png</filename>
+        <options>zoom</options>
+        <artist>Sergio</artist>
+        
+        <name>Simple MATE Tunnel</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/simplematetunnel.jpg</filename>
+        <options>zoom</options>
+        <artist>Tucker Schinner</artist>
+    </wallpaper>
+</wallpapers>
