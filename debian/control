@@ -24,7 +24,7 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-yakkety,
+         ubuntu-mate-wallpapers-zesty,
          ${misc:Depends},
 Suggests: mate-backgrounds,
 Description: Wallpaper and background images for Ubuntu MATE

@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (17.04.3) zesty; urgency=medium
+
+  * Install Zesty backgrounds by default.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 15 Mar 2017 13:03:38 +0000
+
 ubuntu-mate-artwork (17.04.2) zesty; urgency=medium
 
   * Add community contributed backgrounds for Zesty. (LP: #1672802)
