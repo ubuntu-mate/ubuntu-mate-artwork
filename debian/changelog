@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (17.04.4) zesty; urgency=medium
+
+  * Add missing Ambiant-MATE dark variant.
+  * Fix borders on Firefox.
+  * Fix Radiant-MATE by merging missing updates from Ambiant-MATE.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 16 Mar 2017 17:43:25 +0000
+
 ubuntu-mate-artwork (17.04.3) zesty; urgency=medium
 
   * Install Zesty backgrounds by default.
