@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (17.04.6) zesty; urgency=medium
+
+  * Fix windows borders in Radiant-MATE when no compositor is present.
+  * Fix the height of switches in the header bar.
+  * Fix scrollbars so they are properly consistent in GTK2+ and GTK3+.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 19 Mar 2017 21:52:58 +0000
+
 ubuntu-mate-artwork (17.04.5) zesty; urgency=medium
 
   * Fix overlapping icons in applications with header bars. (LP: #1630773)
