@@ -140,6 +140,7 @@ Description: GTK2 and GTK3 themes for Ubuntu MATE
  Includes matching Ambiant and Radiant themes
  .
  * Ambiant-MATE is a light-on-dark theme
+ * Ambiant-MATE-Dark is a dark-on-dark theme
  * Radiant-MATE is a dark-on-light theme
  .
 
