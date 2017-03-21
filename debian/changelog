@@ -1,3 +1,15 @@
+ubuntu-mate-artwork (17.04.7) zesty; urgency=medium
+
+  * Fix Brisk Menu styling to match the other menus.
+  * Fix toolbar styling and drop GTK2+ alpha channel.
+  * Fix button highlights in Shutdown dialogue.
+  * Fix corners on the lock screen credentials dialogue.
+  * Fix check boxes in Ubiquity partition tool.
+  * Fix borders around toolbars from "faux" headerbars.
+  * Fix colour of headerbar dividers.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 21 Mar 2017 00:28:15 +0000
+
 ubuntu-mate-artwork (17.04.6) zesty; urgency=medium
 
   * Fix windows borders in Radiant-MATE when no compositor is present.
