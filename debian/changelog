@@ -1,3 +1,14 @@
+ubuntu-mate-artwork (17.04.8) zesty; urgency=medium
+
+  * Fix Buttons and Notebooks for Ambiant-MATE-Dark.
+  * Fix levelbar throughs and size.
+  * Fix the colour of Notebook leading edge in all themes.
+  * Fix the border of the sound applet in Ambiant-MATE.
+  * Fix the button highlights in the shutdown dialogue for all themes.
+  * Fix separators in Firefox.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 23 Mar 2017 19:28:42 +0000
+
 ubuntu-mate-artwork (17.04.7) zesty; urgency=medium
 
   * Fix Brisk Menu styling to match the other menus.
