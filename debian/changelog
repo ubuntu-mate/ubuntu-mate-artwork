@@ -1,3 +1,25 @@
+ubuntu-mate-artwork (17.04.9~zesty1.0) zesty; urgency=medium
+
+  * Fix GTK2+ radio and checkbox assets to match GTK3+. (LP: #1046129)
+  * Fix GTK2+ Notebooks, Progress bars and Sliders so they match GTK3+.
+  * Fix GTK2+ Ambiant-MATE so that Qt4/Qt5 applications are styled correctly.
+  * Fix GTK2+ runtime warnings.
+  * Fix GTK2+ and GTK3+ Notebook background and font colours.  
+  * Fix GTK3+ switches, particularly in headerbars.
+  * Fix GTK3+ button hover focus.
+  * Fix background and colours for MATE Terminal and GNOME Terminal.
+  * Fix box-shadow on desktop windows.
+  * Fix styling for Brisk Menu and MATE Menu.
+  * Fix popover modelbuttons.
+  * Fix solid-csd border colors.
+  * Fix border images for Ambiant-MATE Dark.
+  * Add missing gtkstyle-fallback settings.
+  * Add missing GtkSourceView styles for Ambiant-MATE-Dark.
+  * Add Ubuntu MATE community contributed wallpaper, Ubuntu MATE Wet.
+  * Remove obsolete GTK2+ styling.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 26 Mar 2017 21:38:38 +0100
+
 ubuntu-mate-artwork (17.04.8) zesty; urgency=medium
 
   * Fix Buttons and Notebooks for Ambiant-MATE-Dark.

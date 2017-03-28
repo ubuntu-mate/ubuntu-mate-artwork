@@ -20,6 +20,12 @@
         <artist>Antech Designs</artist>
     </wallpaper>
     <wallpaper deleted="false">
+        <name>Ubuntu MATE Wet</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-zesty/Ubuntu-MATE-Wet.jpg</filename>
+        <options>zoom</options>
+        <artist>Antech Designs</artist>
+    </wallpaper>    
+    <wallpaper deleted="false">
         <name>Auto Blue</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-zesty/auto-blue-classic-logo.png</filename>
         <options>zoom</options>
