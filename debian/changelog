@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (17.04.9~zesty1.0) zesty; urgency=medium
+ubuntu-mate-artwork (17.04.9) zesty; urgency=medium
 
   * Fix GTK2+ radio and checkbox assets to match GTK3+. (LP: #1046129)
   * Fix GTK2+ Notebooks, Progress bars and Sliders so they match GTK3+.
