@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (17.04.10) zesty; urgency=medium
+
+  * Fix Brisk Menu button styling to match the other menu applets.
+  * Fix scale troughs for inactive windows for Ambiant-MATE Dark.
+  * Fix keyboard layout view.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 30 Mar 2017 22:35:34 +0100
+
 ubuntu-mate-artwork (17.04.9) zesty; urgency=medium
 
   * Fix GTK2+ radio and checkbox assets to match GTK3+. (LP: #1046129)
