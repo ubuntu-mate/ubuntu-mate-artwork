@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (17.04.11) zesty; urgency=medium
+
+  * Fix keyboard layout styling.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 05 Apr 2017 22:56:18 +0100
+
 ubuntu-mate-artwork (17.04.10) zesty; urgency=medium
 
   * Fix Brisk Menu button styling to match the other menu applets.
