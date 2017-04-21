@@ -1,3 +1,17 @@
+ubuntu-mate-artwork (17.10.0) artful; urgency=medium
+
+  * Add community contributed wallpapers to ubuntu-mate-wallpapers-artful.
+  * Add new default wallpapers to ubuntu-mate-wallpapers-artful.
+  * Move old default wallpapers to ubuntu-mate-wallpapers-legacy.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 21 Apr 2017 05:57:30 +0100
+
+ubuntu-mate-artwork (17.04.12) zesty; urgency=medium
+
+  * Correct keyboard layout styling and add missing border to the keys.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 07 Apr 2017 02:20:09 +0100
+
 ubuntu-mate-artwork (17.04.11) zesty; urgency=medium
 
   * Fix keyboard layout styling.

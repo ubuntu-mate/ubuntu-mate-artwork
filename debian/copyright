@@ -14,10 +14,6 @@ Files: usr/share/gtksourceview-2.0/styles/*.xml
 Copyright: 2014-2015, Martin Wimpress <code@flexion.org>
 License: GPL-3+
 
-Files: usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-day-drift.xml
-Copyright: 2015, João Pedro Coli
-License: GPL-3+
-
 Files: usr/share/themes/*
        usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
@@ -27,7 +23,8 @@ Copyright: 2004-2012, Canonical Ltd.
            2016-2017, Daniel Foré
 License: CC-BY-SA-3.0
 
-Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-*.jpg
+Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Dark-no-logo.jpg
+       usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-*.jpg
 Copyright: 2014 Goce Mitevski
 License: CC-BY-SA-4.0
 
@@ -137,11 +134,16 @@ Copyright: 2016 Tucker Schinner
 License: CC-BY-SA-4.0
 
 Files: usr/share/backgrounds/ubuntu-mate-zesty/Ubuntu-MATE-*.jpg
-Copyright: 2016 Antech Designs
+       usr/share/backgrounds/ubuntu-mate-artful/the-moon-and-ubuntu-mate.jpg
+Copyright: 2016-2017 Antech Designs
 License: CC-BY-SA-4.0
 
 Files: usr/share/backgrounds/ubuntu-mate-zesty/auto-*.png
 Copyright: 2016 Sergio
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-circles.png
+Copyright: 2017 Yupy
 License: CC-BY-SA-4.0
 
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png

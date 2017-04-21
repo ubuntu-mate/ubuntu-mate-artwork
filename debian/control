@@ -24,7 +24,7 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-zesty,
+         ubuntu-mate-wallpapers-artful,
          ${misc:Depends},
 Suggests: mate-backgrounds,
 Description: Wallpaper and background images for Ubuntu MATE
@@ -40,10 +40,19 @@ Depends: ${misc:Depends},
 Description: Common Ubuntu MATE wallpapers
  Common wallpapers for Ubuntu MATE contributed by the community.
 
+Package: ubuntu-mate-wallpapers-legacy
+Architecture: all
+Depends: ${misc:Depends},
+Description: Legacy Ubuntu MATE wallpapers
+ Wallpapers for Ubuntu MATE contributed by the community that were once
+ default.
+
 Package: ubuntu-mate-wallpapers-complete
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
+         ubuntu-mate-wallpapers-legacy,
+         ubuntu-mate-wallpapers-artful,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
@@ -92,6 +101,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 17.04 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 17.04
+
+Package: ubuntu-mate-wallpapers-artful
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 17.10 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 17.10
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all

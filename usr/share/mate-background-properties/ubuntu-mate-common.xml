@@ -2,74 +2,8 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Ubuntu MATE Cold</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Cold (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Cold (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Dark</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Dark.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Dark (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Dark-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
         <name>Ubuntu MATE Dark (No Logo)</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Dark-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Radioactive</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Radioactive.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Radioactive (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Radioactive-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Radioactive (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Radioactive-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Warm</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Warm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Warm (LightDM)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Warm-lightdm.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Ubuntu MATE Warm (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Warm-no-logo.jpg</filename>
         <options>zoom</options>
         <artist>Goce Mitevski</artist>
     </wallpaper>
@@ -80,10 +14,9 @@
         <artist>Ivan Pejić</artist>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Ubuntu MATE Day Drift</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-day-drift.xml</filename>
+        <name>Ubuntu MATE Circles</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-circles.png</filename>
         <options>zoom</options>
-        <shade_type>vertical-gradient</shade_type>
-        <artist>João Pedro Coli</artist>
+        <artist>Yupy</artist>
     </wallpaper>
 </wallpapers>

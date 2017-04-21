@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Cold</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Cold.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Cold (LightDM)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Cold-lightdm.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Cold (No Logo)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Cold-no-logo.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Dark</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Dark.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Dark (LightDM)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Dark-lightdm.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Radioactive</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Radioactive.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Radioactive (LightDM)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Radioactive-lightdm.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Radioactive (No Logo)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Radioactive-no-logo.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Warm</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Warm.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Warm (LightDM)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Warm-lightdm.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Warm (No Logo)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Warm-no-logo.jpg</filename>
+        <options>zoom</options>
+        <artist>Goce Mitevski</artist>
+    </wallpaper>
+</wallpapers>
