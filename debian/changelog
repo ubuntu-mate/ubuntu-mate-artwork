@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (17.10.1) artful; urgency=medium
+
+  * Add support for Caja inactive pane.
+  * Add support for flags in the keyboard applet.
+  * Update border color for Ambiant-MATE and Ambiant-MATE-Dark.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 11 Jun 2017 21:35:26 +0100
+
 ubuntu-mate-artwork (17.10.0) artful; urgency=medium
 
   * Add community contributed wallpapers to ubuntu-mate-wallpapers-artful.

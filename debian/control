@@ -141,6 +141,7 @@ Package: ubuntu-mate-icon-themes
 Architecture: all
 Depends: ubuntu-mono,
          ${misc:Depends},
+Recommends: mate-icon-theme,
 Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
 
