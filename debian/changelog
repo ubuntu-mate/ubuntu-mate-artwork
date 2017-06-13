@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (17.10.3) artful; urgency=medium
+
+  * Replace ubuntu-mate-circles.png with Ubuntu-MATE-Splash.jpg.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 13 Jun 2017 01:04:12 +0100
+
 ubuntu-mate-artwork (17.10.2) artful; urgency=medium
 
   * Re-upload to include missing icon references.
