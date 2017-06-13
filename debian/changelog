@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (17.10.4) artful; urgency=medium
+
+  * Add Ubuntu MATE Splash Grey.
+
+ -- Martin Wimpress <martin.wimpress@canonical.com>  Tue, 13 Jun 2017 14:52:26 +0100
+
 ubuntu-mate-artwork (17.10.3) artful; urgency=medium
 
   * Replace ubuntu-mate-circles.png with Ubuntu-MATE-Splash.jpg.
