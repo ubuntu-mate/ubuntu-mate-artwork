@@ -142,8 +142,8 @@ Files: usr/share/backgrounds/ubuntu-mate-zesty/auto-*.png
 Copyright: 2016 Sergio
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-circles.png
-Copyright: 2017 Yupy
+Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash.jpg
+Copyright: 2017 Martin Wimpress
 License: CC-BY-SA-4.0
 
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png
