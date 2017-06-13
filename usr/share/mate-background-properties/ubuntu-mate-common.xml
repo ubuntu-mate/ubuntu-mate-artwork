@@ -19,4 +19,10 @@
         <options>zoom</options>
         <artist>Martin Wimpress</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash-Grey.jpg</filename>
+        <options>zoom</options>
+        <artist>Martin Wimpress</artist>
+    </wallpaper>    
 </wallpapers>
