@@ -3,10 +3,10 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
 Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.8
-Homepage: https://launchpad.net/ubuntu-mate/
-Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork
-Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-artwork/files
+Standards-Version: 4.0.0
+Homepage: https://github.com/ubuntu-mate/ubuntu-mate-artwork
+Vcs-Git: https://github.com/ubuntu-mate/ubuntu-mate-artwork.git
+Vcs-Browser: https://github.com/ubuntu-mate/ubuntu-mate-artwork
 
 Package: ubuntu-mate-artwork
 Architecture: all
