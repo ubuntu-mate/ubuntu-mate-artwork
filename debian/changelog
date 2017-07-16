@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (17.10.5) artful; urgency=medium
+
+  * Add the 17.10 wallpaper competition entries.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 16 Jul 2017 17:48:33 +0100
+
 ubuntu-mate-artwork (17.10.4) artful; urgency=medium
 
   * Add Ubuntu MATE Splash Grey.
