@@ -147,6 +147,47 @@ Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash.jpg
 Copyright: 2017 Martin Wimpress
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-common/Green-Jazz.jpg
+       usr/share/backgrounds/ubuntu-mate-common/Grey-Jazz.jpg
+       usr/share/backgrounds/ubuntu-mate-common/Green-Jazz.jpg
+       usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png
+       usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo-Text.png
+       usr/share/backgrounds/ubuntu-mate-common/Green-Wall.png
+       usr/share/backgrounds/ubuntu-mate-common/Grey-Wall-Logo.png
+       usr/share/backgrounds/ubuntu-mate-common/Grey-Wall-Logo-Text.png
+       usr/share/backgrounds/ubuntu-mate-common/Grey-Wall.png
+Copyright: 2017 Roberto Perico
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-artful/In-The-Country.jpg
+       usr/share/backgrounds/ubuntu-mate-artful/In-The-Sea.jpg
+Copyright: Ele 2017 
+License: CC-BY-SA-4.0
+       
+Files: usr/share/backgrounds/ubuntu-mate-artful/Shocking.jpg
+       usr/share/backgrounds/ubuntu-mate-artful/Shocking-No-Logo.jpg
+Copyright: Timi Zero 2017 
+License: CC-BY-SA-4.0
+       
+Files: usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg
+       usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Sea.jpg
+Copyright: Richard van Liessum 2017 
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Moon.jpg
+       usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Snowflake.jpg
+Copyright: Alexander Boden 2017 
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Swirl1.jpg
+       usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Swirl2.jpg
+Copyright: Peter Pfeiffer 2017 
+License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-artful/Wavey-Ubuntu-MATE.jpg
+Copyright: 2017 Riccardo Pecchioli
+License: CC-BY-SA-4.0
+
 Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.png
 Copyright: 2014 Jack Mohegan
 License: CC-BY-SA-4.0
