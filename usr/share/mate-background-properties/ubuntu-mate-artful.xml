@@ -7,4 +7,70 @@
         <options>zoom</options>
         <artist>Antech Designs</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>In the Country</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/In-The-Country.jpg</filename>
+        <options>zoom</options>
+        <artist>Ele</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>In the Sea</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/In-The-Sea.jpg</filename>
+        <options>zoom</options>
+        <artist>Ele</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Shocking Logo</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Shocking.jpg</filename>
+        <options>zoom</options>
+        <artist>Timi Zero</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Shocking</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Shocking-No-Logo.jpg</filename>
+        <options>zoom</options>
+        <artist>Timi Zero</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Moon</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Moon.jpg</filename>
+        <options>zoom</options>
+        <artist>Alexander Boden</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Northern Lights</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg</filename>
+        <options>zoom</options>
+        <artist>Richard van Liessum</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Sea</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Sea.jpg</filename>
+        <options>zoom</options>
+        <artist>Richard van Liessum</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Snowflake</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Snowflake.jpg</filename>
+        <options>zoom</options>
+        <artist>Alexander Boden</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Swirl One</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Swirl1.jpg</filename>
+        <options>zoom</options>
+        <artist>Peter Pfeiffer</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Swirl Two</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Swirl2.jpg</filename>
+        <options>zoom</options>
+        <artist>Peter Pfeiffer</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Wavey</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-artful/Wavey-Ubuntu-MATE.jpg</filename>
+        <options>zoom</options>
+        <artist>Riccardo Pecchioli</artist>
+    </wallpaper>
 </wallpapers>

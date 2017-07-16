@@ -24,5 +24,59 @@
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash-Grey.jpg</filename>
         <options>zoom</options>
         <artist>Martin Wimpress</artist>
-    </wallpaper>    
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Green-Jazz.jpg</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Grey-Jazz.jpg</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Green-Jazz.jpg</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo-Text.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Green-Wall.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Grey-Wall-Logo.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Grey-Wall-Logo-Text.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Splash (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/Grey-Wall.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
 </wallpapers>
