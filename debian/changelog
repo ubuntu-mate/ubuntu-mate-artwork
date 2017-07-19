@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (17.10.6) artful; urgency=medium
+
+  * Make competition winning wallpaper the default.
+  * Tweak the LightDM configuration. Left align login dialogue. Expose 
+  Keyboard layout and Langugage selection.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 19 Jul 2017 22:39:15 +0100
+
 ubuntu-mate-artwork (17.10.5) artful; urgency=medium
 
   * Add the 17.10 wallpaper competition entries.
