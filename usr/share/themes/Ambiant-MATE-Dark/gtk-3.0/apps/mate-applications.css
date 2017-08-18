@@ -25,6 +25,11 @@
     border-width: 1px;
 }
 
+/* sidebars treeview rows */
+.caja-side-pane > notebook treeview.view {
+    padding: 2px 0px;
+}
+
 /* inactive-pane caja */
 .caja-notebook .view:disabled {
     background-color: @inactive-pane_bg_color;
