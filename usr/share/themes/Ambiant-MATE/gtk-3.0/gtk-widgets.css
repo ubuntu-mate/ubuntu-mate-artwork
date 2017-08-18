@@ -1156,17 +1156,14 @@ menubar > menuitem,
  * menuitem *
  ************/
 
-menuitem,
 menu > menuitem {
-/*    -GtkMenuItem-horizontal-padding: 0; deprecated */
     background: transparent;
     border-radius: 0;
-    padding: 3px 5px 3px 5px;
+    padding: 6px 5px 6px 5px
     text-shadow: none;
 }
 
 .primary-toolbar:not(.libreoffice-toolbar) menu menuitem {
-/*    -GtkMenuItem-horizontal-padding: 0; deprecated */
     background-image: none;
     background-color: shade (@dark_bg_color, 1.08);
     border-radius: 0;
