@@ -40,6 +40,11 @@
                                       shade (@theme_selected_bg_color, 1.00));
 }
 
+/* set height of rows in listview */
+.caja-notebook treeview.view {
+    padding: 1px;
+}
+
 .caja-canvas-item {
     border-radius: 3px;
 }
