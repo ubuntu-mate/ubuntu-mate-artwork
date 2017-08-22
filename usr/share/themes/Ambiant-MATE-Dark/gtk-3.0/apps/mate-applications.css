@@ -203,13 +203,13 @@ PanelApplet.wnck-applet .wnck-pager {
 
 /* set normal menubar menu menuitem */
 .mate-panel-menu-bar menubar > menuitem > .popup.csd > menu > menuitem {
-    padding: 3px 5px 3px 5px;
+    padding: 4px 5px 4px 5px;
     border-width: 0px;
 }
 
 /* set Mate menu menuitem */
 .mate-panel-menu-bar menu menuitem {
-    padding: 3px 5px 3px 5px;
+    padding: 4px 5px 4px 5px;
     border-width: 0px;
 }
 
