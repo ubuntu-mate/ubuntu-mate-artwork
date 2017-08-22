@@ -1,7 +1,26 @@
+ubuntu-mate-artwork (17.10.7) artful; urgency=medium
+
+  * Improve linked button styling for message dialogs.
+  * Improve menu items by adding slightly more padding.
+  * Improve clock-applet-button so it is consistent with other buttons.
+  * Improve notebook styling.
+  * Add bold style classes for Global Menu.
+  * Add a minimal padding to na-tray-applets.
+  * Add the Ubuntu MATE logo as the distributor-logo.
+  * Fix incorrect CSS syntax for Caja.
+  * Fix world-map border color in clock-applet.
+  * Fix GtkScale slider mouse-selection if slider is out of range.
+  * Fix height of headerbar for metacity-theme-viewer.
+  * Fix border color of scrollbars.
+  * Remove obsolete chrom{e|ium} styling.
+  * Remove unwanted backdrop states.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 22 Aug 2017 13:31:52 +0100
+
 ubuntu-mate-artwork (17.10.6) artful; urgency=medium
 
   * Make competition winning wallpaper the default.
-  * Tweak the LightDM configuration. Left align login dialogue. Expose 
+  * Tweak the LightDM configuration. Left align login dialogue. Expose
   Keyboard layout and Langugage selection.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 19 Jul 2017 22:39:15 +0100
@@ -72,7 +91,7 @@ ubuntu-mate-artwork (17.04.9) zesty; urgency=medium
   * Fix GTK2+ Notebooks, Progress bars and Sliders so they match GTK3+.
   * Fix GTK2+ Ambiant-MATE so that Qt4/Qt5 applications are styled correctly.
   * Fix GTK2+ runtime warnings.
-  * Fix GTK2+ and GTK3+ Notebook background and font colours.  
+  * Fix GTK2+ and GTK3+ Notebook background and font colours.
   * Fix GTK3+ switches, particularly in headerbars.
   * Fix GTK3+ button hover focus.
   * Fix background and colours for MATE Terminal and GNOME Terminal.
@@ -370,7 +389,7 @@ ubuntu-mate-artwork (16.04.0) xenial; urgency=medium
   [ Martin Wimpress ]
   * Added new community contributed wallpapers.
   * Added MATE colourised icons for devices and places. (LP: #1509712)
-  * Closes (LP: #1525896)  
+  * Closes (LP: #1525896)
 
  -- Martin Wimpress <code@flexion.org>  Mon, 14 Dec 2015 10:33:02 +0000
 
@@ -391,7 +410,7 @@ ubuntu-mate-artwork (15.10.4) wily; urgency=medium
   [ Martin Wimpress ]
   * Sync with ubuntu-themes 14.04+15.10.20150910-0ubuntu1
   * Add missing symlinks for icons required by Blueman 2.0.
-  * Closes (LP: #)  
+  * Closes (LP: #)
 
   [ Iain Lane ]
   * Style software-center's action bar again
