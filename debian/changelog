@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (17.10.8) artful; urgency=medium
+
+  * Correct names of backgrops in the common collection.
+  * Fix color of grey-out arrows in menus.
+  * Fix padding of primary/secondary image in GtkEntry.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 23 Aug 2017 16:20:44 +0100
+
 ubuntu-mate-artwork (17.10.7) artful; urgency=medium
 
   * Improve linked button styling for message dialogs.
