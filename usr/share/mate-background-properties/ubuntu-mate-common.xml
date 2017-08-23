@@ -14,13 +14,13 @@
         <artist>Ivan Pejić</artist>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Ubuntu MATE Splash</name>
+        <name>Ubuntu MATE Green Splash</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash.jpg</filename>
         <options>zoom</options>
         <artist>Martin Wimpress</artist>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Ubuntu MATE Splash (Grey)</name>
+        <name>Ubuntu MATE Grey Splash</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash-Grey.jpg</filename>
         <options>zoom</options>
         <artist>Martin Wimpress</artist>
@@ -62,13 +62,13 @@
         <artist>Roberto Perico</artist>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Green Wall (Logo and Text)</name>
+        <name>Grey Wall (Logo and Text)</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Grey-Wall-Logo-Text.png</filename>
         <options>zoom</options>
         <artist>Roberto Perico</artist>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Green Wall</name>
+        <name>Grey Wall</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Grey-Wall.png</filename>
         <options>zoom</options>
         <artist>Roberto Perico</artist>
