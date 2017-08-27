@@ -1,10 +1,10 @@
 <style-scheme id="Ambiant-MATE-Dark" _name="Ambiant-MATE-Dark" version="1.0">
-<author>Christian Dannie Storgaard (Cybolic)</author>
+<author>Martin Wimpress</author>
 <_description>A dark theme to match Ambiant-MATE-Dark</_description>
 <style name="line-numbers" foreground="#DFDBD2" background="#3C3B37" bold="True"/>
 <style name="text" foreground="#EAE3D0" background="#41403B"/>
 <style name="selection" foreground="#FFFFFF" background="#87A851"/>
-<style name="selection-unfocused" foreground="#666666" background="#381C29"/>
+<style name="selection-unfocused" foreground="#666666" background="#346322"/>
 <style name="cursor" foreground="#DC4C00"/>
 <style name="secondary-cursor" foreground="#DC4C00"/>
 <style name="current-line" background="#0A1201"/>
