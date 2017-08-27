@@ -1,3 +1,14 @@
+ubuntu-mate-artwork (17.10.9) artful; urgency=medium
+
+  * Add missing panel-grid.svg to Radiant-MATE.
+  * Add syntax for panel-grid image to support MATE 1.20.
+  * Add top borderradius for .titlebar > headerbar
+  * Update Plymouth background color.
+  * Update sourceview themes so unfocused selection uses correct color.
+  * Use FRAMEBUFFER=y in initramfs for Plymouth splash.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 27 Aug 2017 20:53:17 +0100
+
 ubuntu-mate-artwork (17.10.8) artful; urgency=medium
 
   * Correct names of backgrops in the common collection.
