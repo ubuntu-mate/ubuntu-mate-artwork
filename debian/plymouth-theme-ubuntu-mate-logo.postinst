@@ -32,6 +32,7 @@ case "$1" in
 
 	if which update-initramfs >/dev/null 2>&1
 	then
+	    echo FRAMEBUFFER=y | tee /etc/initramfs-tools/conf.d/splash
 	    update-initramfs -u
 	fi
 	;;
