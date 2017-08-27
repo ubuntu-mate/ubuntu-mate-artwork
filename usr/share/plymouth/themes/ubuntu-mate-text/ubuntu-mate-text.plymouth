@@ -6,7 +6,7 @@ ModuleName=ubuntu-text
 [ubuntu-text]
 title=Ubuntu MATE
 # Background
-black=0x3c3b37
+black=0x3c3c37
 # Title Text + Additional messages such as key interrupt
 white=0xffffff
 # Dot coloring
