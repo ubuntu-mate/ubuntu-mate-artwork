@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (17.10.10) UNRELEASED; urgency=medium
+
+  * A&AD&R mate-panel: re-style outlines for keyboard navigation.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 29 Aug 2017 19:40:13 +0100
+
 ubuntu-mate-artwork (17.10.9) artful; urgency=medium
 
   * Add missing panel-grid.svg to Radiant-MATE.
