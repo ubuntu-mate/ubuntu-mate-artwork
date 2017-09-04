@@ -1,8 +1,10 @@
-ubuntu-mate-artwork (17.10.10) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (17.10.10) artful; urgency=medium
 
-  * A&AD&R mate-panel: re-style outlines for keyboard navigation.
+  * mate-panel: re-style outlines for keyboard navigation. (LP: #1709013)
+  * Add missing icons for Folder Color (LP: #1713254)
+  * Make search match color in GtkSourceView easier to read (LP: #1711783)
 
- -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 29 Aug 2017 19:40:13 +0100
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 04 Sep 2017 19:40:13 +0100
 
 ubuntu-mate-artwork (17.10.9) artful; urgency=medium
 
