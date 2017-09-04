@@ -23,4 +23,6 @@
 <style name="def:statement" foreground="#C67600" bold="True"/>
 <style name="def:string" foreground="#CB0700"/>
 <style name="def:type" foreground="#83A526" bold="True"/>
+<!-- Search Matching -->
+<style name="search-match" foreground="#FFFFFF" background="#346322"/>
 </style-scheme>
