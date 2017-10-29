@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Silky</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-bionic/Silky.jpg</filename>
+        <options>zoom</options>
+        <artist>Milos Pavlovic</artist>
+    </wallpaper>
+</wallpapers>
