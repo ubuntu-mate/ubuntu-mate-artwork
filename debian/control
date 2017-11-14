@@ -25,6 +25,7 @@ Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-bionic,
+         ubuntu-mate-wallpapers-photos,
          ${misc:Depends},
 Suggests: mate-backgrounds,
 Description: Wallpaper and background images for Ubuntu MATE
@@ -47,11 +48,18 @@ Description: Legacy Ubuntu MATE wallpapers
  Wallpapers for Ubuntu MATE contributed by the community that were once
  default.
 
+Package: ubuntu-mate-wallpapers-photos
+Architecture: all
+Depends: ${misc:Depends},
+Description: Selection of photos for Ubuntu MATE wallpapers
+ Photos used for Ubuntu MATE wallpapers.
+
 Package: ubuntu-mate-wallpapers-complete
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-legacy,
+         ubuntu-mate-wallpapers-photos,
          ubuntu-mate-wallpapers-artful,
          ubuntu-mate-wallpapers-bionic,
          ubuntu-mate-wallpapers-utopic,

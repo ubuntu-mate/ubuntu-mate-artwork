@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Quiraing</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/andrew-ridley-54228.jpg</filename>
+        <options>zoom</options>
+        <artist>Andrew Ridley</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>It's Raining</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/gabriele-diwald-201135.jpg</filename>
+        <options>zoom</options>
+        <artist>Gabriele Diwald</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Shooting Star Rye</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/kristopher-roller-110203.jpg</filename>
+        <options>zoom</options>
+        <artist>Kristopher Roller</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Gulf of Mexico</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/nasa-53884.jpg</filename>
+        <options>zoom</options>
+        <artist>NASA</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Colorful Bokeh</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/sebastian-muller-52.jpg</filename>
+        <options>zoom</options>
+        <artist>Sebastian Muller</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Starry Sky Over the Tatras</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/stefan-stefancik-105374.jpg</filename>
+        <options>zoom</options>
+        <artist>Štefan Štefančík</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Half Dome Falls</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/tommy-lisbin-189189.jpg</filename>
+        <options>zoom</options>
+        <artist>Tommy Lisbin</artist>
+    </wallpaper>
+</wallpapers>
