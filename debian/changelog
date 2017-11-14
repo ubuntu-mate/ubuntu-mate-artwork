@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (18.04.0) bionic; urgency=medium
+
+  * Add new wallpapers for Ubuntu MATE 18.04.
+  * Add photo wallpapers.
+  * Add mate-window-applets themes.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 29 Oct 2017 11:57:09 +0000
+
 ubuntu-mate-artwork (17.10.10) artful; urgency=medium
 
   * mate-panel: re-style outlines for keyboard navigation. (LP: #1709013)
