@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (18.04.1) bionic; urgency=medium
+
+  * A&AD&R: Enable small notebook buttons.
+  * Add status icons for Deluge, Steam and Twitch.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 30 Dec 2017 18:00:41 +0000
+
 ubuntu-mate-artwork (18.04.0) bionic; urgency=medium
 
   * Add new wallpapers for Ubuntu MATE 18.04.
