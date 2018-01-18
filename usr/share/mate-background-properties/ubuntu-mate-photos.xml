@@ -43,4 +43,22 @@
         <options>zoom</options>
         <artist>Tommy Lisbin</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Tree in Green Wheat Field</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/johann-siemens-591.jpg</filename>
+        <options>zoom</options>
+        <artist>Johann Siemens</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Misty Mountain</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/matteo-botto-16023.jpg</filename>
+        <options>zoom</options>
+        <artist>Matteo Botto</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Dhadimagu</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-photos/nattu-adnan-328570.jpg</filename>
+        <options>zoom</options>
+        <artist>Nattu Adnan</artist>
+    </wallpaper>
 </wallpapers>
