@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (18.04.2) bionic; urgency=medium
+
+  * Add new photos to backgrounds collection.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 18 Jan 2018 22:42:59 +0000
+
 ubuntu-mate-artwork (18.04.1) bionic; urgency=medium
 
   * A&AD&R: Enable small notebook buttons.
