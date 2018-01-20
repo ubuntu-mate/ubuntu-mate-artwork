@@ -164,7 +164,8 @@ Package: ubuntu-mate-themes
 Architecture: all
 Multi-Arch: foreign
 Breaks: libgtk-3-0 (<< 3.19)
-Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
+Depends: breeze-cursor-theme,
+         gtk2-engines-murrine (>= 0.90.3+git20100810),
          ubuntu-mate-icon-themes,
          ${misc:Depends},
 Description: GTK2 and GTK3 themes for Ubuntu MATE
