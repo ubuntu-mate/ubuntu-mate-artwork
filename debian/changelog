@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (18.04.3) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (18.04.3) bionic; urgency=medium
 
   * debian/control: Add Depends: breeze-cursor-theme to ubuntu-mate-themes.
   * A&AD&R: Make Breeze cursors default. Correct default window button layout.
