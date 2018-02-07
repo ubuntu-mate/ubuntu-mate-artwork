@@ -27,7 +27,6 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-bionic,
          ubuntu-mate-wallpapers-photos,
          ${misc:Depends},
-Suggests: mate-backgrounds,
 Description: Wallpaper and background images for Ubuntu MATE
  The default Ubuntu MATE wallpapers. This is also a metapackage
  depending on the other default wallpapers for the current Ubuntu MATE
