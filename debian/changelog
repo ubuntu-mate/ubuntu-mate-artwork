@@ -1,3 +1,12 @@
+ubuntu-mate-artwork (18.04.4) bionic; urgency=medium
+
+  * Make whiteglass the default xcursor theme.
+  * A&AD&R: Remove vala-panel-appmenu bold label styling. It is now
+    implemented as an applet preference.
+  * Do not suggest mate-backgrounds.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 27 Feb 2018 22:02:03 +0000
+
 ubuntu-mate-artwork (18.04.3) bionic; urgency=medium
 
   * debian/control: Add Depends: breeze-cursor-theme to ubuntu-mate-themes.
