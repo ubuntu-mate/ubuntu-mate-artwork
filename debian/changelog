@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (18.04.5) UNRELEASED; urgency=medium
+
+  * Make sure the clock applet honor transparent panel backgrounds. (LP:
+    #1750952)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 02 Mar 2018 21:28:44 +0000
+
 ubuntu-mate-artwork (18.04.5) bionic; urgency=medium
 
   * Make DMZ-Black the default xcursor.
