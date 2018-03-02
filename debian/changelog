@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (18.04.5) bionic; urgency=medium
+
+  * Make DMZ-Black the default xcursor.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 01 Mar 2018 03:27:31 +0000
+
 ubuntu-mate-artwork (18.04.4) bionic; urgency=medium
 
   * Make whiteglass the default xcursor theme.
