@@ -1,7 +1,8 @@
-ubuntu-mate-artwork (18.04.5) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (18.04.6) UNRELEASED; urgency=medium
 
   * Make sure the clock applet honor transparent panel backgrounds. (LP:
     #1750952)
+  * Fix Ambiant-MATE-Dark caret-cursor color for Caja (LP: #1728881)
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 02 Mar 2018 21:28:44 +0000
 
