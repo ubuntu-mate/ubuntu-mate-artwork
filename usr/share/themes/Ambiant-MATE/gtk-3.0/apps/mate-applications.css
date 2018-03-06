@@ -352,6 +352,11 @@ na-tray-applet {
     -PanelMenuBar-icon-visible: true;
 }
 
+/* system-monitor-applet, kill light frame border */
+.multiload-applet > box.horizontal > box.vertical > frame > border {
+    border-color: transparent;
+}
+
 /*****************
  * Mate-terminal *
  *****************/
