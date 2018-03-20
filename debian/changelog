@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (18.04.7) bionic; urgency=medium
+
+  * debian/control:
+    + Drop D breeze-cursor-theme.
+  * Add styling for the multi-load applet.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 07 Mar 2018 10:01:09 +0100
+
 ubuntu-mate-artwork (18.04.6) bionic; urgency=medium
 
   * Make sure the clock applet honors transparent panel backgrounds.
