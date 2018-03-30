@@ -2,6 +2,7 @@ ubuntu-mate-artwork (18.04.8) UNRELEASED; urgency=medium
 
   * A&AD&R: Make mate xcursor theme the default.
   * A&AD&R: some improvements for WebKitGtk2
+  * Radiant: improve check and radio buttons in menu (LP: #1749749)
   * Radiant: drop text-shadow from menu accelerator (LP: #1749750)
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 30 Mar 2018 10:58:58 +0100
