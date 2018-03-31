@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (18.04.8) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (18.04.8) bionic; urgency=medium
 
   * A&AD&R: Make mate xcursor theme the default.
   * A&AD&R: some improvements for WebKitGtk2
