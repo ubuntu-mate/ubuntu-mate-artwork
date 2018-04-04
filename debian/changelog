@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (18.04.9) bionic; urgency=medium
+
+  * Use noawait trigger variant when tracking lsb-release. LP: #1750465
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 03 Apr 2018 15:22:45 +0100
+
 ubuntu-mate-artwork (18.04.8) bionic; urgency=medium
 
   * A&AD&R: Make mate xcursor theme the default.
