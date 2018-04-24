@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (18.04.11) bionic; urgency=medium
+
+  * A&AD&R: Set default xcursor size so mouse pointers are a sensible
+    size for regular DPI and HiDPI displays.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 24 Apr 2018 16:07:37 +0100
+
 ubuntu-mate-artwork (18.04.10) bionic; urgency=medium
 
   * A&AD&R: Style brisk-menu classic session buttons.
