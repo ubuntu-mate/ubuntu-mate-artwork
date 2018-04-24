@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (18.04.10) bionic; urgency=medium
+
+  * A&AD&R: Style brisk-menu classic session buttons.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 04 Apr 2018 09:23:49 +0100
+
 ubuntu-mate-artwork (18.04.9) bionic; urgency=medium
 
   * Use noawait trigger variant when tracking lsb-release. LP: #1750465
