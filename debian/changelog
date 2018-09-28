@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (18.10.1) cosmic; urgency=medium
+
+  * Add Ubuntu MATE 18.10 community contributed wallpaper.
+  * A&AD&R: Render window controls are circles in header bar applications.
+    (LP: #1737591)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 28 Sep 2018 03:00:20 +0100
+
 ubuntu-mate-artwork (18.04.11) bionic; urgency=medium
 
   * A&AD&R: Set default xcursor size so mouse pointers are a sensible
