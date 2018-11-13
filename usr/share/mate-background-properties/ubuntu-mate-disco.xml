@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Snail</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-disco/Ubuntu-MATE-Snail.jpg</filename>
+        <options>zoom</options>
+        <artist>Milos Pavlovic</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ubuntu MATE Mushrooms</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-disco/Ubuntu-MATE-Mushrooms.jpg</filename>
+        <options>zoom</options>
+        <artist>Milos Pavlovic</artist>
+    </wallpaper>    
+</wallpapers>
