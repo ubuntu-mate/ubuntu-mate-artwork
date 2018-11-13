@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (19.04.0) UNRELEASED; urgency=medium
+
+  * Add community contributed wallpaper for 19.04.
+  * A&AD&R: Fix theme parsing error in gtk-widgets.css. max-width and
+    max-height are not valid property names.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 13 Nov 2018 16:22:39 +0000
+
 ubuntu-mate-artwork (18.10.1) cosmic; urgency=medium
 
   * Add Ubuntu MATE 18.10 community contributed wallpaper.
