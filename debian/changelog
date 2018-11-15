@@ -1,8 +1,9 @@
-ubuntu-mate-artwork (19.04.0) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (19.04.0) disco; urgency=medium
 
-  * Add community contributed wallpaper for 19.04.
+  * Add community contributed wallpapers for 19.04.
   * A&AD&R: Fix theme parsing error in gtk-widgets.css. max-width and
     max-height are not valid property names.
+  * A&AD&R: Fix unusual scrolling in some GTK+3 applications, such as Firefox.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 13 Nov 2018 16:22:39 +0000
 
