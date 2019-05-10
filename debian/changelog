@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (19.10.2) UNRELEASED; urgency=medium
+
+  * Add -secure icons required for correct VPN icon display in
+    AppIndicator mode.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 10 May 2019 02:12:40 +0100
+
 ubuntu-mate-artwork (19.10.1) eoan; urgency=medium
 
   * Fix XML mark up error in mate-background-properties.
