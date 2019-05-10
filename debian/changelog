@@ -1,5 +1,6 @@
 ubuntu-mate-artwork (19.10.2) UNRELEASED; urgency=medium
 
+  * Add suggested-action button style.
   * Add -secure icons required for correct VPN icon display in
     AppIndicator mode. (LP: #1681654)
 
