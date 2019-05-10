@@ -174,8 +174,7 @@ Description: graphical boot animation and logger - ubuntu-mate-text theme
 
 Package: ubuntu-mate-icon-themes
 Architecture: all
-Depends: humanity-icon-theme,
-         ${misc:Depends},
+Depends: ${misc:Depends},
 Recommends: mate-icon-theme,
 Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
