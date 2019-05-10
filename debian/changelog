@@ -5,8 +5,9 @@ ubuntu-mate-artwork (19.10.2) UNRELEASED; urgency=medium
     AppIndicator mode. (LP: #1681654)
   * Add Apport and Unity battery icons.
   * Stop inheriting ubuntu-mono.
-  * debian/control:
-    + Drop Drop D: ubuntu-mono.
+  * Optimise all .png and .jpg image assets.
+  * De-duplicate icon themes.
+  * Fix low contrast text selection in dialog windows. (LP: #1763942)
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 10 May 2019 02:12:40 +0100
 
