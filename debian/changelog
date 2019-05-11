@@ -9,6 +9,7 @@ ubuntu-mate-artwork (19.10.2) UNRELEASED; urgency=medium
   * Fix low contrast text selection in dialog windows. (LP: #1763942)
   * Fix inconsistent OK buttons.
   * Fix model buttons popovers.
+  * Fix styling of paned headerbars.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 10 May 2019 02:12:40 +0100
 
