@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (19.10.2) eoan; urgency=medium
+ubuntu-mate-artwork (19.10.2) UNRELEASED; urgency=medium
 
   * Add suggested-action button style.
   * Add -secure icons required for correct VPN icon display in
@@ -11,9 +11,12 @@ ubuntu-mate-artwork (19.10.2) eoan; urgency=medium
   * Fix model buttons popovers.
   * Fix styling of paned headerbars.
   * Increase treeview expander size.
+  * Increase minimum size of checkbox/radio buttons.
   * Improve font and font-size for context-menu. (LP: #1823550)
+  * Improve spacing and padding for tabs, toolbars, menu items and column
+    headers.
 
- -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 10 May 2019 02:12:40 +0100
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 20 May 2019 08:12:40 +0100
 
 ubuntu-mate-artwork (19.10.1) eoan; urgency=medium
 
