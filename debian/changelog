@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (19.10.3) eoan; urgency=medium
+
+  * Restore notebook padding to 6px.
+  * Remove obsolete mate-window-applet icons.
+  * Remove suggested-action button style.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 18 Jun 2019 18:00:12 +0100
+
 ubuntu-mate-artwork (19.10.2) eoan; urgency=medium
 
   * Add suggested-action button style.
