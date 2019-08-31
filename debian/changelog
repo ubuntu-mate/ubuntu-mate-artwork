@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (19.10.4) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (19.10.4) eoan; urgency=medium
 
   * Resize new IM status icon.
   * Resize XFCE mouse power status icons.
