@@ -1,3 +1,21 @@
+ubuntu-mate-artwork (19.10.4) UNRELEASED; urgency=medium
+
+  * Resize new IM status icon.
+  * Resize XFCE mouse power status icons.
+  * Resize keyboard status icons.
+  * Resize network status icons.
+  * Resize audio status icons.
+  * Resize user status icons.
+  * Resize message status icons.
+  * Resize Ubuntu One status icons.
+  * Resize mouse power status icons.
+  * Resize auth status icons.
+  * Resize bluetooth status icons.
+  * Add themed icons for indicator-notifications.
+  * Correctly color button.suggested-action.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 31 Aug 2019 19:07:19 +0100
+
 ubuntu-mate-artwork (19.10.3) eoan; urgency=medium
 
   * Restore notebook padding to 6px.
