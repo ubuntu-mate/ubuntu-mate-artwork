@@ -1,3 +1,21 @@
+ubuntu-mate-artwork (19.10.6) eoan; urgency=medium
+
+  * Drop obsolete libreoffice application icon overrides.
+  * Drop erroneous audio input/volume application icon overrides.
+    (LP: #1630913)
+  * Drop erroneous input-keyboard.svg application icon override.
+  * Drop erroneous blueman.svg application icon override.
+  * Make consistent blueman-*.svg symlinks to corresponding bluetooth-*.svg
+    master set icons.
+  * Add missing system-file-manager.svg to Radiant-MATE icon theme.
+  * Correct the dimensions of gpm-battery-* icons. Symlink all the other
+    battery icons to the gpm-battery-* master set.
+  * Correct the dimensions of Brasero animation icons.
+  * Resize indicator-notifications status icons. Add 'do not disturb'
+    variants.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 06 Sep 2019 18:25:15 +0100
+
 ubuntu-mate-artwork (19.10.5) eoan; urgency=medium
 
   * Update indicator-notifications status icons. Add 'do not disturb'
