@@ -1,3 +1,13 @@
+ubuntu-mate-artwork (19.10.7) eoan; urgency=medium
+
+  * Add full color microphone icons for use in applications.
+  * Add full color volume icons for use in applications and the OSD.
+  * A&AD&R: Drop all button.destructive-action and button.suggested-action
+    styling. The standard button style does a fine job.
+  * Add icon theme for MATE Optimus.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 07 Sep 2019 23:30:10 +0100
+
 ubuntu-mate-artwork (19.10.6) eoan; urgency=medium
 
   * Drop obsolete libreoffice application icon overrides.
