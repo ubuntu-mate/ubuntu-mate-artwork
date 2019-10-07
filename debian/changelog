@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (19.10.10) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (19.10.10) eoan; urgency=medium
 
   * Add high resolution window buttons. (LP: #1773653)
   * Define the base button dimensions to determine whether the image needs
