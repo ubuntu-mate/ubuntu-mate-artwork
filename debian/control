@@ -1,4 +1,4 @@
-Source: ubuntu-mate-artwork
+cSource: ubuntu-mate-artwork
 Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
@@ -24,7 +24,7 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-eoan,
+         ubuntu-mate-wallpapers-focal,
          ubuntu-mate-wallpapers-photos,
          ${misc:Depends},
 Description: Wallpaper and background images for Ubuntu MATE
@@ -64,6 +64,7 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-cosmic,
          ubuntu-mate-wallpapers-disco,
          ubuntu-mate-wallpapers-eoan,
+         ubuntu-mate-wallpapers-focal,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
@@ -142,6 +143,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 19.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 19.10
+
+Package: ubuntu-mate-wallpapers-focal
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 20.04 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 20.04
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
