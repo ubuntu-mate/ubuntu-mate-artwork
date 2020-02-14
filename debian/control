@@ -1,4 +1,4 @@
-cSource: ubuntu-mate-artwork
+Source: ubuntu-mate-artwork
 Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
