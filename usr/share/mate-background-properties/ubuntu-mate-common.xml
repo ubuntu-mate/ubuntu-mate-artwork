@@ -2,18 +2,6 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Ubuntu MATE Dark (No Logo)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Dark-no-logo.jpg</filename>
-        <options>zoom</options>
-        <artist>Goce Mitevski</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
-        <name>Circle of Mates (Dark)</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-desktop-circle_of_mates_dark.png</filename>
-        <options>stretched</options>
-        <artist>Ivan Pejić</artist>
-    </wallpaper>
-    <wallpaper deleted="false">
         <name>Ubuntu MATE Green Splash</name>
         <filename>/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash.jpg</filename>
         <options>zoom</options>
