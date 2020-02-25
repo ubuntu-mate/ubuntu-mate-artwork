@@ -79,4 +79,16 @@
         <options>stretched</options>
         <artist>Ivan Pejić</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Green Wall (Logo) from Bionic</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Green-Wall-Logo.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Grey Wall (Logo) from Bionic</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-legacy/Grey-Wall-Logo.png</filename>
+        <options>zoom</options>
+        <artist>Roberto Perico</artist>
+    </wallpaper>
 </wallpapers>
