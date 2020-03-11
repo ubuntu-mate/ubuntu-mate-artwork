@@ -7,4 +7,16 @@
         <options>zoom</options>
         <artist>Txemi Jendrix</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Focal Fossa (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-green.png</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Focal Fossa (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-grey.png</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
 </wallpapers>
