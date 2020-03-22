@@ -1,4 +1,4 @@
-ubuntu-mate-artwork (20.04.2) UNRELEASED; urgency=medium
+ubuntu-mate-artwork (20.04.2) focal; urgency=medium
 
   * Themes: Fix highlight colour for toolbar menu items.
   * Themes: Fix unfocused label on Caja desktop. (LP: #1868369)
