@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (20.10.1) groovy; urgency=medium
+
+  * Add Groovy wallpapers.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 14 Oct 2020 09:18:06 +0100
+
 ubuntu-mate-artwork (20.10.0) groovy; urgency=medium
 
   * Add Ayatana Notifcation icons.
@@ -8,7 +14,7 @@ ubuntu-mate-artwork (20.04.2) focal; urgency=medium
 
   * Themes: Fix highlight colour for toolbar menu items.
   * Themes: Fix unfocused label on Caja desktop. (LP: #1868369)
-  * Correct the Ubuntu MATE hex colour in icons. 
+  * Correct the Ubuntu MATE hex colour in icons.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sun, 22 Mar 2020 23:20:44 +0000
 

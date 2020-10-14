@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Groovy Gorilla (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-groovy/groovy-gorilla-green.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Groovy Gorilla (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-groovy/groovy-gorilla-grey.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+</wallpapers>
