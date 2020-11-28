@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Circle of Hippos</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-hirsute/pawel-czerwinski-unsplash-hippos.jpg</filename>
+        <options>zoom</options>
+        <artist>Paweł Czerwiński</artist>
+    </wallpaper>
+</wallpapers>
