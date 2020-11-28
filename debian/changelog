@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (21.04.0) hirsute; urgency=medium
+
+  * New wallpaper for the Hirsute release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sat, 28 Nov 2020 22:13:02 +0000
+
 ubuntu-mate-artwork (20.10.1) groovy; urgency=medium
 
   * Add Groovy wallpapers.
