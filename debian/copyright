@@ -8,6 +8,7 @@ License: GPL-3+
 
 Files: usr/share/gtksourceview-2.0/styles/*.xml
        usr/share/gtksourceview-3.0/styles/*.xml
+       usr/share/gtksourceview-4/styles/*.xml
        usr/share/mate-background-properties/*.xml
        etc/lightdm/lightdm-gtk-greeter.conf.d/99_ubuntu-mate.conf
        usr/share/ubuntu-mate/lightdm/lightdm.conf
