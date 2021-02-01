@@ -18,10 +18,15 @@ License: GPL-3+
 Files: usr/share/themes/*
        usr/share/icons/*
 Copyright: 2004-2012, Canonical Ltd.
-           2014-2015, Martin Wimpress.
-           2014-2016, Jack Mohegan.
-           2014-2016, Michael Tunnell.
+           2014-2021, Martin Wimpress
+           2014-2016, Jack Mohegan
+           2014-2016, Michael Tunnell
            2016-2017, Daniel Foré
+           2017-2021, Carlo Lobrano
+           2017-2021, Didier Roche
+           2017-2021, Frederik Feichtmeier
+           2017-2021, Mads Rosendahl
+           2017-2021, jaggers
 License: CC-BY-SA-3.0
 
 Files: usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Dark-no-logo.jpg
