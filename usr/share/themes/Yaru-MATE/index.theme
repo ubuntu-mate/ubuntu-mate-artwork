@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Yaru-MATE
+Comment=Ubuntu Yaru-MATE theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Yaru-MATE
+MetacityTheme=Yaru-MATE
+IconTheme=Yaru-MATE
+CursorTheme=Yaru-MATE
+CursorSize=24
+ButtonLayout=:minimize,maximize,close
