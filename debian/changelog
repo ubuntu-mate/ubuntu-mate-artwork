@@ -1,6 +1,7 @@
 ubuntu-mate-artwork (21.04.1) hirsute; urgency=medium
 
-  * debian/copyright: Update copyright attributions.
+  * debian/copyright:
+    + Update copyright attributions.
   * usr/share/themes:
     + Add Yaru-MATE-light theme
     + Add Yaru-MATE-dark theme
@@ -8,7 +9,7 @@ ubuntu-mate-artwork (21.04.1) hirsute; urgency=medium
   * usr/share/icons:
     + Add Yaru-MATE-light icons
     + Add Yaru-MATE-dark icons
-    + icons: Add Yaru-MATE icons
+    + Add Yaru-MATE icons
   * usr/share/gtksourceview:
     + Add Yaru-MATE GtkSourceView styles
     + Add version 4 GtkSourceView styles
