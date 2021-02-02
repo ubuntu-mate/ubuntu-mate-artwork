@@ -1,3 +1,20 @@
+ubuntu-mate-artwork (21.04.1) hirsute; urgency=medium
+
+  * debian/copyright: Update copyright attributions.
+  * usr/share/themes:
+    + Add Yaru-MATE-light theme
+    + Add Yaru-MATE-dark theme
+    + Add Yaru-MATE theme
+  * usr/share/icons:
+    + Add Yaru-MATE-light icons
+    + Add Yaru-MATE-dark icons
+    + icons: Add Yaru-MATE icons
+  * usr/share/gtksourceview:
+    + Add Yaru-MATE GtkSourceView styles
+    + Add version 4 GtkSourceView styles
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 01 Feb 2021 21:38:18 +0000
+
 ubuntu-mate-artwork (21.04.0) hirsute; urgency=medium
 
   * New wallpaper for the Hirsute release.
