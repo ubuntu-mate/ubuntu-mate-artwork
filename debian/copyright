@@ -228,8 +228,12 @@ Files: usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-green.png
 Copyright: 2019 - 2020 Canonical, Ltd.
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-hirsute/pawel-czerwinski-unsplash-hippos.jpg
-Copyright: 2018 Paweł Czerwiński
+Files: usr/share/backgrounds/ubuntu-mate-hirsute/hu-chen-unsplash-baby-hippo-with-mother.jpg
+Copyright: 2018 Hu Chen
+License: CC0
+
+Files: usr/share/backgrounds/ubuntu-mate-hirsute/joe-were-unsplash-hippo.jpg
+Copyright: 2018 Joe Were
 License: CC0
 
 Files: usr/share/backgrounds/ubuntu-mate-photos/andrew-ridley-54228.jpg

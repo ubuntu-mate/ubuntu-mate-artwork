@@ -2,9 +2,15 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Circle of Hippos</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-hirsute/pawel-czerwinski-unsplash-hippos.jpg</filename>
+        <name>Baby Hippo with Mother</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-hirsute/hu-chen-unsplash-baby-hippo-with-mother.jpg</filename>
         <options>zoom</options>
-        <artist>Paweł Czerwiński</artist>
+        <artist>Hu Chen</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Hippoin the bushes</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-hirsute/joe-were-unsplash-hippo.jpg</filename>
+        <options>zoom</options>
+        <artist>Joe Were</artist>
     </wallpaper>
 </wallpapers>
