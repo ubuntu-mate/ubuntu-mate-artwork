@@ -1,3 +1,13 @@
+ubuntu-mate-artwork (21.04.5) hirsute; urgency=medium
+
+  * Sync Yaru-MATE with upstream Yaru (LP: #1919040, #1717285, #1760362)
+  * Drop obsolete Yaru-MATE icons, only dark/light variants are required.
+  * Add Yaru-MATE wallpapers
+  * Add contest winning Hippo photo wallpapers
+  * Add Hirsute Hippo mascot wallpapers (LP: #1921139)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Fri, 26 Mar 2021 11:58:00 +0000
+
 ubuntu-mate-artwork (21.04.4) hirsute; urgency=medium
 
   * Update Yaru-MATE-dark window buttons to match titlebar contrast
