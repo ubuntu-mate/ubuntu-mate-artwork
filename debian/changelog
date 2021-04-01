@@ -1,8 +1,14 @@
+ubuntu-mate-artwork (20.04.2ubuntu1~focal1.0) focal; urgency=medium
+
+  * Backport Yaru MATE 21.04.6
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 01 Apr 2021 22:43:42 +0100
+
 ubuntu-mate-artwork (20.04.2) focal; urgency=medium
 
   * Themes: Fix highlight colour for toolbar menu items.
   * Themes: Fix unfocused label on Caja desktop. (LP: #1868369)
-  * Correct the Ubuntu MATE hex colour in icons. 
+  * Correct the Ubuntu MATE hex colour in icons.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sun, 22 Mar 2020 23:20:44 +0000
 
