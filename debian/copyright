@@ -227,8 +227,15 @@ Files: usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-green.png
        usr/share/backgrounds/ubuntu-mate-groovy/groovy-gorilla-grey.jpg
        usr/share/backgrounds/ubuntu-mate-hirsute/Hirsute-Hippo_WP_2560x1440_Green.png
        usr/share/backgrounds/ubuntu-mate-hirsute/Hirsute-Hippo_WP_2560x1440_Grey.png
+       usr/share/backgrounds/ubuntu-mate-impish/Impish-Indri_WP_2560x1440_Green.png
+       usr/share/backgrounds/ubuntu-mate-impish/Impish-Indri_WP_2560x1440_Grey.png
 Copyright: 2019 - 2021 Canonical, Ltd.
 License: CC-BY-SA-4.0
+
+Files: usr/share/backgrounds/ubuntu-mate-impish/hans-jurgen-mager-indri.jpg
+Copyright: 2020 Hans-Jurgen Mager
+License: CC0
+
 
 Files: usr/share/backgrounds/ubuntu-mate-hirsute/hu-chen-unsplash-baby-hippo-with-mother.jpg
 Copyright: 2018 Hu Chen

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Indri</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-impish/hans-jurgen-mager-indri.jpg</filename>
+        <options>zoom</options>
+        <artist>Hans-Jurgen Mager</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Impish Indri (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-impish/Impish-Indri_WP_2560x1440_Green.png</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Impish Indri (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-impish/Impish-Indri_WP_2560x1440_Grey.png</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+</wallpapers>
