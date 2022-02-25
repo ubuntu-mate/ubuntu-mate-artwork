@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (22.04.1) jammy; urgency=medium
+
+  * Sync Yaru-MATE themes/icons with upstream Yaru.
+  * Fix Could not resolve property: #linearGradient (LP: #1922799)
+  * Fix caret navigating while renaming directories (LP: #1926094)
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 25 Feb 2022 18:25:54 +0000
+
 ubuntu-mate-artwork (22.04.0) jammy; urgency=medium
 
   * Add Jammy Jellyfish wallpaper.
