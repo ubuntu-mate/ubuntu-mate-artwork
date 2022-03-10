@@ -115,7 +115,7 @@ Encoding=UTF-8
 GtkTheme=Yaru-MATE-${THEME}
 MetacityTheme=Yaru-MATE-${THEME}
 IconTheme=Yaru-MATE-${THEME}
-CursorTheme=Yaru-MATE
+CursorTheme=Yaru-MATE-${THEME}
 CursorSize=24
 ButtonLayout=:minimize,maximize,close" > "${YARU_NEW}/share/themes/Yaru-MATE-${THEME}/index.theme"
     echo

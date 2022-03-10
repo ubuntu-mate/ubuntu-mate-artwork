@@ -8,6 +8,6 @@ Encoding=UTF-8
 GtkTheme=Yaru-MATE-dark
 MetacityTheme=Yaru-MATE-dark
 IconTheme=Yaru-MATE-dark
-CursorTheme=Yaru-MATE
+CursorTheme=Yaru-MATE-dark
 CursorSize=24
 ButtonLayout=:minimize,maximize,close
