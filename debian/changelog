@@ -1,3 +1,12 @@
+ubuntu-mate-artwork (22.04.3) jammy; urgency=medium
+
+  * themes: Elect the correct Xcursor theme when switching Yaru-MATE themes
+  * debian/control:
+    + Add D: gtk2-engines-pixbuf (ubuntu-mate-themes)
+    + Update ubuntu-mate-themes Description.
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 10 Mar 2022 14:47:33 +0000
+
 ubuntu-mate-artwork (22.04.2) jammy; urgency=medium
 
   * Sync Yaru-MATE themes/icons with upstream Yaru.
