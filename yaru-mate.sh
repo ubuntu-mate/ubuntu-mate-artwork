@@ -124,9 +124,14 @@ ButtonLayout=:minimize,maximize,close" > "${YARU_NEW}/share/themes/Yaru-MATE-${T
     rsync -aHAWXx --delete --exclude="gtk-2.0/assets" "${YARU_NEW}/share/themes/Yaru-MATE-${THEME}/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-${THEME}/"
 done
 
-# patch metacity
+# Patch metacity
 
-# Light
+# Light titlebar
+sed -i 's/#e1e1e1/#ebebeb/g' "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-light/metacity-1/metacity-theme-1.xml"
+
+# Dark titlebar
+
+# Light SVGs
 for SVG in close_unfocused.svg maximize_unfocused.svg menu_unfocused.svg minimize_unfocused.svg unmaximize_unfocused.svg; do
   echo "${SVG}"
   sed -i 's/#e6e6e6/#e7e7e7/g' "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-light/metacity-1/${SVG}"
@@ -147,7 +152,7 @@ for SVG in close_focused_normal.svg maximize_focused_normal.svg menu_focused_nor
   sed -i 's/#d1d1d1/#dadada/g' "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-light/metacity-1/${SVG}"
 done
 
-# Dark
+# Dark SVGs
 for SVG in close_unfocused.svg maximize_unfocused.svg menu_unfocused.svg minimize_unfocused.svg unmaximize_unfocused.svg; do
   echo "${SVG}"
   sed -i 's/#575757/#414141/g' "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/metacity-1/${SVG}"
