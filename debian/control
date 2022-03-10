@@ -223,9 +223,11 @@ Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          gtk2-engines-pixbuf,
          ubuntu-mate-icon-themes,
          ${misc:Depends},
-Description: GTK2 and GTK3 themes for Ubuntu MATE
- Includes matching Ambiant and Radiant themes
+Description: GTK themes for Ubuntu MATE
+ Includes matching Yaru, Ambiant and Radiant themes
  .
+ * Yaru-MATE-light is a light theme
+ * Yaru-MATE-dark is a dark theme
  * Ambiant-MATE is a light-on-dark theme
  * Ambiant-MATE-Dark is a dark-on-dark theme
  * Radiant-MATE is a dark-on-light theme
