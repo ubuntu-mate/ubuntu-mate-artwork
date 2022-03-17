@@ -2,9 +2,21 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Medusa</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-jammy/medusa-jellyfish.jpg</filename>
+        <name>AI Generated Vivid Jellyfish</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-jammy/jelly3.jpg</filename>
         <options>zoom</options>
-        <artist>Irina Iriser</artist>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AI Generated Vibrant Jellyfish</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-jammy/jelly4.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AI Generated Jellyfish on Sea Bed</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-jammy/jelly6.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
     </wallpaper>
 </wallpapers>
