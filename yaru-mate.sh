@@ -170,8 +170,8 @@ done
 
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.2~jammy$(date +%y%j%H%M\.%S) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "Fix Monitor Properties (LP: #1934752)"
+dch -v 22.04.5~jammy$(date +%y%j%H%M\.%S) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+dch --append "Add AI generate Jellyfish wallpaper."
 echo
 head -n9 debian/changelog
 echo
