@@ -168,7 +168,6 @@ for SVG in close_focused_normal.svg maximize_focused_normal.svg menu_focused_nor
   sed -i 's/#373737/#383838/g' "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/metacity-1/${SVG}"
 done
 
-
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 dch -v 22.04.5~jammy$(date +%y%j%H%M\.%S) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
 dch --append "Add AI generate Jellyfish wallpaper."
