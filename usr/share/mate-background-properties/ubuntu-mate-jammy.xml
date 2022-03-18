@@ -19,4 +19,16 @@
         <options>zoom</options>
         <artist>Simon Butcher</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Jammy Jellyfish (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-jammy/Jammy-Jellyfish_WP_4096x2304_Green.png</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Jammy Jellyfish (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-jammy/Jammy-Jellyfish_WP_4096x2304_Grey.png</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
 </wallpapers>
