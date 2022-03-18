@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (22.04.6) jammy; urgency=medium
+
+  * Add official Jammy Jellyfish mascot wallpapers
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 18 Mar 2022 13:49:17 +0000
+
 ubuntu-mate-artwork (22.04.5) jammy; urgency=medium
 
   * Sync Yaru-MATE themes/icons with upstream Yaru.
