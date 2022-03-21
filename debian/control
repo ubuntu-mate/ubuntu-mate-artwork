@@ -224,7 +224,7 @@ Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          libglib2.0-bin,
          session-migration,
          ubuntu-mate-icon-themes,
-         yaru-gtk-themes,
+         yaru-theme-gtk,
          ${misc:Depends},
 Description: GTK themes for Ubuntu MATE
  Includes matching Yaru, Ambiant and Radiant themes
