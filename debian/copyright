@@ -1,15 +1,12 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-mate-artwork
-Source: https://launchpad.net/~ubuntu-mate-dev/ubuntu-mate-artwork
+Source: https://github/ubuntu-mate/ubuntu-mate-artwork
 
 Files: debian/*
-Copyright: 2014, Martin Wimpress
+Copyright: 2014-2022, Martin Wimpress
 License: GPL-3+
 
-Files: usr/share/gtksourceview-2.0/styles/*.xml
-       usr/share/gtksourceview-3.0/styles/*.xml
-       usr/share/gtksourceview-4/styles/*.xml
-       usr/share/mate-background-properties/*.xml
+Files: usr/share/mate-background-properties/*.xml
        etc/lightdm/lightdm-gtk-greeter.conf.d/99_ubuntu-mate.conf
        usr/share/ubuntu-mate/lightdm/lightdm.conf
 Copyright: 2014-2015, Martin Wimpress <code@flexion.org>
@@ -17,11 +14,8 @@ License: GPL-3+
 
 Files: usr/share/themes/*
        usr/share/icons/*
-Copyright: 2004-2012, Canonical Ltd.
+Copyright: 2004-2022, Canonical Ltd.
            2014-2022, Martin Wimpress
-           2014-2016, Jack Mohegan
-           2014-2016, Michael Tunnell
-           2016-2017, Daniel Foré
            2017-2022, Carlo Lobrano
            2017-2021, Didier Roche
            2017-2022, Frederik Feichtmeier
@@ -153,8 +147,7 @@ Files: usr/share/backgrounds/ubuntu-mate-common/Ubuntu-MATE-Splash.jpg
 Copyright: 2017 Martin Wimpress
 License: CC-BY-SA-4.0
 
-Files: usr/share/backgrounds/ubuntu-mate-common/Green-Jazz.jpg
-       usr/share/backgrounds/ubuntu-mate-common/Grey-Jazz.jpg
+Files: usr/share/backgrounds/ubuntu-mate-common/Grey-Jazz.jpg
        usr/share/backgrounds/ubuntu-mate-common/Green-Jazz.jpg
        usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png
        usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo-Text.png
