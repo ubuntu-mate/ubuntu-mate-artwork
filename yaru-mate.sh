@@ -60,17 +60,6 @@ meson build --prefix="${YARU_NEW}"
 ninja -C build
 ninja -C build install > /dev/null
 
-#gtksourceview
-for VER in 2.0 3.0 4; do
-    cp "${YARU_NEW}/share/gtksourceview-${VER}/styles/Yaru-mate.xml" "${YARU_NEW}/share/gtksourceview-${VER}/styles/Yaru-MATE-light.xml"
-    cp "${YARU_NEW}/share/gtksourceview-${VER}/styles/Yaru-mate-dark.xml" "${YARU_NEW}/share/gtksourceview-${VER}/styles/Yaru-MATE-dark.xml"
-    sed -i 's|Yaru-mate|Yaru-MATE-light|g' "${YARU_NEW}/share/gtksourceview-${VER}/styles/Yaru-MATE-light.xml"
-    sed -i 's|Yaru-mate-dark|Yaru-MATE-dark|g' "${YARU_NEW}/share/gtksourceview-${VER}/styles/Yaru-MATE-dark.xml"
-    echo "GtkSourceView: ${VER}"
-    cp "${YARU_NEW}"/share/gtksourceview-"${VER}"/styles/Yaru-MATE-light.xml "${YARU_DEV}"/ubuntu-mate-artwork-dirty/usr/share/gtksourceview-"${VER}"/styles/
-    cp "${YARU_NEW}"/share/gtksourceview-"${VER}"/styles/Yaru-MATE-dark.xml "${YARU_DEV}"/ubuntu-mate-artwork-dirty/usr/share/gtksourceview-"${VER}"/styles/
-done
-
 #icons
 for THEME in light dark; do
     rsync -aHAWXx "${YARU_NEW}/share/icons/Yaru-mate/" "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/"
@@ -119,9 +108,9 @@ ButtonLayout=:minimize,maximize,close" > "${YARU_NEW}/share/themes/Yaru-MATE-${T
 done
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.7~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "Drop Ambiant & Radiant themes"
-dch --append "Complete migration to Yaru (LP: #1884223)"
+dch -v 22.04.8~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+dch --append "Transition session-migration to ubuntu-mate-settings-overlay."
+dch --append "Drop Yaru-MATE GtkSourceView style. Use upstream Yaru."
 echo
 head -n9 debian/changelog
 echo
