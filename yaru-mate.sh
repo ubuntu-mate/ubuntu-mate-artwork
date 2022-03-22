@@ -87,7 +87,6 @@ for THEME in light dark; do
         sed -i 's|fill:#ffffff;|fill:#3D3D3D;|g' ${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/*/panel/*.svg
         sed -i 's|"#fff"|"#333"|g' ${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/*/animations/*.svg
     fi
-    mkdir -p ${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/icons/Yaru-MATE-${THEME}
     rsync -aHAWXx \
         "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/icons/Yaru-MATE-${THEME}/"
 
@@ -121,14 +120,15 @@ done
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 dch -v 22.04.7~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "Complete migration to Yaru and drop Ambiant & Radiant themes (LP: #1884223)"
+dch --append "Drop Ambiant & Radiant themes"
+dch --append "Complete migration to Yaru (LP: #1884223)"
 echo
 head -n9 debian/changelog
 echo
 echo "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 for THEME in Yaru-MATE-light Yaru-MATE-dark; do
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
+  sudo rsync -aHAWXx --delete ${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/${THEME}/ /usr/share/themes/${THEME}/
+  sudo rsync -aHAWXx --delete ${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/icons/${THEME}/ /usr/share/icons/${THEME}/
 done
 #for THEME in Yaru Yaru-bark Yaru-blue Yaru-magenta Yaru-mate Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
 #  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
