@@ -1,11 +1,10 @@
 [X-GNOME-Metatheme]
 Name=Yaru-MATE-light
 Type=X-GNOME-Metatheme
-Comment=Ubuntu MATE Yaru-light theme
+Comment=Ubuntu Yaru-MATE-light theme
 Encoding=UTF-8
 GtkTheme=Yaru-MATE-light
 MetacityTheme=Yaru
 IconTheme=Yaru-MATE-light
 CursorTheme=Yaru
 CursorSize=24
-ButtonLayout=:minimize,maximize,close
