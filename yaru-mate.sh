@@ -39,9 +39,6 @@ if [ -d build ]; then
     rm -rfv build
 fi
 
-# Bring back mate icons
-git revert --no-edit --no-commit 357798e264d8a96aa6aca9ad4de14db9aaddeaa1
-
 # Revert making panel dark in both light and dark themes.
 #  - https://github.com/ubuntu/yaru/pull/3378
 #  - https://github.com/ubuntu/yaru/issues/3307
@@ -63,6 +60,12 @@ ninja -C build install > /dev/null
 #icons
 for THEME in light dark; do
     rsync -aHAWXx "${YARU_NEW}/share/icons/Yaru-mate/" "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/"
+    for RES in 16 22 24; do
+        rsync -aHAWXx "${YARU_NEW}/share/icons/Yaru/${RES}x${RES}/panel/" "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/${RES}x${RES}/panel/"
+        if [ ${RES} -ne 16 ]; then
+            rsync -aHAWXx "${YARU_NEW}/share/icons/Yaru/${RES}x${RES}/animations/" "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/${RES}x${RES}/animations/"
+        fi
+    done
     sed -i "s|Yaru-mate|Yaru-MATE-${THEME}|g" "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/index.theme"
     echo "Icons: ${THEME}"
 
@@ -108,16 +111,14 @@ ButtonLayout=:minimize,maximize,close" > "${YARU_NEW}/share/themes/Yaru-MATE-${T
 done
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.8~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "Transition session-migration to ubuntu-mate-settings-overlay."
-dch --append "Drop Yaru-MATE GtkSourceView style. Use upstream Yaru."
+dch -v 22.04.9~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
 echo
 head -n9 debian/changelog
 echo
 echo "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 for THEME in Yaru-MATE-light Yaru-MATE-dark; do
   sudo rsync -aHAWXx --delete ${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/icons/${THEME}/ /usr/share/icons/${THEME}/
+  sudo rsync -aHAWXx ${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/icons/${THEME}/ /usr/share/icons/${THEME}/
 done
 #for THEME in Yaru Yaru-bark Yaru-blue Yaru-magenta Yaru-mate Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
 #  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
