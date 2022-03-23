@@ -211,6 +211,7 @@ Package: ubuntu-mate-icon-themes
 Architecture: all
 Depends: ubuntu-mono,
          yaru-theme-icon,
+         yaru-theme-unity,
          ${misc:Depends},
 Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
