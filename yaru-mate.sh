@@ -39,14 +39,16 @@ if [ -d build ]; then
     rm -rfv build
 fi
 
-git checkout 4fb027d2f83cb5b6d7b254641d6d3131832e78b7
-wget -nc "https://patch-diff.githubusercontent.com/raw/ubuntu/yaru/pull/3545.diff" -O 3545.diff
-patch -p1 < 3545.diff
-rm 3545.diff
+git checkout Readd_panel_icons
+wget -nc "https://patch-diff.githubusercontent.com/raw/ubuntu/yaru/pull/3556.diff" -O 3556.diff
+patch -p1 < 3556.diff
 
 # Enable MATE themes
 sed  -i "s|mate', type: 'boolean', value: false|mate', type: 'boolean', value: true|" meson_options.txt
 sed  -i "s|mate-dark', type: 'boolean', value: false|mate-dark', type: 'boolean', value: true|" meson_options.txt
+
+sed  -i "s|panel', type: 'boolean', value: false|panel', type: 'boolean', value: true|" meson_options.txt
+sed  -i "s|panel-dark', type: 'boolean', value: false|panel-dark', type: 'boolean', value: true|" meson_options.txt
 
 rm -rf "${YARU_NEW}"
 mkdir -p "${YARU_NEW}"
@@ -192,7 +194,7 @@ ninja -C build install > /dev/null
 #icons
 rsync -aHAWXx --delete "${YARU_NEW}/share/icons/Yaru-mate/" "${YARU_NEW}/share/icons/Yaru-MATE-light/"
 rsync -aHAWXx --delete "${YARU_NEW}/share/icons/Yaru-mate-dark/" "${YARU_NEW}/share/icons/Yaru-MATE-dark/"
-sed -i "s|Inherits=Yaru-mate|Inherits=Yaru-MATE-light|" "${YARU_NEW}/share/icons/Yaru-MATE-dark/index.theme"
+sed -i "s|Inherits=Inherits=Yaru-panel-dark,Yaru-mate|Inherits=Yaru-panel-dark,Yaru-MATE-light|" "${YARU_NEW}/share/icons/Yaru-MATE-dark/index.theme"
 for THEME in light dark; do
     sed -i "s|Name=Yaru-mate|Name=Yaru-MATE|" "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/index.theme"
     rsync -aHAWXx --delete "${YARU_NEW}/share/icons/Yaru-MATE-${THEME}/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/icons/Yaru-MATE-${THEME}/"
@@ -210,28 +212,29 @@ rsync -aHAWXx --delete --exclude="gtk-2.0/assets" "${YARU_NEW}/share/themes/Yaru
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 dch -v 22.04.10~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+dch --append "Add mate-settings-daemon keyboard indicator icons. (LP: #1728715)"
 echo
 head -n9 debian/changelog
 echo
 echo "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 
-for THEME in Yaru Yaru-dark; do
+for THEME in Yaru Yaru-dark Yaru-panel Yaru-panel-dark; do
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
   sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
 done
 
-#for THEME in Yaru-MATE-light Yaru-MATE-dark; do
-#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
-#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
-#done
-
-for THEME in Yaru-bark Yaru-blue Yaru-magenta Yaru-mate Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
+for THEME in Yaru-MATE-light Yaru-MATE-dark; do
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
   sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
+done
+
+for THEME in Yaru-bark Yaru-blue Yaru-magenta Yaru-mate Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
+  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}-dark/ /usr/share/themes/${THEME}-dark/
+  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}-dark/ /usr/share/icons/${THEME}-dark/
+  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
   sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}-dark
 done
