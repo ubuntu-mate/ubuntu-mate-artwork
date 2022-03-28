@@ -210,8 +210,8 @@ Description: graphical boot animation and logger - ubuntu-mate-text theme
 Package: ubuntu-mate-icon-themes
 Architecture: all
 Depends: ubuntu-mono,
-         yaru-theme-icon,
-         yaru-theme-unity,
+         yaru-theme-icon (>= 22.04.3.1),
+         yaru-theme-unity (>= 22.04.3.1),
          ${misc:Depends},
 Description: Icon themes for Ubuntu MATE
  This package contains icon themes for Ubuntu MATE.
@@ -224,7 +224,7 @@ Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          gtk2-engines-pixbuf,
          libglib2.0-bin,
          ubuntu-mate-icon-themes,
-         yaru-theme-gtk,
+         yaru-theme-gtk (>= 22.04.3.1),
          ${misc:Depends},
 Description: GTK themes for Ubuntu MATE
  Includes matching Yaru, Ambiant and Radiant themes
