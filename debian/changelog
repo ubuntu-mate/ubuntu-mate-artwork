@@ -1,3 +1,12 @@
+ubuntu-mate-artwork (22.04.11) jammy; urgency=medium
+
+  * Sync Yaru-MATE themes/icons with upstream Yaru.
+  * debian/control:
+    + Add D: yaru-theme-icon (>= 22.04.3.1)
+    + Add D: yaru-theme-unity (>= 22.04.3.1)
+
+ -- Martin Wimpress <code@wimpress.io>  Mon, 28 Mar 2022 23:54:47 +0100
+
 ubuntu-mate-artwork (22.04.10) jammy; urgency=medium
 
   * Sync Yaru-MATE themes with upstream Yaru.
