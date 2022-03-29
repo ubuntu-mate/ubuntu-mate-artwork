@@ -207,10 +207,8 @@ rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-light/" "${YARU_DEV}/
 rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-dark/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/"
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.11~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "debian/control: Add D: yaru-theme-gtk (>= 22.03.3.1)"
-dch --append "Add D: yaru-theme-icon (>= 22.03.3.1)"
-dch --append "Add D: yaru-theme-unity (>= 22.03.3.1)"
+dch -v 22.04.12~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+#dch --append "Something else"
 echo
 head -n9 debian/changelog
 echo
