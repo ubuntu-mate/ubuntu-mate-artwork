@@ -1,0 +1,13 @@
+diff --git a/common/accent-colors.scss.in b/common/accent-colors.scss.in
+index aa7bd2d45..0d01c1770 100644
+--- a/common/accent-colors.scss.in
++++ b/common/accent-colors.scss.in
+@@ -20,6 +20,8 @@
+         $color: #B34CB3;
+     } @else if $accent_color == 'red' {
+         $color: #DA3450;
++    } @else if $accent_color == 'MATE' {
++        $color: #87A556;
+     } @else {
+         @error('No known accent color defined!');
+     }
