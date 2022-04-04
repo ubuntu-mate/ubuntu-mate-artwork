@@ -1,10 +1,14 @@
-[X-GNOME-Metatheme]
+[Desktop Entry]
 Name=Yaru-MATE-dark
 Type=X-GNOME-Metatheme
 Comment=Ubuntu Yaru-MATE-dark theme
 Encoding=UTF-8
+
+[X-GNOME-Metatheme]
 GtkTheme=Yaru-MATE-dark
 MetacityTheme=Yaru-dark
 IconTheme=Yaru-MATE-dark
 CursorTheme=Yaru
 CursorSize=24
+X-Yaru-Dark=true
+X-Yaru-Accent-Name=MATE
