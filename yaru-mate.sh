@@ -46,28 +46,17 @@ sed  -i "s|mate-dark', type: 'boolean', value: false|mate-dark', type: 'boolean'
 sed  -i "s|panel', type: 'boolean', value: false|panel', type: 'boolean', value: true|" meson_options.txt
 sed  -i "s|panel-dark', type: 'boolean', value: false|panel-dark', type: 'boolean', value: true|" meson_options.txt
 
-# Create Yaru-MATE and Yaru-MATE-dark variant
-#sed -i "/ubuntu-unity/i option('MATE', type: 'boolean', value: true, description:'build Yaru MATE flavour')" meson_options.txt
-#sed -i "/ubuntu-unity/i option('MATE-dark', type: 'boolean', value: true, description:'build Yaru MATE-dark flavour')" meson_options.txt
-
-#sed -i "/'mate',/i \ \ 'MATE'," gtk/meson.build
-#sed -i "/'mate',/i \ \ 'MATE-dark'," gtk/meson.build
-
-# Create MATE accent colour
+# Create MATE accent colour; to create a correctly name spaced Yaru-MATE-dark
 sed -i "/],/i \ \ \ \ \ \ \ \ 'MATE'," meson_options.txt
 cat meson_options.txt
 
 patch -p1 < "${YARU_DEV}/ubuntu-mate-artwork-dirty/yaru-mate.patch"
 cat common/accent-colors.scss.in
-exit
-
-cd "${YARU_DEV}/yaru-dirty/gtk/src"
-ln -s mate MATE
-ln -s mate-dark MATE-dark
-
-cd "${YARU_DEV}/yaru-dirty/icons"
-ln -s Yaru-mate Yaru-MATE
-cd "${YARU_DEV}/yaru-dirty/"
+mkdir -p "${YARU_DEV}/yaru-dirty/gtk/src/MATE/gtk-2.0"
+mkdir -p "${YARU_DEV}/yaru-dirty/gtk/src/MATE-dark/gtk-2.0"
+rsync -a --delete "${YARU_DEV}/yaru-dirty/gtk/src/mate/gtk-2.0/" "${YARU_DEV}/yaru-dirty/gtk/src/MATE/gtk-2.0/"
+rsync -a --delete "${YARU_DEV}/yaru-dirty/gtk/src/mate-dark/gtk-2.0/" "${YARU_DEV}/yaru-dirty/gtk/src/MATE-dark/gtk-2.0/"
+# END - Create MATE accent colour
 
 rm -rf "${YARU_NEW}"
 mkdir -p "${YARU_NEW}"
@@ -225,15 +214,14 @@ for THEME in light dark; do
 done
 
 #themes
-rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE/" "${YARU_NEW}/share/themes/Yaru-MATE-light/"
-rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-dark/" "${YARU_NEW}/share/themes/Yaru-MATE-dark/"
+mv "${YARU_NEW}/share/themes/Yaru-MATE/" "${YARU_NEW}/share/themes/Yaru-MATE-light/"
 sed -i "s|Yaru-MATE|Yaru-MATE-light|g" "${YARU_NEW}/share/themes/Yaru-MATE-light/index.theme"
 rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-light/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-light/"
 rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-dark/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/"
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 dch -v 22.04.13~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "Create symlink for Yaru-MATE. (LP: #1967794)"
+dch --append "Create symlinks to Yaru-MATE. (LP: #1967794)"
 echo
 head -n9 debian/changelog
 echo
@@ -241,11 +229,11 @@ echo "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 
 #exit
 
-for THEME in Yaru Yaru-dark; do
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
-  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
-done
+#for THEME in Yaru Yaru-dark; do
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
+#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
+#done
 
 for THEME in Yaru-MATE-light Yaru-MATE-dark; do
   sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
@@ -253,20 +241,20 @@ for THEME in Yaru-MATE-light Yaru-MATE-dark; do
   sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
 done
 
-for THEME in Yaru-bark Yaru-blue Yaru-magenta Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}-dark/ /usr/share/themes/${THEME}-dark/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}-dark/ /usr/share/icons/${THEME}-dark/
-  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
-  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}-dark
-done
+#for THEME in Yaru-bark Yaru-blue Yaru-magenta Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}-dark/ /usr/share/themes/${THEME}-dark/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}-dark/ /usr/share/icons/${THEME}-dark/
+#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
+#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}-dark
+#done
 
-for THEME in Yaru-mate; do
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}-dark/ /usr/share/themes/${THEME}-dark/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}-dark/ /usr/share/icons/${THEME}-dark/
-  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
-  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}-dark
-done
+#for THEME in Yaru-mate; do
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}-dark/ /usr/share/themes/${THEME}-dark/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}-dark/ /usr/share/icons/${THEME}-dark/
+#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
+#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}-dark
+#done
