@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (22.04.13) jammy; urgency=medium
+
+  * Sync Yaru-MATE themes/icons with upstream Yaru.
+  * Create symlinks to Yaru-MATE. (LP: #1967794)
+
+ -- Martin Wimpress <code@wimpress.io>  Mon, 04 Apr 2022 22:42:21 +0100
+
 ubuntu-mate-artwork (22.04.12) jammy; urgency=medium
 
   * Add missing dark panel icons. (LP: #1967010)
