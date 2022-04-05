@@ -1,3 +1,10 @@
+ubuntu-mate-artwork (22.04.14) jammy; urgency=medium
+
+  * Sync Yaru-MATE themes/icons with upstream Yaru.
+  * Add symlinks for gaming-input devices battery levels. (LP: #1967854)
+
+ -- Martin Wimpress <code@wimpress.io>  Tue, 05 Apr 2022 12:56:27 +0100
+
 ubuntu-mate-artwork (22.04.13) jammy; urgency=medium
 
   * Sync Yaru-MATE themes/icons with upstream Yaru.
