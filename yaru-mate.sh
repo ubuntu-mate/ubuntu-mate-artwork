@@ -39,6 +39,9 @@ if [ -d build ]; then
     rm -rfv build
 fi
 
+#wget "https://patch-diff.githubusercontent.com/raw/ubuntu/yaru/pull/3590.diff" -O 3590.diff
+#patch -p1 < 3590.diff
+
 # Enable MATE themes
 sed  -i "s|mate', type: 'boolean', value: false|mate', type: 'boolean', value: true|" meson_options.txt
 sed  -i "s|mate-dark', type: 'boolean', value: false|mate-dark', type: 'boolean', value: true|" meson_options.txt
@@ -220,8 +223,8 @@ rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-light/" "${YARU_DEV}/
 rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-dark/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/"
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.13~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-dch --append "Create symlinks to Yaru-MATE. (LP: #1967794)"
+dch -v 22.04.15~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+#dch --append "Add symlinks for gaming input battery levels. (LP: #1967854)"
 echo
 head -n9 debian/changelog
 echo
