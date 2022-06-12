@@ -223,14 +223,14 @@ rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-light/" "${YARU_DEV}/
 rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-dark/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/"
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.15~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
-#dch --append "Add symlinks for gaming input battery levels. (LP: #1967854)"
+dch -v 22.04.17~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+#dch --append "debian/control: Drop D: ubuntu-mono (ubuntu-mate-icon-themes). No longer required."
 echo
 head -n9 debian/changelog
 echo
 echo "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 
-#exit
+exit
 
 #for THEME in Yaru Yaru-dark; do
 #  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
@@ -238,11 +238,11 @@ echo "${YARU_DEV}/ubuntu-mate-artwork-dirty"
 #  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
 #done
 
-for THEME in Yaru-MATE-light Yaru-MATE-dark; do
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
-  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
-  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
-done
+#for THEME in Yaru-MATE-light Yaru-MATE-dark; do
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
+#  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/icons/${THEME}/ /usr/share/icons/${THEME}/
+#  sudo gtk-update-icon-cache -f /usr/share/icons/${THEME}
+#done
 
 #for THEME in Yaru-bark Yaru-blue Yaru-magenta Yaru-olive Yaru-prussiangreen Yaru-purple Yaru-red Yaru-sage Yaru-viridian; do
 #  sudo rsync -aHAWXx --delete ${YARU_NEW}/share/themes/${THEME}/ /usr/share/themes/${THEME}/
