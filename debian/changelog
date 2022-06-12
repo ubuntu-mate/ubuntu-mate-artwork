@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (22.10.0) kinetic; urgency=medium
+
+  * Add Kudu wallpaper
+
+ -- Martin Wimpress <code@wimpress.io>  Sun, 12 Jun 2022 13:51:59 +0100
+
 ubuntu-mate-artwork (22.04.15) jammy; urgency=medium
 
   * Add keyboard layout flag icons. (LP: #1968141)
