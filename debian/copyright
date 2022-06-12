@@ -227,6 +227,14 @@ Files: usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-green.png
 Copyright: 2019 - 2022 Canonical, Ltd.
 License: CC-BY-SA-4.0
 
+Files: usr/share/backgrounds/ubuntu-mate-hirsute/hu-chen-unsplash-baby-hippo-with-mother.jpg
+Copyright: 2018 Hu Chen
+License: CC0
+
+Files: usr/share/backgrounds/ubuntu-mate-hirsute/joe-were-unsplash-hippo.jpg
+Copyright: 2018 Joe Were
+License: CC0
+
 Files: usr/share/backgrounds/ubuntu-mate-impish/hans-jurgen-mager-indri.jpg
 Copyright: 2020 Hans-Jurgen Mager
 License: CC0
@@ -235,12 +243,8 @@ Files: usr/share/backgrounds/ubuntu-mate-jammy/jelly*.jpg
 Copyright: 2022 Simon Butcher
 License: CC0
 
-Files: usr/share/backgrounds/ubuntu-mate-hirsute/hu-chen-unsplash-baby-hippo-with-mother.jpg
-Copyright: 2018 Hu Chen
-License: CC0
-
-Files: usr/share/backgrounds/ubuntu-mate-hirsute/joe-were-unsplash-hippo.jpg
-Copyright: 2018 Joe Were
+Files: usr/share/backgrounds/ubuntu-mate-kinetic/jamie-muller-kudu.jpg
+Copyright: 2018 Jamie Muller
 License: CC0
 
 Files: usr/share/backgrounds/ubuntu-mate-common/Yaru-MATE-*.png

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Kudu</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/jamie-muller-kudu.jpg</filename>
+        <options>zoom</options>
+        <artist>Jamie Muller</artist>
+    </wallpaper>
+</wallpapers>
