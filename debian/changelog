@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (22.10.1) kinetic; urgency=medium
+
+  * Add community contributed wallpapers.
+
+ -- Martin Wimpress <code@wimpress.io>  Wed, 21 Sep 2022 12:04:06 +0100
+
 ubuntu-mate-artwork (22.10.0) kinetic; urgency=medium
 
   * Add Kudu wallpaper

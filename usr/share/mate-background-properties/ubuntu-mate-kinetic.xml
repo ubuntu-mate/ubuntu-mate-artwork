@@ -2,9 +2,33 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Kudu</name>
-        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/jamie-muller-kudu.jpg</filename>
+        <name>AI Generated Kudu (Field)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kudu-field.jpg</filename>
         <options>zoom</options>
-        <artist>Jamie Muller</artist>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AI Generated Kudu (Forest)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kudu-foresty.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AI Generated Kudu (Grass)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kudu-grass.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AI Generated Kudu (Standalone)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kudu-standalone.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AI Generated Kudu (Verdant)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kudu-verdant.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
     </wallpaper>
 </wallpapers>
