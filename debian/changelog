@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (22.10.2) kinetic; urgency=medium
+
+  * Sync Yaru-MATE themes/icons with Yaru 22.10.2.
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 22 Sep 2022 11:54:37 +0100
+
 ubuntu-mate-artwork (22.10.1) kinetic; urgency=medium
 
   * Add community contributed wallpapers.
