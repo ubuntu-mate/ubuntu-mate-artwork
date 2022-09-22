@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# sudo apt-get -y install meson ninja-build sassc libglib2.0-dev-bin devscripts
+sudo apt-get -y install meson ninja-build sassc libglib2.0-dev-bin devscripts
 YARU_DEV="${HOME}/Builds/Yaru-Dev"
 YARU_NEW="${HOME}/Builds/Yaru-New"
 mkdir -p "${YARU_DEV}"
@@ -70,7 +70,7 @@ mkdir -p "${YARU_NEW}"
 #Insen:    SAT=20    or VAL+5 SAT=10
 #Insen Dk: VAL=30
 GTK2=0
-if [ ${GTK2{} -eq 1 ]; then
+if [ ${GTK2} -eq 1 ]; then
     for THEME in bark blue magenta mate olive prussiangreen purple red sage viridian; do
     case ${THEME} in
         bark)
@@ -223,7 +223,7 @@ rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-light/" "${YARU_DEV}/
 rsync -aHAWXx --delete "${YARU_NEW}/share/themes/Yaru-MATE-dark/" "${YARU_DEV}/ubuntu-mate-artwork-dirty/usr/share/themes/Yaru-MATE-dark/"
 
 cd "${YARU_DEV}/ubuntu-mate-artwork-dirty"
-dch -v 22.04.17~jammy$(date +%y\.%j\.%H%M) --distribution jammy "Sync Yaru-MATE themes/icons with upstream Yaru."
+dch -v 22.10.2~kinetic$(date +%y\.%j\.%H%M) --distribution kinetic "Sync Yaru-MATE themes/icons with upstream Yaru."
 #dch --append "debian/control: Drop D: ubuntu-mono (ubuntu-mate-icon-themes). No longer required."
 echo
 head -n9 debian/changelog
