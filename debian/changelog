@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (22.10.3) kinetic; urgency=medium
+
+  * Remove errorneous border from Kudu wallpapers.
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 22 Sep 2022 21:26:02 +0100
+
 ubuntu-mate-artwork (22.10.2) kinetic; urgency=medium
 
   * Sync Yaru-MATE themes/icons with Yaru 22.10.2.
