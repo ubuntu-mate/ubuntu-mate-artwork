@@ -224,6 +224,8 @@ Files: usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-green.png
        usr/share/backgrounds/ubuntu-mate-impish/Impish-Indri_WP_2560x1440_Grey.png
        usr/share/backgrounds/ubuntu-mate-jammy/Jammy-Jellyfish_WP_4096x2304_Green.png
        usr/share/backgrounds/ubuntu-mate-jammy/Jammy-Jellyfish_WP_4096x2304_Grey.png
+       usr/share/backgrounds/ubuntu-mate-kinetic/kinetic-kudu-green.jpg
+       usr/share/backgrounds/ubuntu-mate-kinetic/kinetic-kudu-grey.jpg
 Copyright: 2019 - 2022 Canonical, Ltd.
 License: CC-BY-SA-4.0
 

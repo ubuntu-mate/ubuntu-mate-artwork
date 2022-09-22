@@ -31,4 +31,16 @@
         <options>zoom</options>
         <artist>Simon Butcher</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Kinetic Kudu (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kinetic-kudu-green.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Kinetic Kudu (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-kinetic/kinetic-kudu-grey.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
 </wallpapers>
