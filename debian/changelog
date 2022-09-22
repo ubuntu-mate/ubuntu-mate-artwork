@@ -1,3 +1,11 @@
+ubuntu-mate-artwork (22.10.4) kinetic; urgency=medium
+
+  * Add Kinetic Kudu mascot wallpapers. (LP: #1989359)
+  * Restore Jammy Jellyfish mascot wallpapers. (LP: #1969148)
+    + Somehow they had fallen out of version control.
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 22 Sep 2022 22:58:49 +0100
+
 ubuntu-mate-artwork (22.10.3) kinetic; urgency=medium
 
   * Remove errorneous border from Kudu wallpapers.
@@ -21,6 +29,12 @@ ubuntu-mate-artwork (22.10.0) kinetic; urgency=medium
   * Add Kudu wallpaper
 
  -- Martin Wimpress <code@wimpress.io>  Sun, 12 Jun 2022 13:51:59 +0100
+
+ubuntu-mate-artwork (22.04.17) jammy; urgency=medium
+
+  * Minor adjustments to the Jammy mascot wallpapers. (LP: #1969148)
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 15 Apr 2022 11:09:45 +0100
 
 ubuntu-mate-artwork (22.04.16) jammy; urgency=medium
 
