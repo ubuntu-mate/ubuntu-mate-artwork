@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Mantic Minotaur Mascot (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-mantic/Wallpaper_minotaur_green_3840x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Mantic Minotaur Mascot (Dimmed)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-mantic/Wallpaper_minotaur_dimmed_3840x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Mantic Minotaur Mascot (Light)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-mantic/Wallpaper_minotaur_light_3840x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+</wallpapers>
