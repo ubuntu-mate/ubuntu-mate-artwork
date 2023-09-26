@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Blue Lobster</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/blue-lobster.jpg</filename>
+        <options>zoom</options>
+        <artist>David Clode</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Lunar Lobster</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/Lunar-Lobster.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Lunar Lobster Explorer</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/Lunar-Lobster-Explorer.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Lunar Lobster Landing</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/Lunar-Lobster-Landing.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Lunar Lobster Steampunk</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/Lunar-Lobster-Steampunk.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Lunar Lobster Mascot (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/Mascot-Lunar-Lobster-Green.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Lunar Lobster Mascot (Grey)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-lunar/Mascot-Lunar-Lobster-Grey.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+
+</wallpapers>

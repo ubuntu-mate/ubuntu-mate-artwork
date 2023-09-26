@@ -1,3 +1,15 @@
+ubuntu-mate-artwork (23.04.1) lunar; urgency=medium
+
+  * Add community contributed wallpapers
+
+ -- Martin Wimpress <code@wimpress.io>  Tue, 21 Mar 2023 09:50:11 +0000
+
+ubuntu-mate-artwork (23.04.0) lunar; urgency=medium
+
+  * Add Lunar Lobster wallpaper
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 10 Mar 2023 12:40:21 +0000
+
 ubuntu-mate-artwork (22.10.4) kinetic; urgency=medium
 
   * Add Kinetic Kudu mascot wallpapers. (LP: #1989359)

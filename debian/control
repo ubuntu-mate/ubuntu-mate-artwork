@@ -70,6 +70,7 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-impish,
          ubuntu-mate-wallpapers-jammy,
          ubuntu-mate-wallpapers-kinetic,
+         ubuntu-mate-wallpapers-lunar,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
@@ -184,6 +185,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 22.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 22.10
+
+Package: ubuntu-mate-wallpapers-lunar
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 23.04 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 23.04
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
