@@ -247,15 +247,10 @@ Copyright: 2020 Hans-Jurgen Mager
 License: CC0
 
 Files: usr/share/backgrounds/ubuntu-mate-jammy/jelly*.jpg
-Copyright: 2022 Simon Butcher
-License: CC0
-
-Files: usr/share/backgrounds/ubuntu-mate-kinetic/kudu*.jpg
-Copyright: 2022 Simon Butcher
-License: CC0
-
-Files: usr/share/backgrounds/ubuntu-mate-lunar/Lunar-Lobster*.jpg
-Copyright: 2023 Simon Butcher
+       usr/share/backgrounds/ubuntu-mate-kinetic/kudu*.jpg
+       usr/share/backgrounds/ubuntu-mate-lunar/Lunar-Lobster*.jpg
+       usr/share/backgrounds/ubuntu-mate-mantic/minotaur-king.jpg
+Copyright: 2022-2023 Simon Butcher
 License: CC0
 
 Files: usr/share/backgrounds/ubuntu-mate-lunar/blue-lobster.jpg

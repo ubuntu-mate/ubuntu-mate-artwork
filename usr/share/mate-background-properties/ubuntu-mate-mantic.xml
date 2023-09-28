@@ -19,4 +19,10 @@
         <options>zoom</options>
         <artist>Canonical, Ltd.</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Minotuar King</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-mantic/minotaur-king.jpg</filename>
+        <options>zoom</options>
+        <artist>Simon Butcher</artist>
+    </wallpaper>
 </wallpapers>
