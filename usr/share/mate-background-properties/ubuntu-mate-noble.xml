@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Nobel Numbat Mascot (Green)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-noble/numbat_wallpaper_green_3480x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Nobel Numbat Mascot (Dark)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-noble/numbat_wallpaper_dark_3480x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Nobel Numbat Mascot (Dimmed)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-noble/numbat_wallpaper_dimmed_3480x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Nobel Numbat Mascot (Light)</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-noble/numbat_wallpaper_light_3480x2160.jpg</filename>
+        <options>zoom</options>
+        <artist>Canonical, Ltd.</artist>
+    </wallpaper>
+</wallpapers>

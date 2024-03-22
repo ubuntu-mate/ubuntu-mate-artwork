@@ -24,7 +24,7 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-mantic,
+         ubuntu-mate-wallpapers-noble,
          ubuntu-mate-wallpapers-photos,
          ${misc:Depends},
 Description: Wallpaper and background images for Ubuntu MATE
@@ -71,7 +71,8 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-jammy,
          ubuntu-mate-wallpapers-kinetic,
          ubuntu-mate-wallpapers-lunar,
-	     ubuntu-mate-wallpapers-mantic,
+         ubuntu-mate-wallpapers-mantic,
+         ubuntu-mate-wallpapers-noble,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
@@ -198,6 +199,12 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Ubuntu MATE 23.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 23.10
+
+Package: ubuntu-mate-wallpapers-noble
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 24.04 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 24.04
 
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
