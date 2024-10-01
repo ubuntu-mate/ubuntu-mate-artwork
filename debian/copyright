@@ -232,6 +232,7 @@ Files: usr/share/backgrounds/ubuntu-mate-focal/focal-fossa-green.png
        usr/share/backgrounds/ubuntu-mate-mantic/Wallpaper_minotaur_green_3840x2160.jpg
        usr/share/backgrounds/ubuntu-mate-mantic/Wallpaper_minotaur_light_3840x2160.jpg
        usr/share/backgrounds/ubuntu-mate-noble/*.jpg
+       usr/share/backgrounds/ubuntu-mate-oracular/*.jpg
 Copyright: 2019 - 2024 Canonical, Ltd.
 License: CC-BY-SA-4.0
 
