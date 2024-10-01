@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (24.10.0) oracular; urgency=medium
+
+  * Add Oracular Oriole mascot wallpapers.
+
+ -- Martin Wimpress <code@wimpress.io>  Mon, 30 Sep 2024 20:10:42 +0000
+
 ubuntu-mate-artwork (24.04.0) noble; urgency=medium
 
   * Add Noble Numbat mascot wallpapers (LP: #2056591)
