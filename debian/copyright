@@ -1,16 +1,33 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ubuntu-mate-artwork
-Source: https://github/ubuntu-mate/ubuntu-mate-artwork
+Source: https://github.com/ubuntu-mate/ubuntu-mate-artwork
 
 Files: debian/*
 Copyright: 2014-2022, Martin Wimpress
-License: GPL-3+
+           2026, SuiVue <suivue@tutamail.com>
+License: GPL-3.0-or-later
 
 Files: usr/share/mate-background-properties/*.xml
        etc/lightdm/lightdm-gtk-greeter.conf.d/99_ubuntu-mate.conf
        usr/share/ubuntu-mate/lightdm/lightdm.conf
 Copyright: 2014-2015, Martin Wimpress <code@flexion.org>
-License: GPL-3+
+           2026, SuiVue <suivue@tutamail.com>
+License: GPL-3.0-or-later
+
+Files: .github/FUNDING.yml
+       yaru-mate.patch
+       yaru-mate.sh
+Copyright: 2014-2022, Martin Wimpress
+License: GPL-3.0-or-later
+Comment:
+ Based on license information in COPYING file.
+
+Files: usr/share/mate-settings-daemon/icons/*/64x64/devices/*.png
+Copyright: 2014-2022, Martin Wimpress
+License: CC-BY-SA-3.0
+Comment:
+ Based on license information for `usr/share/icons/*' in the following
+ block.
 
 Files: usr/share/themes/*
        usr/share/icons/*
@@ -23,8 +40,7 @@ Copyright: 2004-2022, Canonical Ltd.
            2017-2022, jaggers
 License: CC-BY-SA-3.0
 
-Files: usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-Dark-no-logo.jpg
-       usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-*.jpg
+Files: usr/share/backgrounds/ubuntu-mate-legacy/Ubuntu-Mate-*.jpg
 Copyright: 2014 Goce Mitevski
 License: CC-BY-SA-4.0
 
@@ -313,13 +329,29 @@ Files: usr/share/plymouth/themes/ubuntu-mate-logo/*.grub
        usr/share/plymouth/themes/ubuntu-mate-text/*.plymouth
 Copyright: 2014, Ivan Pejić
            2015, Jack Mohegan
-License: GPL-2+
+License: GPL-2.0-or-later
 
-License: GPL-2+
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License
- as published by the Free Software Foundation; either version 2
- of the License, or (at your option) any later version.
+Files: usr/share/backgrounds/ubuntu-mate-stonking/corentin-largeron-lcMquvyTnGQ-unsplash.jpg
+Copyright:  2025, Corentin Largeron
+License: Unsplash
+
+Files: usr/share/backgrounds/ubuntu-mate-stonking/daniel-bettech-CTpSXopl_YY-unsplash.jpg
+Copyright:  2017, Daniel Bettech
+License: Unsplash
+
+Files: usr/share/backgrounds/ubuntu-mate-stonking/fum-bally-snBDNNFotOs-unsplash.jpg
+Copyright:  2019, Fum Bally
+License: Unsplash
+
+Files: usr/share/backgrounds/ubuntu-mate-stonking/scott-greer-0k12TAxQigI-unsplash.jpg
+Copyright:  2025, Scott Greer
+License: Unsplash
+
+License: GPL-2.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
  .
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -327,14 +359,12 @@ License: GPL-2+
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
  .
- On Debian systems the full text of the GNU General Public
- License can be found in the `/usr/share/common-licenses/GPL-2'
- file.
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file, `/usr/share/common-licenses/GPL-2'.
 
-License: GPL-3+
+License: GPL-3.0-or-later
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
@@ -346,7 +376,10 @@ License: GPL-3+
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file, `/usr/share/common-licenses/GPL-3'.
 
 License: CC-BY-SA-3.0
  Unless otherwise indicated, artwork is available under the Creative
@@ -667,7 +700,7 @@ License: CC-BY-SA-4.0
      material not subject to the license. This includes other CC-
      licensed material, or material used under an exception or
      limitation to copyright. More considerations for licensors:
-	wiki.creativecommons.org/Considerations_for_licensors
+    wiki.creativecommons.org/Considerations_for_licensors
  .
      Considerations for the public: By using one of our public
      licenses, a licensor grants the public permission to use the
@@ -684,7 +717,7 @@ License: CC-BY-SA-4.0
      Although not required by our licenses, you are encouraged to
      respect those requests where reasonable. More_considerations
      for the public:
-	wiki.creativecommons.org/Considerations_for_licensees
+    wiki.creativecommons.org/Considerations_for_licensees
  .
  =======================================================================
  .
@@ -1177,3 +1210,14 @@ License: CC0
     4. Affirmer understands and acknowledges that Creative Commons
        is not a party to this document and has no duty or obligation
        with respect to this CC0 or use of the Work.
+
+License: Unsplash
+ Unsplash grants you an irrevocable, nonexclusive, worldwide copyright
+ license to download, copy, modify, distribute, perform, and use
+ images from Unsplash for free, including for commercial purposes,
+ without permission from or attributing the photographer or Unsplash.
+ .
+ This license does not include the right to compile images from
+ Unsplash to replicate a similar or competing service.
+ .
+ License source can be found at <https://unsplash.com/license>.
