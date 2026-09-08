@@ -1,3 +1,9 @@
+ubuntu-mate-artwork (26.10.0) stonking; urgency=medium
+
+  * New release (v26.10).
+
+ -- Sui Vue <suivue@tutamail.com>  Tue, 08 Sep 2026 15:18:31 +0530
+
 ubuntu-mate-artwork (24.10.0) oracular; urgency=medium
 
   * Add Oracular Oriole mascot wallpapers.
