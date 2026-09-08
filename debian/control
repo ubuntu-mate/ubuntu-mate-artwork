@@ -1,12 +1,11 @@
 Source: ubuntu-mate-artwork
 Section: x11
-Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
-Build-Depends: debhelper (>= 11),
-Standards-Version: 4.1.3
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.7.3
 Homepage: https://github.com/ubuntu-mate/ubuntu-mate-artwork
-Vcs-Git: https://github.com/ubuntu-mate/ubuntu-mate-artwork.git
 Vcs-Browser: https://github.com/ubuntu-mate/ubuntu-mate-artwork
+Vcs-Git: https://github.com/ubuntu-mate/ubuntu-mate-artwork.git
 
 Package: ubuntu-mate-artwork
 Architecture: all
@@ -24,8 +23,8 @@ Package: ubuntu-mate-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ubuntu-mate-wallpapers-common,
-         ubuntu-mate-wallpapers-oracular,
          ubuntu-mate-wallpapers-photos,
+         ubuntu-mate-wallpapers-stonking,
          ${misc:Depends},
 Description: Wallpaper and background images for Ubuntu MATE
  The default Ubuntu MATE wallpapers. This is also a metapackage
@@ -74,6 +73,7 @@ Depends: ubuntu-mate-wallpapers-common,
          ubuntu-mate-wallpapers-mantic,
          ubuntu-mate-wallpapers-noble,
          ubuntu-mate-wallpapers-oracular,
+         ubuntu-mate-wallpapers-stonking,
          ubuntu-mate-wallpapers-utopic,
          ubuntu-mate-wallpapers-vivid,
          ubuntu-mate-wallpapers-wily,
@@ -213,6 +213,12 @@ Depends: ${misc:Depends},
 Description: Ubuntu MATE 24.10 Wallpapers
  Wallpapers from the Ubuntu MATE community for Ubuntu MATE 24.10
 
+Package: ubuntu-mate-wallpapers-stonking
+Architecture: all
+Depends: ${misc:Depends},
+Description: Ubuntu MATE 26.10 Wallpapers
+ Wallpapers from the Ubuntu MATE community for Ubuntu MATE 26.10
+
 Package: plymouth-theme-ubuntu-mate-logo
 Architecture: all
 Depends: plymouth,
@@ -261,7 +267,7 @@ Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
          yaru-theme-gtk,
          ${misc:Depends},
 Description: GTK themes for Ubuntu MATE
- Includes matching Yaru, Ambiant and Radiant themes
+ Includes matching Yaru themes
  .
  * Yaru-MATE-light is a light theme
  * Yaru-MATE-dark is a dark theme
