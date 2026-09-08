@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>A stingray swims over a sandy ocean floor</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-stonking/corentin-largeron-lcMquvyTnGQ-unsplash.jpg</filename>
+        <options>zoom</options>
+        <artist>Corentin Largeron</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Sort of circle of stingrays</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-stonking/daniel-bettech-CTpSXopl_YY-unsplash.jpg</filename>
+        <options>zoom</options>
+        <artist>Daniel Bettech</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Southern stingray in the Caribbean Sea</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-stonking/fum-bally-snBDNNFotOs-unsplash.jpg</filename>
+        <options>zoom</options>
+        <artist>Fum Bally</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>A brown rayfish glides through the water</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-stonking/scott-greer-0k12TAxQigI-unsplash.jpg</filename>
+        <options>zoom</options>
+        <artist>Scott Greer</artist>
+    </wallpaper>
+</wallpapers>
