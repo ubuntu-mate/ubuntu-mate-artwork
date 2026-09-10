@@ -1,0 +1,3 @@
+# Ignore raster image (un-reboot.png) in scalable directory.
+# Refer https://github.com/ubuntu-mate/ubuntu-mate-artwork/pull/86
+ubuntu-mate-icon-themes: raster-image-in-scalable-directory [usr/share/icons/Yaru/scalable/status/un-reboot.png]
